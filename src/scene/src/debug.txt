@@ -1,0 +1,114 @@
+--- stderr: scene                               
+In file included from /home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:8:
+/home/c/weston_ws/MPC_planner/src/scene/include/moving_cylinder.hpp:39:23: error: ‘SetModelState’ in namespace ‘gazebo_msgs::msg’ does not name a type; did you mean ‘ModelState’?
+   39 |     gazebo_msgs::msg::SetModelState model_state_;
+      |                       ^~~~~~~~~~~~~
+      |                       ModelState
+/home/c/weston_ws/MPC_planner/src/scene/include/moving_cylinder.hpp: In constructor ‘MovingCylinder::MovingCylinder()’:
+/home/c/weston_ws/MPC_planner/src/scene/include/moving_cylinder.hpp:14:9: error: ‘model_state_’ was not declared in this scope
+   14 |         model_state_.model_name = "cylinder_" + std::to_string(id_);
+      |         ^~~~~~~~~~~~
+/home/c/weston_ws/MPC_planner/src/scene/include/moving_cylinder.hpp: In member function ‘void MovingCylinder::setPosition(const Point&)’:
+/home/c/weston_ws/MPC_planner/src/scene/include/moving_cylinder.hpp:25:9: error: ‘model_state_’ was not declared in this scope
+   25 |         model_state_.pose.position = position;
+      |         ^~~~~~~~~~~~
+/home/c/weston_ws/MPC_planner/src/scene/include/moving_cylinder.hpp: In member function ‘void MovingCylinder::updateState()’:
+/home/c/weston_ws/MPC_planner/src/scene/include/moving_cylinder.hpp:35:9: error: ‘model_state_’ was not declared in this scope
+   35 |         model_state_.pose.position.x += twist_.linear.x;
+      |         ^~~~~~~~~~~~
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp: In member function ‘void MovingCylinderNode::initCylinders()’:
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:44:52: error: ‘to_string’ was not declared in this scope
+   44 |             this->declare_parameter<double>("x_" + to_string(i), 0);
+      |                                                    ^~~~~~~~~
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:44:52: note: suggested alternatives:
+In file included from /usr/include/c++/9/string:55,
+                 from /home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:1:
+/usr/include/c++/9/bits/basic_string.h:6606:3: note:   ‘std::__cxx11::to_string’
+ 6606 |   to_string(long double __val)
+      |   ^~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:2:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:361:1: note:   ‘rclcpp::to_string’
+  361 | to_string(const ParameterValue & type);
+      | ^~~~~~~~~
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp: In member function ‘void MovingCylinderNode::updateCylinders()’:
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:78:45: error: ‘class MovingCylinder’ has no member named ‘model_state_’
+   78 |             request->model_state = cylinder.model_state_;
+      |                                             ^~~~~~~~~~~~
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:81:71: error: no matching function for call to ‘spin_until_future_complete(MovingCylinderNode*, rclcpp::Client<gazebo_msgs::srv::SetModelState>::FutureAndRequestId&)’
+   81 |             if (rclcpp::spin_until_future_complete(this, future_result) == rclcpp::executor::FutureReturnCode::SUCCESS)
+      |                                                                       ^
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:2:
+/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1: note: candidate: ‘template<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)’
+  105 | spin_until_future_complete(
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1: note:   template argument deduction/substitution failed:
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:81:71: note:   cannot convert ‘(MovingCylinderNode*)this’ (type ‘MovingCylinderNode*’) to type ‘rclcpp::node_interfaces::NodeBaseInterface::SharedPtr’ {aka ‘std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>’}
+   81 |             if (rclcpp::spin_until_future_complete(this, future_result) == rclcpp::executor::FutureReturnCode::SUCCESS)
+      |                                                                       ^
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:2:
+/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1: note: candidate: ‘template<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)’
+  117 | spin_until_future_complete(
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1: note:   template argument deduction/substitution failed:
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:81:71: note:   mismatched types ‘std::shared_ptr<_Tp>’ and ‘MovingCylinderNode*’
+   81 |             if (rclcpp::spin_until_future_complete(this, future_result) == rclcpp::executor::FutureReturnCode::SUCCESS)
+      |                                                                       ^
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:81:84: error: ‘rclcpp::executor’ has not been declared
+   81 |             if (rclcpp::spin_until_future_complete(this, future_result) == rclcpp::executor::FutureReturnCode::SUCCESS)
+      |                                                                                    ^~~~~~~~
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:84:28: error: ‘class std::shared_ptr<gazebo_msgs::srv::SetModelState_Response_<std::allocator<void> > >’ has no member named ‘code’
+   84 |                 if (result.code == gazebo_msgs::msg::Response::SUCCESS)
+      |                            ^~~~
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:84:54: error: ‘gazebo_msgs::msg::Response’ has not been declared
+   84 |                 if (result.code == gazebo_msgs::msg::Response::SUCCESS)
+      |                                                      ^~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33,
+                 from /usr/include/c++/9/bits/allocator.h:46,
+                 from /usr/include/c++/9/string:41,
+                 from /home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:1:
+/usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘void __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MovingCylinder; _Args = {const MovingCylinder&}; _Tp = MovingCylinder]’:
+/usr/include/c++/9/bits/alloc_traits.h:483:4:   required from ‘static void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MovingCylinder; _Args = {const MovingCylinder&}; _Tp = MovingCylinder; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<MovingCylinder>]’
+/usr/include/c++/9/bits/stl_vector.h:1189:30:   required from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = MovingCylinder; _Alloc = std::allocator<MovingCylinder>; std::vector<_Tp, _Alloc>::value_type = MovingCylinder]’
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:63:44:   required from here
+/usr/include/c++/9/ext/new_allocator.h:146:4: error: use of deleted function ‘MovingCylinder::MovingCylinder(const MovingCylinder&)’
+  146 |  { ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:8:
+/home/c/weston_ws/MPC_planner/src/scene/include/moving_cylinder.hpp:9:7: note: ‘MovingCylinder::MovingCylinder(const MovingCylinder&)’ is implicitly deleted because the default definition would be ill-formed:
+    9 | class MovingCylinder : public rclcpp::Node
+      |       ^~~~~~~~~~~~~~
+/home/c/weston_ws/MPC_planner/src/scene/include/moving_cylinder.hpp:9:7: error: use of deleted function ‘rclcpp::Node::Node(const rclcpp::Node&)’
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:2:
+/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1299:3: note: declared here
+ 1299 |   RCLCPP_DISABLE_COPY(Node)
+      |   ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/memory:65,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153,
+                 from /home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:2:
+/usr/include/c++/9/bits/stl_uninitialized.h: In instantiation of ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<MovingCylinder*>; _ForwardIterator = MovingCylinder*]’:
+/usr/include/c++/9/bits/stl_uninitialized.h:307:37:   required from ‘_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<MovingCylinder*>; _ForwardIterator = MovingCylinder*; _Tp = MovingCylinder]’
+/usr/include/c++/9/bits/stl_uninitialized.h:329:2:   required from ‘_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = MovingCylinder*; _ForwardIterator = MovingCylinder*; _Allocator = std::allocator<MovingCylinder>]’
+/usr/include/c++/9/bits/vector.tcc:474:3:   required from ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const MovingCylinder&}; _Tp = MovingCylinder; _Alloc = std::allocator<MovingCylinder>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<MovingCylinder*, std::vector<MovingCylinder> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = MovingCylinder*]’
+/usr/include/c++/9/bits/stl_vector.h:1195:4:   required from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = MovingCylinder; _Alloc = std::allocator<MovingCylinder>; std::vector<_Tp, _Alloc>::value_type = MovingCylinder]’
+/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:63:44:   required from here
+/usr/include/c++/9/bits/stl_uninitialized.h:127:72: error: static assertion failed: result type must be constructible from value type of input range
+  127 |       static_assert(is_constructible<_ValueType2, decltype(*__first)>::value,
+      |                                                                        ^~~~~
+gmake[2]: *** [CMakeFiles/move_test.dir/build.make:76: CMakeFiles/move_test.dir/src/move_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/move_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
+---
+Failed   <<< scene [4.69s, exited with code 2]
