@@ -33,14 +33,16 @@ struct obs_param
     float mea_cov;
 };
 
+// 增加一个未使用次数计数，长时间不使用则重置
 class obs_kf
 {
 public:
     int N;
+    int lastTimeUsed;
     float T;
 
     Kalman ka;
-    std::vector<obs_param> param_list; // 障碍物列表
+    std::vector<obs_param> param_list;
     std::vector<obs_param> pred_list;
     Eigen::VectorXd x;
     Eigen::MatrixXd P0;
@@ -54,6 +56,7 @@ public:
 
     void obs_predict();
     obs_kf();
+    void reset();
 } _obs_kf[obs_kf_buffer_size];
 
 obs_kf::obs_kf() : N(25)
@@ -61,6 +64,63 @@ obs_kf::obs_kf() : N(25)
     ka.m_StateSize = 9;
     ka.m_MeaSize = 5;
     ka.m_USize = 9;
+
+    lastTimeUsed = 0;
+
+    T = 0.1;
+
+    x.resize(9);
+    x.setZero();
+
+    float P0_cov = 0.025;
+
+    P0.resize(9, 9);
+    P0.setIdentity();
+    P0 *= P0_cov;
+
+    float Q_cov = 0.00008;
+
+    Q.resize(9, 9);
+    Q.setIdentity();
+    Q *= Q_cov;
+
+    float R_cov = 0.0008; // 仿真 0.00005  实物  0.000003
+
+    R.resize(5, 5);
+    R.setZero();
+
+    R(0, 0) = R_cov;
+    R(1, 1) = R_cov;
+    R(2, 2) = 10 * R_cov;
+    R(3, 3) = 10 * R_cov;
+    R(4, 4) = 0.00000001 * R_cov;
+
+    A.resize(9, 9);
+    A.setIdentity();
+    A(0, 5) = A(1, 6) = T;
+
+    B.resize(9, 9);
+    B.setZero();
+
+    H.resize(5, 9);
+    H.setIdentity();
+
+    z0.resize(5);
+    z0.setZero();
+
+    u_v.resize(9);
+    u_v.setZero();
+
+    ka.Init_Par(x, P0, R, Q, A, B, H, u_v);
+}
+
+void obs_kf::reset()
+{
+    ka.m_StateSize = 9;
+    ka.m_MeaSize = 5;
+    ka.m_USize = 9;
+
+    lastTimeUsed = 0;
 
     T = 0.1;
 
@@ -135,6 +195,7 @@ void obs_kf::obs_predict()
 
         VectorXd z(5);
         z << param_list.back().x, param_list.back().y, param_list.back().a, param_list.back().b, param_list.back().theta;
+        param_list.erase(param_list.begin());
 
         ka.Predict_State();
         ka.Predict_Cov();
@@ -195,9 +256,14 @@ private:
         // visualization_msgs::msg::MarkerArray ellipses_array;
         vector<Ellipse> ellipses_array;
 
+        for(int i = 0; i < obs_kf_buffer_size; ++i)
+        {_obs_kf[i].lastTimeUsed ++;}
+
         for (int i = 0; i < num; i++)
         {
             int flag = msg->data[7 * i + 5];
+            if(flag >= obs_kf_buffer_size)
+                RCLCPP_INFO(this->get_logger(), "label overflow %d !!!!!", flag);
 
             obs_param _obs_tmp;
             _obs_tmp.x = msg->data[7 * i];
@@ -207,6 +273,8 @@ private:
             _obs_tmp.theta = msg->data[7 * i + 4];
             _obs_tmp.mea_cov = msg->data[7 * i + 6];
 
+            if(_obs_kf[flag].lastTimeUsed > 10)
+                _obs_kf[flag].reset();
             _obs_kf[flag].param_list.push_back(_obs_tmp);
 
             curve_fitting(_obs_kf[flag], obs_pub, ellipses_array);
