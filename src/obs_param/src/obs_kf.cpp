@@ -122,6 +122,9 @@ void obs_kf::reset()
 
     lastTimeUsed = 0;
 
+    param_list.clear();
+    pred_list.clear();
+
     T = 0.1;
 
     x.resize(9);
