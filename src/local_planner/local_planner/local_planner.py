@@ -16,8 +16,7 @@ def distance_global(c1,c2):
 class LocalPlanner(Node):
     def __init__(self):
         super().__init__('phri_planner')
-        self.declare_parameter('replan_period', 0.05) 
-        self.replan_period = self.get_parameter('replan_period').value
+        self.__load_parameter()
 
         self.z = 0.0
         self.N = 25
@@ -189,6 +188,17 @@ class LocalPlanner(Node):
         self.__pub_local_path.publish(local_path)
         self.__pub_local_plan.publish(local_plan)
 
+    def __load_parameter(self):
+        self.declare_parameter('replan_period', 0.05) 
+        self.replan_period = self.get_parameter('replan_period').value
+
+        self.declare_parameter('v_max', 1.0) 
+        self.v_max = self.get_parameter('v_max').value
+
+        self.declare_parameter('v_min', 0.05) 
+        self.v_min = self.get_parameter('v_min').value
+
+
     def choose_goal_state(self):
         self.curr_pose_lock.acquire()
         self.global_path_lock.acquire()
@@ -224,8 +234,8 @@ class LocalPlanner(Node):
         #gamma_k = 0.15
         gamma_k = 0.3
 
-        v_max = 1.2
-        v_min = 0.1
+        v_max = self.v_max
+        v_min = self.v_min
         omega_max = 1.2
 
         opt_x0 = opti.parameter(3)
