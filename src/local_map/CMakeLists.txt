@@ -62,7 +62,7 @@ install(TARGETS local_map
   DESTINATION lib/${PROJECT_NAME}
 )
 
-install(DIRECTORY config
+install(DIRECTORY config rviz
   DESTINATION share/${PROJECT_NAME}/)
 
 ament_package()

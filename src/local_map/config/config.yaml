@@ -2,7 +2,7 @@
   ros__parameters:
     lidar_topic: "/livox/lidar"
 
-    base_link: "base_link"
+    base_link: "base_scan"
     base_scan: "base_scan"
 
     localmap_x_size: 10.0
