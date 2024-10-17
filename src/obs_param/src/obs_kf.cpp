@@ -183,11 +183,12 @@ public:
 private:
     void obscb(const std_msgs::msg::Float32MultiArray::SharedPtr msg)
     {
-        // RCLCPP_INFO(this->get_logger(), "[node] receive the obs track");
+        RCLCPP_INFO(this->get_logger(), "[node] receive the obs track");
         if (msg->data.empty())
             return;
 
         int num = msg->data.size() / 7;
+        RCLCPP_INFO(this->get_logger(), "total %d obstacle", num);
 
         std_msgs::msg::Float32MultiArray obs_pub; // 处理后的obstacles信息
 
@@ -248,12 +249,12 @@ private:
         {
             visualization_msgs::msg::Marker mk;
             mk.header.frame_id = "world";
-            mk.header.stamp = this->now(); // 使用ROS 2的时间API
+            mk.header.stamp = this->now(); 
             mk.ns = "ellipse";
             mk.id = ellipse_vis.markers.size();
             mk.type = visualization_msgs::msg::Marker::CYLINDER;
             mk.action = visualization_msgs::msg::Marker::ADD;
-            mk.lifetime = rclcpp::Duration::from_seconds(0.5); // 使用ROS 2的时间API
+            mk.lifetime = rclcpp::Duration::from_seconds(0.5); 
 
             mk.pose.position.x = ellipse.cx;
             mk.pose.position.y = ellipse.cy;
