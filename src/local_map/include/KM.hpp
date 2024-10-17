@@ -2,19 +2,31 @@
 #define KMALGORITHM_H
 
 #include <third_party/Hungarian.hpp>
-
+#include <algorithm>
 #include "ellipse.hpp"
+
+// 用一个map记录当前正在使用的label
+// 记录每个label上一次使用的时间
+// 假设上一次使用的时间超出阈值，这个label设置为可用
 
 class KMAlgorithm
 {
 public:
+	KMAlgorithm()
+	{
+		unused_label.reserve(100);
+		for (int i = 1; i <= 100; ++i)
+			unused_label[i] = i;
+	}
 	void tracking(std::vector<Ellipse> &input_vector);
 
 private:
 	void check_in_his_list(Ellipse &obs);
 
-	std::vector<Ellipse> last_label_list;	// 上一次tracking时的输入 input_vector
-	std::vector<Ellipse> old_label_list;	// 
+	std::vector<Ellipse> last_label_list; // 上一次tracking时的输入 input_vector
+	// std::vector<Ellipse> old_label_list;	//
+	std::vector<pair<Ellipse, int>> old_label_list; // second用来表示对应的Ellipse未使用次数
+	std::vector<int> unused_label;					// 表示未使用的label
 };
 
 void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
@@ -23,20 +35,25 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 	int last_size = last_label_list.size();
 	int his_size = old_label_list.size();
 
-	if (his_size == 0)	// 历史obs数量为 0
+	if (his_size == 0) // 历史obs数量为 0
 	{
 		for (size_t i = 0; i < input_vector.size(); i++)
-			input_vector[i].label = i + 1;	// label从1开始
-		old_label_list = input_vector;		// input直接加入历史obs
+		{
+			input_vector[i].label = unused_label.back(); // label从1开始
+			unused_label.pop_back();
+			pair<Ellipse, int> cur_Ellipse = pair<Ellipse, int>(input_vector[i], input_vector[i].label);
+			old_label_list.push_back(cur_Ellipse);
+		}
+		// old_label_list = input_vector;		// input直接加入历史obs
 	}
-	else if (last_size == 0)				// 上一次tracking时没有检测到obs，应该是处理上一次漏检的情况
+	else if (last_size == 0) // 上一次tracking时没有检测到obs，应该是处理上一次漏检的情况
 	{
-		for (auto &input : input_vector)	// 在历史obs中寻找与当前obs对应的
+		for (auto &input : input_vector) // 在历史obs中寻找与当前obs对应的
 			check_in_his_list(input);
 	}
 	else if (new_size > 0)
 	{
-		vector<vector<double>> dis(new_size, vector<double>(last_size));	// 计算本次检测到的obs与上次检测到的obs的距离
+		vector<vector<double>> dis(new_size, vector<double>(last_size)); // 计算本次检测到的obs与上次检测到的obs的距离
 		for (int i = 0; i < new_size; i++)
 			for (int j = 0; j < last_size; j++)
 				dis[i][j] = calculate_dis(input_vector[i], last_label_list[j]);
@@ -47,7 +64,7 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 		for (size_t i = 0; i < new_size; i++)
 		{
 			if (assignment[i] != -1 && calculate_dis(input_vector[i], last_label_list[assignment[i]]) < 1)
-				input_vector[i].label = last_label_list[assignment[i]].label;	// 根据最优匹配的结果给本次检测到的obs添加label
+				input_vector[i].label = last_label_list[assignment[i]].label; // 根据最优匹配的结果给本次检测到的obs添加label
 			else
 				check_in_his_list(input_vector[i]);
 		}
@@ -58,13 +75,21 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 
 void KMAlgorithm::check_in_his_list(Ellipse &input)
 {
+	vector<int> remove_list;
 	int his_size = old_label_list.size();
-	int index_track;
+	int index_track = 0;
 	float dis;
 	float min_dis = 10;
 	for (int j = 0; j < his_size; j++)
 	{
-		dis = calculate_dis(input, old_label_list[j]);
+		old_label_list[j].second++;
+		if (old_label_list[j].second > 10)
+		{
+			remove_list.push_back(old_label_list[j].first.label);
+			continue;
+		}
+
+		dis = calculate_dis(input, old_label_list[j].first);
 		if (dis < min_dis)
 		{
 			min_dis = dis;
@@ -74,14 +99,25 @@ void KMAlgorithm::check_in_his_list(Ellipse &input)
 
 	if (min_dis < 0.2)
 	{
-		input.label = old_label_list[index_track].label;
-		old_label_list[index_track] = input;
+		input.label = old_label_list[index_track].first.label;
+		old_label_list[index_track].first = input; // 更新Ellipse的属性
+		old_label_list[index_track].second = 0;
 	}
-	else
+	else // 历史标签中没有匹配的，创建一个新的标签
 	{
-		input.label = old_label_list.size() + 1;
-		old_label_list.emplace_back(input);
+		input.label = unused_label.back();
+		unused_label.pop_back();
+		pair<Ellipse, int> cur_Ellipse = pair<Ellipse, int>(input, 0);
+		old_label_list.push_back(cur_Ellipse);
 	}
+
+	old_label_list.erase(std::remove_if(old_label_list.begin(), old_label_list.end(),
+										[](const pair<Ellipse, int> &p)
+										{ return p.second > 10; }),
+						 old_label_list.end());
+
+	for (int i : remove_list)
+		unused_label.push_back(i);
 }
 
 #endif
