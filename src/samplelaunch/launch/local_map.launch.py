@@ -19,16 +19,16 @@ def generate_launch_description():
     # Define the launch description
     return LaunchDescription([
         # Static transform broadcaster (world to odom)
-        Node(
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            name='world_odom_broadcaster',
-            arguments=[
-                '--x', '0', '--y', '0', '--z', '0', 
-                '--qx', '0', '--qy', '0', '--qz', '0', '--qw', '1', 
-                '--frame-id', 'world', '--child-frame-id', 'odom'
-            ]
-        ),
+        # Node(
+        #     package='tf2_ros',
+        #     executable='static_transform_publisher',
+        #     name='world_odom_broadcaster',
+        #     arguments=[
+        #         '--x', '0', '--y', '0', '--z', '0', 
+        #         '--qx', '0', '--qy', '0', '--qz', '0', '--qw', '1', 
+        #         '--frame-id', 'world', '--child-frame-id', 'odom'
+        #     ]
+        # ),
 
         # Include the local map launch
         local_map_params_declare,
@@ -46,14 +46,6 @@ def generate_launch_description():
             package='obs_param',
             executable='obs_kf',
             name='obs_kf',
-            output='screen'
-        ),
-
-        # # Launch the observation parameter node
-        Node(
-            package='scene',
-            executable='pseudo_odom',
-            name='pseudo_odom',
             output='screen'
         ),
 
