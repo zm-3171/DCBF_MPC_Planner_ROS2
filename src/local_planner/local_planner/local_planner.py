@@ -198,6 +198,9 @@ class LocalPlanner(Node):
         self.declare_parameter('v_min', 0.05) 
         self.v_min = self.get_parameter('v_min').value
 
+        self.declare_parameter('omega_max', 1.2)
+        self.omega_max = self.get_parameter('omega_max').value
+
 
     def choose_goal_state(self):
         self.curr_pose_lock.acquire()
@@ -236,7 +239,7 @@ class LocalPlanner(Node):
 
         v_max = self.v_max
         v_min = self.v_min
-        omega_max = 1.2
+        omega_max = self.omega_max
 
         opt_x0 = opti.parameter(3)
 
