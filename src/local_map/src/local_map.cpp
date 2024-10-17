@@ -66,6 +66,7 @@ private:
         this->declare_parameter<int>("block_size", 5);
         this->declare_parameter<int>("block_num", 5);
 
+        this->declare_parameter<std::string>("lidar_topic", "/livox/lidar");
         this->declare_parameter<std::string>("base_link", "base_link");
         this->declare_parameter<std::string>("base_scan", "base_scan");
 
@@ -84,6 +85,7 @@ private:
         this->get_parameter<int>("block_size", block_size);
         this->get_parameter<int>("block_num", block_num);
         
+        this->get_parameter<std::string>("lidar_topic", lidar_topic);
         this->get_parameter<std::string>("base_link", base_link);
         this->get_parameter<std::string>("base_scan", base_scan);
 
@@ -120,7 +122,7 @@ private:
     void InitializeSubPub()
     {
         velodyne_sub = this->create_subscription<sensor_msgs::msg::PointCloud2>(
-            "/velodyne_points", 1, std::bind(&LocalMapPubNode::PointCloudCallback, this, std::placeholders::_1));
+            lidar_topic, 1, std::bind(&LocalMapPubNode::PointCloudCallback, this, std::placeholders::_1));
 
         // obs_pc_pub = this->create_publisher<sensor_msgs::msg::PointCloud2>("obs_pc", 1);
 
@@ -552,6 +554,7 @@ private:
 
     bool received_lidar_data;
 
+    std::string lidar_topic;
     std::string base_link;
     std::string base_scan;
 
