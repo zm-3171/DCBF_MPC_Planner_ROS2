@@ -55,7 +55,7 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz',
             arguments=['-d', PathJoinSubstitution(
-                [get_package_share_directory('scene'), 'rviz', 'rviz_config.rviz'])],
+                [get_package_share_directory('local_map'), 'rviz', 'rviz_config.rviz'])],
             output='screen'
         ),
     ])

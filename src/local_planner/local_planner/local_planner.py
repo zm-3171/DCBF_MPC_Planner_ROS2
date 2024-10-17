@@ -201,7 +201,6 @@ class LocalPlanner(Node):
         self.declare_parameter('omega_max', 1.2)
         self.omega_max = self.get_parameter('omega_max').value
 
-
     def choose_goal_state(self):
         self.curr_pose_lock.acquire()
         self.global_path_lock.acquire()
