@@ -84,7 +84,7 @@ obs_kf::obs_kf() : N(25)
     Q.setIdentity();
     Q *= Q_cov;
 
-    float R_cov = 0.0008; // 仿真 0.00005  实物  0.000003
+    float R_cov = 0.000003; // 仿真 0.00005  实物  0.000003
 
     R.resize(5, 5);
     R.setZero();
@@ -142,7 +142,7 @@ void obs_kf::reset()
     Q.setIdentity();
     Q *= Q_cov;
 
-    float R_cov = 0.0008; // 仿真 0.00005  实物  0.000003
+    float R_cov = 0.000003; // 仿真 0.00005  实物  0.000003
 
     R.resize(5, 5);
     R.setZero();
