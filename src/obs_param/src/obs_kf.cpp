@@ -264,7 +264,7 @@ private:
 
         for (int i = 0; i < num; i++)
         {
-            int flag = msg->data[7 * i + 5];
+            int flag = msg->data[7 * i + 5] - 1;
             if(flag >= obs_kf_buffer_size)
                 RCLCPP_INFO(this->get_logger(), "label overflow %d !!!!!", flag);
 
