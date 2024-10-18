@@ -1,6 +1,7 @@
 #ifndef KMALGORITHM_H
 #define KMALGORITHM_H
 
+#include <iostream>
 #include <third_party/Hungarian.hpp>
 #include <algorithm>
 #include "ellipse.hpp"
@@ -37,22 +38,25 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 
 	if (his_size == 0) // 历史obs数量为 0
 	{
+		std::cout << "his obs empty" << std::endl;
 		for (size_t i = 0; i < input_vector.size(); i++)
 		{
 			input_vector[i].label = unused_label.back(); // label从1开始
 			unused_label.pop_back();
-			pair<Ellipse, int> cur_Ellipse = pair<Ellipse, int>(input_vector[i], input_vector[i].label);
+			pair<Ellipse, int> cur_Ellipse = pair<Ellipse, int>(input_vector[i], 0);
 			old_label_list.push_back(cur_Ellipse);
 		}
 		// old_label_list = input_vector;		// input直接加入历史obs
 	}
 	else if (last_size == 0) // 上一次tracking时没有检测到obs，应该是处理上一次漏检的情况
 	{
+		std::cout << "last obs empty" << std::endl;
 		for (auto &input : input_vector) // 在历史obs中寻找与当前obs对应的
 			check_in_his_list(input);
 	}
 	else if (new_size > 0)
 	{
+		std::cout << "cal cur pre obs dis" << std::endl;
 		vector<vector<double>> dis(new_size, vector<double>(last_size)); // 计算本次检测到的obs与上次检测到的obs的距离
 		for (int i = 0; i < new_size; i++)
 			for (int j = 0; j < last_size; j++)
@@ -60,7 +64,9 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 
 		HungarianAlgorithm hun_alg;
 		vector<int> assignment;
+		std::cout << "start solve hun_alg" << std::endl;
 		double cost = hun_alg.Solve(dis, assignment);
+		std::cout << "hun_alg solved" << std::endl;
 		for (size_t i = 0; i < new_size; i++)
 		{
 			if (assignment[i] != -1 && calculate_dis(input_vector[i], last_label_list[assignment[i]]) < 1)
