@@ -69,7 +69,8 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 
 		pose_file << "old ellipse:" << std::endl;
 		for(int i = 0; i < last_size; i++)
-			pose_file << i << " " << last_label_list[i].cx << " " << last_label_list[i].cy << std::endl;
+			pose_file << i << " " << last_label_list[i].cx << " " << last_label_list[i].cy 
+					  << last_label_list[i].semimajor << last_label_list[i].semiminor << last_label_list[i].theta << std::endl;
 
 		for (int i = 0; i < new_size; i++)
 		{

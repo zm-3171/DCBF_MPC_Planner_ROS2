@@ -169,7 +169,7 @@ vector<Ellipse> get_ellipse_array(std::vector<Obstacle> &seg_obs, const grid_map
 			ellipse.theta = (x_max - x_min == 0) ? M_PI / 2 : (std::atan((y_max - y_min) / (x_max - x_min)) + M_PI / 2);
 		}
 
-		if (ellipse.semimajor <= 20 && ellipse.semiminor <= 20)
+		if (ellipse.semimajor <= 20 && ellipse.semiminor <= 20 && (!std::isnan(ellipse.cx)) && (!std::isnan(ellipse.cy)))
 			result.push_back(ellipse);
 	}
 	return result;
