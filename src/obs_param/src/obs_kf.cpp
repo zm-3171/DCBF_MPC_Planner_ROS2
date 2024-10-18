@@ -276,7 +276,7 @@ private:
             _obs_tmp.theta = msg->data[7 * i + 4];
             _obs_tmp.mea_cov = msg->data[7 * i + 6];
 
-            if(_obs_kf[flag].lastTimeUsed > 10)
+            if(_obs_kf[flag].lastTimeUsed > 5)
                 _obs_kf[flag].reset();
             _obs_kf[flag].param_list.push_back(_obs_tmp);
 
