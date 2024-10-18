@@ -71,6 +71,7 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 			}
 			pose_file << std::endl;
 		}
+		pose_file << "solved" << std::endl;
 		pose_file.close();
 
 		HungarianAlgorithm hun_alg;
