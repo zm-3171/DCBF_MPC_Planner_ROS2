@@ -2,6 +2,7 @@
 #define KMALGORITHM_H
 
 #include <iostream>
+#include <fstream>
 #include <third_party/Hungarian.hpp>
 #include <algorithm>
 #include "ellipse.hpp"
@@ -28,6 +29,8 @@ private:
 	// std::vector<Ellipse> old_label_list;	//
 	std::vector<pair<Ellipse, int>> old_label_list; // second用来表示对应的Ellipse未使用次数
 	std::vector<int> unused_label;					// 表示未使用的label
+
+	std::ofstream pose_file;
 };
 
 void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
@@ -58,9 +61,17 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 	{
 		std::cout << "cal cur pre obs dis" << std::endl;
 		vector<vector<double>> dis(new_size, vector<double>(last_size)); // 计算本次检测到的obs与上次检测到的obs的距离
+		pose_file.open("/home/snuc/CZM/problem.txt", std::ios::out | std::ios::app);
 		for (int i = 0; i < new_size; i++)
+		{
 			for (int j = 0; j < last_size; j++)
+			{
 				dis[i][j] = calculate_dis(input_vector[i], last_label_list[j]);
+				pose_file << dis[i][j] << " "
+			}
+			pose_file << std::endl;
+		}
+		pose_file.close();
 
 		HungarianAlgorithm hun_alg;
 		vector<int> assignment;
