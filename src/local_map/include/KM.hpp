@@ -62,6 +62,15 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 		std::cout << "cal cur pre obs dis" << std::endl;
 		vector<vector<double>> dis(new_size, vector<double>(last_size)); // 计算本次检测到的obs与上次检测到的obs的距离
 		pose_file.open("/home/snuc/CZM/problem.txt", std::ios::out | std::ios::app);
+
+		pose_file << "new ellipse:" << std::endl;
+		for(int i = 0; i < new_size; i++)
+			pose_file << i << " " << input_vector[i].cx << " " << input_vector[i].cy << std::endl;
+
+		pose_file << "old ellipse:" << std::endl;
+		for(int i = 0; i < last_size; i++)
+			pose_file << i << " " << last_label_list[i].cx << " " << last_label_list[i].cy << std::endl;
+
 		for (int i = 0; i < new_size; i++)
 		{
 			for (int j = 0; j < last_size; j++)
