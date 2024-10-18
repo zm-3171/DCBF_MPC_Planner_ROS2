@@ -67,7 +67,7 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 			for (int j = 0; j < last_size; j++)
 			{
 				dis[i][j] = calculate_dis(input_vector[i], last_label_list[j]);
-				pose_file << dis[i][j] << " "
+				pose_file << dis[i][j] << " ";
 			}
 			pose_file << std::endl;
 		}
