@@ -168,8 +168,12 @@ private:
 
     void timer_callback()
     {
+        RCLCPP_ERROR(this->get_logger(), "start detection");
         if(received_lidar_data == false)
+        {
+            RCLCPP_ERROR(this->get_logger(), "wait for lidar");
             return;
+        }
 
         // robot_position2d << base_link_transform.getOrigin().x(), base_link_transform.getOrigin().y();
         robot_position2d << base_link_transform.transform.translation.x, base_link_transform.transform.translation.y;
@@ -185,6 +189,8 @@ private:
         map_interpolate = map_interpolation(lidar_pcd_matrix);
         map_interpolate = map_inflate(map_interpolate);
         map_.add("elevation", map_interpolate);
+        
+        RCLCPP_ERROR(this->get_logger(), "grid map updated");
 
         // obs map
         vector<DBSCAN::Point> non_clustered_obs;
@@ -194,6 +200,8 @@ private:
         DBSCAN DS(DBSCAN_R, DBSCAN_N, non_clustered_obs);
         vector<Obstacle> clustered_obs(DS.cluster_num);
 
+        RCLCPP_ERROR(this->get_logger(), "dbscan updated");
+        
         // pcl::PointCloud<pcl::PointXYZ> obs_cloud;       // debug
         // obs_cloud.points.clear();
 
@@ -218,10 +226,16 @@ private:
         // test dbscan
 
         vector<Ellipse> ellipses_array = get_ellipse_array(clustered_obs, map_, MapParam);
+        RCLCPP_ERROR(this->get_logger(), "derive ellipse");
+
         KM.tracking(ellipses_array);
+        RCLCPP_ERROR(this->get_logger(), "tracking complete");
+
         ab_variance_calculation(ellipses_array);
 
         // publish
+        RCLCPP_ERROR(this->get_logger(), "start visualization");
+
         std_msgs::msg::Float32MultiArray for_obs_track;
         for (const auto &ellipse : ellipses_array)
         {
