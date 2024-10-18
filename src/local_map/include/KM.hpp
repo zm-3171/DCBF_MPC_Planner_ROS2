@@ -16,7 +16,7 @@ public:
 	{
 		unused_label.reserve(100);
 		for (int i = 1; i <= 100; ++i)
-			unused_label[i] = i;
+			unused_label.push_back(i);
 	}
 	void tracking(std::vector<Ellipse> &input_vector);
 
