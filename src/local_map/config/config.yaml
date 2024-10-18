@@ -9,11 +9,11 @@
     localmap_y_size: 10.0
     max_heigh: 1.0
 
-    resolution: 0.1
+    resolution: 0.05
     obs_height: 0.4
-    step_height: 0.5
-    DBSCAN_R: 4.0
-    DBSCAN_N: 4
+    step_height: 0.8
+    DBSCAN_R: 10.0
+    DBSCAN_N: 5
 
     block_size: 5
     block_num: 5
