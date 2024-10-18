@@ -238,6 +238,7 @@ class ObsKfNode : public rclcpp::Node
 public:
     ObsKfNode() : Node("obs_param_node")
     {
+        unused_clear_time = 3;
         obs_sub_ = this->create_subscription<std_msgs::msg::Float32MultiArray>(
             "/for_obs_track", 1, std::bind(&ObsKfNode::obscb, this, std::placeholders::_1));
         obs_pub_ = this->create_publisher<std_msgs::msg::Float32MultiArray>("/obs_predict_pub", 1);
@@ -265,7 +266,7 @@ private:
         for (int i = 0; i < num; i++)
         {
             int flag = msg->data[7 * i + 5] - 1;
-            if(flag >= obs_kf_buffer_size)
+            if(flag >= obs_kf_buffer_size || flag < 0)
                 RCLCPP_INFO(this->get_logger(), "label overflow %d !!!!!", flag);
 
             obs_param _obs_tmp;
@@ -276,7 +277,7 @@ private:
             _obs_tmp.theta = msg->data[7 * i + 4];
             _obs_tmp.mea_cov = msg->data[7 * i + 6];
 
-            if(_obs_kf[flag].lastTimeUsed > 5)
+            if(_obs_kf[flag].lastTimeUsed > unused_clear_time)
                 _obs_kf[flag].reset();
             _obs_kf[flag].param_list.push_back(_obs_tmp);
 
@@ -354,6 +355,7 @@ private:
     rclcpp::Subscription<std_msgs::msg::Float32MultiArray>::SharedPtr obs_sub_;
     rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr obs_pub_;
     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr obs_vis_pub_;
+    int unused_clear_time;
 };
 
 int main(int argc, char **argv)

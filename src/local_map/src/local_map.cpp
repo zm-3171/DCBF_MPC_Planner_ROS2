@@ -46,7 +46,7 @@ public:
         InitializeSubPub();
 
         // 创建一个定时器回调函数处理原ros1框架中 while循环部分代码
-        auto period_ms = std::chrono::milliseconds(static_cast<int64_t>(1000.0 / 10));
+        auto period_ms = std::chrono::milliseconds(static_cast<int64_t>(1000.0 / 5));
         timer_ = rclcpp::create_timer(this, this->get_clock(), period_ms, std::bind(&LocalMapPubNode::timer_callback, this));
     }
 
@@ -115,7 +115,6 @@ private:
         received_lidar_data = false;
 
         RCLCPP_INFO(this->get_logger(), "max heigh is set to %f" , max_heigh);
-        RCLCPP_INFO(this->get_logger(), "init parameter complete");
     }
 
     // 初始化subscribe和publish
@@ -139,7 +138,6 @@ private:
         tf_buffer = std::make_shared<tf2_ros::Buffer>(this->get_clock());
         transform_listener = std::make_shared<tf2_ros::TransformListener>(*tf_buffer);
         RCLCPP_INFO(this->get_logger(), "init tf complete");
-        // TF_timer_ = rclcpp::create_timer(this, this->get_clock(), 200ms, std::bind(&LocalMapPubNode::updateTF, this));
     }
 
     void updateTF()
@@ -168,14 +166,11 @@ private:
 
     void timer_callback()
     {
-        RCLCPP_INFO(this->get_logger(), "start detection");
         if(received_lidar_data == false)
         {
             RCLCPP_INFO(this->get_logger(), "wait for lidar");
             return;
         }
-
-        // robot_position2d << base_link_transform.getOrigin().x(), base_link_transform.getOrigin().y();
         robot_position2d << base_link_transform.transform.translation.x, base_link_transform.transform.translation.y;
 
         pcd_transform();
@@ -189,8 +184,6 @@ private:
         map_interpolate = map_interpolation(lidar_pcd_matrix);
         map_interpolate = map_inflate(map_interpolate);
         map_.add("elevation", map_interpolate);
-        
-        RCLCPP_INFO(this->get_logger(), "grid map updated");
 
         // obs map
         vector<DBSCAN::Point> non_clustered_obs;
@@ -200,42 +193,22 @@ private:
         DBSCAN DS(DBSCAN_R, DBSCAN_N, non_clustered_obs);
         vector<Obstacle> clustered_obs(DS.cluster_num);
 
-        RCLCPP_INFO(this->get_logger(), "dbscan updated");
-        
-        // pcl::PointCloud<pcl::PointXYZ> obs_cloud;       // debug
-        // obs_cloud.points.clear();
-
         for (const auto &obs : non_clustered_obs)
         {
             if (obs.obsID > 0)
             {
                 gradient_map(obs.x, obs.y) = -0.3;
-                // gradient_map(static_cast<int>(obs.x), static_cast<int>(obs.y)) = -0.3;
                 clustered_obs[obs.obsID - 1].emplace_back(obs.x, obs.y);
-                
-                // pcl::PointXYZ obs_point(obs.x, obs.y, 1);       // debug
-                // obs_cloud.push_back(obs_point);                 // debug
             }
         }
-        // test dbscan
-        // sensor_msgs::msg::PointCloud2 obs_pc_msg;
-        // pcl::toROSMsg(obs_cloud, obs_pc_msg);
-        // obs_pc_msg.header.stamp = this->get_clock()->now();
-        // obs_pc_msg.header.frame_id = "world";
-        // obs_pc_pub->publish(obs_pc_msg);
-        // test dbscan
 
         vector<Ellipse> ellipses_array = get_ellipse_array(clustered_obs, map_, MapParam);
-        RCLCPP_INFO(this->get_logger(), "derive ellipse");
 
         KM.tracking(ellipses_array);
-        RCLCPP_INFO(this->get_logger(), "tracking complete");
 
         ab_variance_calculation(ellipses_array);
 
         // publish
-        RCLCPP_INFO(this->get_logger(), "start visualization");
-
         std_msgs::msg::Float32MultiArray for_obs_track;
         for (const auto &ellipse : ellipses_array)
         {

@@ -7,17 +7,14 @@
 #include <algorithm>
 #include "ellipse.hpp"
 
-// 用一个map记录当前正在使用的label
-// 记录每个label上一次使用的时间
-// 假设上一次使用的时间超出阈值，这个label设置为可用
-
 class KMAlgorithm
 {
 public:
 	KMAlgorithm()
 	{
+		unused_clear_time = 5;
 		unused_label.reserve(100);
-		for (int i = 1; i <= 100; ++i)
+		for (int i = 100; i > 0; i--)
 			unused_label.push_back(i);
 	}
 	void tracking(std::vector<Ellipse> &input_vector);
@@ -25,12 +22,11 @@ public:
 private:
 	void check_in_his_list(Ellipse &obs);
 
-	std::vector<Ellipse> last_label_list; // 上一次tracking时的输入 input_vector
-	// std::vector<Ellipse> old_label_list;	//
+	std::vector<Ellipse> last_label_list; 			// 上一次tracking时的输入 input_vector
 	std::vector<pair<Ellipse, int>> old_label_list; // second用来表示对应的Ellipse未使用次数
 	std::vector<int> unused_label;					// 表示未使用的label
 
-	std::ofstream pose_file;
+	int unused_clear_time;
 };
 
 void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
@@ -49,9 +45,8 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 			pair<Ellipse, int> cur_Ellipse = pair<Ellipse, int>(input_vector[i], 0);
 			old_label_list.push_back(cur_Ellipse);
 		}
-		// old_label_list = input_vector;		// input直接加入历史obs
 	}
-	else if (last_size == 0) // 上一次tracking时没有检测到obs，应该是处理上一次漏检的情况
+	else if (last_size == 0) 
 	{
 		std::cout << "last obs empty" << std::endl;
 		for (auto &input : input_vector) // 在历史obs中寻找与当前obs对应的
@@ -59,36 +54,19 @@ void KMAlgorithm::tracking(std::vector<Ellipse> &input_vector)
 	}
 	else if (new_size > 0)
 	{
-		std::cout << "cal cur pre obs dis" << std::endl;
 		vector<vector<double>> dis(new_size, vector<double>(last_size)); // 计算本次检测到的obs与上次检测到的obs的距离
-		pose_file.open("/home/snuc/CZM/problem.txt", std::ios::out | std::ios::app);
-
-		pose_file << "new ellipse:" << std::endl;
-		for(int i = 0; i < new_size; i++)
-			pose_file << i << " " << input_vector[i].cx << " " << input_vector[i].cy << std::endl;
-
-		pose_file << "old ellipse:" << std::endl;
-		for(int i = 0; i < last_size; i++)
-			pose_file << i << " " << last_label_list[i].cx << " " << last_label_list[i].cy 
-					  << last_label_list[i].semimajor << last_label_list[i].semiminor << last_label_list[i].theta << std::endl;
 
 		for (int i = 0; i < new_size; i++)
 		{
 			for (int j = 0; j < last_size; j++)
 			{
 				dis[i][j] = calculate_dis(input_vector[i], last_label_list[j]);
-				pose_file << dis[i][j] << " ";
 			}
-			pose_file << std::endl;
 		}
-		pose_file << "solved" << std::endl;
-		pose_file.close();
 
 		HungarianAlgorithm hun_alg;
 		vector<int> assignment;
-		std::cout << "start solve hun_alg" << std::endl;
 		double cost = hun_alg.Solve(dis, assignment);
-		std::cout << "hun_alg solved" << std::endl;
 		for (size_t i = 0; i < new_size; i++)
 		{
 			if (assignment[i] != -1 && calculate_dis(input_vector[i], last_label_list[assignment[i]]) < 1)
@@ -111,7 +89,7 @@ void KMAlgorithm::check_in_his_list(Ellipse &input)
 	for (int j = 0; j < his_size; j++)
 	{
 		old_label_list[j].second++;
-		if (old_label_list[j].second > 10)
+		if (old_label_list[j].second > unused_clear_time)
 		{
 			remove_list.push_back(old_label_list[j].first.label);
 			continue;
@@ -140,8 +118,8 @@ void KMAlgorithm::check_in_his_list(Ellipse &input)
 	}
 
 	old_label_list.erase(std::remove_if(old_label_list.begin(), old_label_list.end(),
-										[](const pair<Ellipse, int> &p)
-										{ return p.second > 10; }),
+										[&](const pair<Ellipse, int> &p)
+										{ return p.second > unused_clear_time; }),
 						 old_label_list.end());
 
 	for (int i : remove_list)
