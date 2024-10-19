@@ -12,8 +12,8 @@
     resolution: 0.1
     obs_height: 0.4
     step_height: 0.5
-    DBSCAN_R: 10.0
-    DBSCAN_N: 5
+    DBSCAN_R: 4.0
+    DBSCAN_N: 4
 
     block_size: 5
     block_num: 5
