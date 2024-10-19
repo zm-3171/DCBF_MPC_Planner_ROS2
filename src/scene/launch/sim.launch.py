@@ -22,8 +22,8 @@ def generate_launch_description():
     movetest_launch_file = PathJoinSubstitution(
         [get_package_share_directory('scene'), 'launch', 'move_test.launch.py'])
 
-    global_path_launch_file = PathJoinSubstitution(
-        [get_package_share_directory('global_path_publisher'), 'launch', 'global_path_publisher.launch.py'])
+    # global_path_launch_file = PathJoinSubstitution(
+    #     [get_package_share_directory('global_path_publisher'), 'launch', 'global_path_publisher.launch.py'])
     
     local_map_config_file_path = PathJoinSubstitution(
         [get_package_share_directory('local_map'), 'config', 'config.yaml']
@@ -93,9 +93,16 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Include global path publisher launch
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(global_path_launch_file)
+        # # Include global path publisher launch
+        # IncludeLaunchDescription(
+        #     PythonLaunchDescriptionSource(global_path_launch_file)
+        # ),
+        # # Launch the observation parameter node
+        Node(
+            package='linear_path_publisher',
+            executable='linear_path_publisher',
+            name='linear_path_publisher',
+            output='screen'
         ),
 
         IncludeLaunchDescription(
