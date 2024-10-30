@@ -9,6 +9,7 @@ from visualization_msgs.msg import Marker
 import threading
 import numpy as np
 import casadi as ca
+import time
 
 def distance_global(c1,c2):
     return np.sqrt((c1[0] - c2[0]) * (c1[0] - c2[0]) + (c1[1] - c2[1]) * (c1[1] - c2[1]))
@@ -16,18 +17,22 @@ def distance_global(c1,c2):
 class LocalPlanner(Node):
     def __init__(self):
         super().__init__('phri_planner')
-        self.__load_parameter()
-
-        self.z = 0.0
-        self.N = 25
-        self.goal_state = np.zeros([self.N, 3])
 
         self.curr_state = None
         self.global_path = None
 
-        self.last_input = []
-        self.last_state = []
+        self.init_N = 0             # 提供casadi求解器初值组数
+        self.init_control = None
+
+        self.__load_parameter()
+
+        self.z = 0.0
+        self.goal_state = np.zeros([self.N, 3])
+
+        self.last_input = np.zeros([self.N, 2])
+        self.last_state = np.zeros([self.N, 3])
         self.mpc_success = None
+        self.last_mpc_success = False
 
         self.curr_pose_lock = threading.Lock()
         self.global_path_lock = threading.Lock()
@@ -81,7 +86,9 @@ class LocalPlanner(Node):
         self.ob = []
         size = int(len(data.data) / 5)
         for i in range(size):
-            self.ob.append(np.array(data.data[5*i:5*i+5]))
+            self.ob.append(np.array([2.0, 2.0, 0.5, 0.5, 0.0]))    # test for static obstacles
+            # self.ob.append(np.array(data.data[0:5]))    # test for static obstacles
+            # self.ob.append(np.array(data.data[5*i:5*i+5]))
         self.obstacle_lock.release()
 
     def __global_path_cb(self, path):
@@ -201,6 +208,33 @@ class LocalPlanner(Node):
         self.declare_parameter('omega_max', 1.2)
         self.omega_max = self.get_parameter('omega_max').value
 
+        self.declare_parameter('MPC_N', 25)
+        self.N = self.get_parameter('MPC_N').value
+
+        self.declare_parameter('safe_dist', 1.0)
+        self.safe_dist = self.get_parameter('safe_dist').value
+
+        self.declare_parameter('gamma_k', 0.0)
+        self.gamma_k = self.get_parameter('gamma_k').value
+
+        self.declare_parameter('MPC_constraint', "CBF")
+        self.MPC_constraint = self.get_parameter('MPC_constraint').value    
+        
+        self.declare_parameter('kalman_N', 25)
+        self.kalman_N = self.get_parameter('kalman_N').value     
+
+        self.declare_parameter('init_N', 0)
+        self.init_N = self.get_parameter('init_N').value
+        self.get_logger().info("load init_N with value %d " % self.init_N)
+
+        self.init_control = np.zeros([self.init_N,2])
+
+        for i in range(self.init_N):
+            self.declare_parameter('init_v_' + str(i), 0.0)
+            self.declare_parameter('init_omega_' + str(i), 0.0)
+            self.init_control[i, 0] = self.get_parameter('init_v_' + str(i)).value
+            self.init_control[i, 1] = self.get_parameter('init_omega_' + str(i)).value
+
     def choose_goal_state(self):
         self.curr_pose_lock.acquire()
         self.global_path_lock.acquire()
@@ -233,8 +267,8 @@ class LocalPlanner(Node):
         opti = ca.Opti()
         # parameters for optimization
         T = 0.1
-        #gamma_k = 0.15
-        gamma_k = 0.3
+        gamma_k = self.gamma_k
+        # gamma_k = 0.3
 
         v_max = self.v_max
         v_min = self.v_min
@@ -243,8 +277,8 @@ class LocalPlanner(Node):
         opt_x0 = opti.parameter(3)
 
         # state variables
-        opt_states = opti.variable(self.N + 1, 3)
-        opt_controls = opti.variable(self.N, 2)
+        opt_states = opti.variable(self.N + 1, 3)       # 状态
+        opt_controls = opti.variable(self.N, 2)         # 速度、角速度
         v = opt_controls[:, 0]
         omega = opt_controls[:, 1]
 
@@ -277,7 +311,7 @@ class LocalPlanner(Node):
         
         def h(curpos_, ob_):
             #safe_dist = 1.3 # for scout
-            safe_dist = 0.5 # for jackal
+            safe_dist = self.safe_dist # for jackal 1.5
 
             c = ca.cos(ob_[4])
             s = ca.sin(ob_[4])
@@ -292,6 +326,12 @@ class LocalPlanner(Node):
             
             return dist
 
+        def o(curpos_, ob_):
+            ob_vec = ca.MX([ob_[0], ob_[1]])
+            center_vec = curpos_[:2] - ob_vec.T
+            dist = ca.sqrt(center_vec[0] ** 2 + center_vec[1] ** 2)
+            return dist
+
         def quadratic(x, A):
             return ca.mtimes([x, A, x.T])
 
@@ -299,6 +339,7 @@ class LocalPlanner(Node):
         opti.subject_to(opt_states[0, :] == opt_x0.T)
 
         # Position Boundaries
+        # opti.subject_to(opti.bounded(-v_min, v, v_max))
         if(distance_global(self.curr_state, self.global_path[-1, :2]) > 1):
             opti.subject_to(opti.bounded(v_min, v, v_max))
         else:
@@ -311,18 +352,33 @@ class LocalPlanner(Node):
             x_next = opt_states[i, :] + T * f(opt_states[i, :], opt_controls[i, :]).T
             opti.subject_to(opt_states[i + 1, :] == x_next)
 
-        num_obs = int(len(self.ob)/self.N)
+        # num_obs = int(len(self.ob))
+        num_obs = int(len(self.ob)/self.kalman_N)
+        # self.get_logger().info("obs num %d" % num_obs)
 
-        for j in range(num_obs):
-            if not exceed_ob(self.ob[25*j]):
-                for i in range(self.N-1):
-                    opti.subject_to(h(opt_states[i + 1, :], self.ob[j * 25 + i + 1]) >=
-                                    (1 - gamma_k) * h(opt_states[i, :], self.ob[j * 25 + i]))
+        # CBF constraint
+        if self.MPC_constraint == "CBF": 
+            for j in range(num_obs):
+                # if not exceed_ob(self.ob[self.kalman_N*j]):    # 判断障碍物是否位于机器人的前方
+                # self.get_logger().info("add obs constraint")
+                for i in range(self.kalman_N - 1):
+                    opti.subject_to(h(opt_states[i + 1, :], self.ob[j * self.kalman_N + i + 1]) >=
+                                    (1 - gamma_k) * h(opt_states[i, :], self.ob[j * self.kalman_N + i]))
+        # Euclidean distance constraint   
+        elif self.MPC_constraint == "Euclidean": 
+            for j in range(num_obs):
+                # if not exceed_ob(self.ob[25*j]):    
+                # opti.subject_to(o(opt_states[0, :], self.ob[0]) >= (self.safe_dist - 0.9))
+                for i in range(1, self.kalman_N):
+                    opti.subject_to(o(opt_states[i, :], self.ob[j * self.kalman_N + i]) >= self.safe_dist)
+
+        for i in range(1, self.N - 1):
+            opti.subject_to(o(opt_states[i, :], np.array([-1.0, -1.0, 0.0, 0.0, 0.0])) >= 1.0)
 
         obj = 0
         R = np.diag([0.1, 0.02])
         A = np.diag([0.1, 0.02])
-        for i in range(self.N):
+        for i in range(1,self.N):
             Q = np.diag([1.0+0.05*i,1.0+0.05*i, 0.02+0.005*i])
             if i < self.N-1:
                 obj += 0.1 * quadratic(opt_states[i, :] - self.goal_state[[i]], Q) + quadratic(opt_controls[i, :], R)
@@ -333,33 +389,79 @@ class LocalPlanner(Node):
 
         opti.minimize(obj)
         opts_setting = {'ipopt.max_iter': 2000, 'ipopt.print_level': 0, 'print_time': 0, 'ipopt.acceptable_tol': 1e-3,
-                        'ipopt.acceptable_obj_change_tol': 1e-3}
+                        'ipopt.acceptable_obj_change_tol': 1e-1}
         opti.solver('ipopt', opts_setting)
+        # print("current state", self.curr_state)
         opti.set_value(opt_x0, self.curr_state)
 
-        try:
-            sol = opti.solve()
-            u_res = sol.value(opt_controls)
-            state_res = sol.value(opt_states)
+        optimized_obj = float('inf')
 
+        start_time = time.perf_counter()
+
+        for k in range(self.init_N + 1):
+            if k == 0 and self.last_mpc_success == True:  # 使用上一次的最优解初始化MPC
+                for i in range(self.N - 1):
+                    opti.set_initial(opt_controls[i,:], self.last_input[i+1,:])
+                for i in range(self.N):
+                    opti.set_initial(opt_states[i,:], self.last_state[i+1,:])
+                opti.set_initial(opt_states[self.N,:], self.last_state[self.N,:])
+
+            if k == 0 and self.last_mpc_success == False:  # 使用上一次的最优解初始化MPC
+                if self.init_N == 0:
+                    for i in range(self.N):
+                        opti.set_initial(opt_controls[i,:], np.array([0, 0]))   
+                    for i in range(self.N + 1):
+                        opti.set_initial(opt_states[i,:], self.curr_state)       
+                else:
+                    continue
+
+            if k != 0:  # 自定
+                init_control = self.init_control[k-1,:]
+                init_state = np.zeros([self.N + 1,3])
+                init_state[0,:] = self.curr_state
+
+                for i in range(self.N):
+                    state_changed = np.array(T * f(init_state[i,:], init_control).T)
+                    init_state[i+1,:] = init_state[i,:] + state_changed
+
+                for i in range(self.N):
+                    opti.set_initial(opt_controls[i,:], init_control)   
+
+                for i in range(self.N + 1):
+                    opti.set_initial(opt_states[i,:], init_state[i,:])
+
+
+            try:
+                sol = opti.solve()
+                cur_obj = sol.value(obj)
+                if(cur_obj < optimized_obj):
+                    optimized_obj = cur_obj
+                    u_res = sol.value(opt_controls)
+                    state_res = sol.value(opt_states)
+                self.mpc_success = True
+
+            except Exception as e:
+                self.get_logger().error("fail to find feasible solution for current init value")
+
+        end_time = time.perf_counter()
+        self.get_logger().info("solve use time %f" % (end_time - start_time))
+
+        if self.mpc_success:
             self.last_input = u_res
             self.last_state = state_res
-            self.mpc_success = True
+            self.get_logger().info("find feasible solution with score %f" % optimized_obj)
+            self.mpc_success = False
+            self.last_mpc_success = True
+        else:       # 在求解失败的情况下，使用上一次求解的结果
+            self.get_logger().error("fail to find feasible solution")
+            self.last_mpc_success = False
+            for i in range(self.N-1):
+                self.last_input[i] = self.last_input[i+1]
+                self.last_state[i] = self.last_state[i+1]
+                self.last_input[self.N-1] = np.zeros([1, 2])
 
-        except Exception as e:
-            # 使用ROS 2的日志记录功能记录错误信息
-            self.get_logger().error("Infeasible Solution: %s" % str(e))
-
-            if self.mpc_success:
-                self.mpc_success = False
-            else:
-                for i in range(self.N-1):
-                    self.last_input[i] = self.last_input[i+1]
-                    self.last_state[i] = self.last_state[i+1]
-                    self.last_input[self.N-1] = np.zeros([1, 2])
-
-            u_res = self.last_input
-            state_res = self.last_state
+        u_res = self.last_input
+        state_res = self.last_state
 
         self.curr_pose_lock.release()
         self.global_path_lock.release()

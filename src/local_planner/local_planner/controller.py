@@ -55,7 +55,7 @@ class Controller(Node):
         control_cmd = Twist()
         control_cmd.linear.x = self.linear_speed
         control_cmd.angular.z = self.angular_speed
-        self.get_logger().info('Linear Speed: %.1f, Angular Speed: %.1f' % (self.linear_speed, self.angular_speed))
+        # self.get_logger().info('Linear Speed: %.1f, Angular Speed: %.1f' % (self.linear_speed, self.angular_speed))
         self.vel_pub.publish(control_cmd)
 
     def control_loop(self):

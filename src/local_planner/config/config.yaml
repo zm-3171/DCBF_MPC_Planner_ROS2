@@ -1,5 +1,25 @@
 /**:
   ros__parameters:
-    replan_period: 0.05
+    replan_period: 0.1
     v_max: 0.5
-    v_min: 0.1
+    v_min: 0.0
+    omega_max: 0.3
+
+    MPC_N: 25
+    safe_dist: 1.0
+    gamma_k: 0.8
+
+    kalman_N: 25
+
+    MPC_constraint: "Euclidean"  #    None
+
+    init_N: 0
+
+    # init_v_0: 0.0
+    # init_omega_0: 0.0
+    
+    init_v_0: 0.1
+    init_omega_0: 0.3
+
+    # init_v_1: 0.1
+    # init_omega_1: -0.3

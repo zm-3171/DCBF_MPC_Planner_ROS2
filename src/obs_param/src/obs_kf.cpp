@@ -279,6 +279,8 @@ private:
 
             if(_obs_kf[flag].lastTimeUsed > unused_clear_time)
                 _obs_kf[flag].reset();
+            else
+                _obs_kf[flag].lastTimeUsed = 0;
             _obs_kf[flag].param_list.push_back(_obs_tmp);
 
             curve_fitting(_obs_kf[flag], obs_pub, ellipses_array);

@@ -1,0 +1,1797 @@
+[local_planner_node-1] [INFO] [1730212863.743407022] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212863.790385926] [local_planner_node]: solve use time 0.035187
+[local_planner_node-1] [INFO] [1730212863.790704274] [local_planner_node]: find feasible solution with score 0.129182
+[local_planner_node-1] [INFO] [1730212863.803546449] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212863.848866210] [local_planner_node]: solve use time 0.034535
+[local_planner_node-1] [INFO] [1730212863.849115129] [local_planner_node]: find feasible solution with score 0.129463
+[local_planner_node-1] [INFO] [1730212863.860341055] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212863.893756583] [local_planner_node]: solve use time 0.028666
+[local_planner_node-1] [INFO] [1730212863.894012564] [local_planner_node]: find feasible solution with score 0.127771
+[local_planner_node-1] [INFO] [1730212863.954874834] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212863.996101940] [local_planner_node]: solve use time 0.032955
+[local_planner_node-1] [INFO] [1730212863.996369267] [local_planner_node]: find feasible solution with score 0.129925
+[local_planner_node-1] [INFO] [1730212864.055057172] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212864.099495775] [local_planner_node]: solve use time 0.035632
+[local_planner_node-1] [INFO] [1730212864.099762733] [local_planner_node]: find feasible solution with score 0.130638
+[local_planner_node-1] [INFO] [1730212864.154770859] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212864.201307972] [local_planner_node]: solve use time 0.037388
+[local_planner_node-1] [INFO] [1730212864.201569196] [local_planner_node]: find feasible solution with score 0.129653
+[local_planner_node-1] [INFO] [1730212864.255954691] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212864.303946506] [local_planner_node]: solve use time 0.037444
+[local_planner_node-1] [INFO] [1730212864.304223086] [local_planner_node]: find feasible solution with score 0.124593
+[local_planner_node-1] [INFO] [1730212864.357172641] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212864.403318318] [local_planner_node]: solve use time 0.036432
+[local_planner_node-1] [INFO] [1730212864.403603289] [local_planner_node]: find feasible solution with score 0.121347
+[local_planner_node-1] [INFO] [1730212864.455578239] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212864.490638538] [local_planner_node]: solve use time 0.030671
+[local_planner_node-1] [INFO] [1730212864.490890997] [local_planner_node]: find feasible solution with score 0.118629
+[local_planner_node-1] [INFO] [1730212864.555382812] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212864.588072448] [local_planner_node]: solve use time 0.028404
+[local_planner_node-1] [INFO] [1730212864.588347518] [local_planner_node]: find feasible solution with score 0.115087
+[local_planner_node-1] [INFO] [1730212864.658254557] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212864.735003441] [local_planner_node]: solve use time 0.055736
+[local_planner_node-1] [INFO] [1730212864.735333975] [local_planner_node]: find feasible solution with score 0.109308
+[local_planner_node-1] [INFO] [1730212864.759811828] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212864.814198152] [local_planner_node]: solve use time 0.042450
+[local_planner_node-1] [INFO] [1730212864.814445776] [local_planner_node]: find feasible solution with score 0.104483
+[local_planner_node-1] [INFO] [1730212864.855071300] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212864.899049619] [local_planner_node]: solve use time 0.035722
+[local_planner_node-1] [INFO] [1730212864.899341134] [local_planner_node]: find feasible solution with score 0.101770
+[local_planner_node-1] [INFO] [1730212864.955113459] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212865.002711695] [local_planner_node]: solve use time 0.039044
+[local_planner_node-1] [INFO] [1730212865.003082178] [local_planner_node]: find feasible solution with score 0.097688
+[local_planner_node-1] [INFO] [1730212865.055382202] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212865.104835297] [local_planner_node]: solve use time 0.038635
+[local_planner_node-1] [INFO] [1730212865.105081440] [local_planner_node]: find feasible solution with score 0.223243
+[local_planner_node-1] [INFO] [1730212865.155564644] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212865.214817190] [local_planner_node]: solve use time 0.044700
+[local_planner_node-1] [INFO] [1730212865.215071476] [local_planner_node]: find feasible solution with score 0.224049
+[local_planner_node-1] [INFO] [1730212865.254867324] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212865.291997843] [local_planner_node]: solve use time 0.032661
+[local_planner_node-1] [INFO] [1730212865.292239558] [local_planner_node]: find feasible solution with score 0.231023
+[local_planner_node-1] [INFO] [1730212865.355104983] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212865.423089548] [local_planner_node]: solve use time 0.057913
+[local_planner_node-1] [INFO] [1730212865.423566231] [local_planner_node]: find feasible solution with score 0.247003
+[local_planner_node-1] [INFO] [1730212865.456478548] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212865.521968988] [local_planner_node]: solve use time 0.050325
+[local_planner_node-1] [INFO] [1730212865.522226961] [local_planner_node]: find feasible solution with score 0.264483
+[local_planner_node-1] [INFO] [1730212865.555064953] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212865.607665319] [local_planner_node]: solve use time 0.043493
+[local_planner_node-1] [INFO] [1730212865.608036109] [local_planner_node]: find feasible solution with score 0.273730
+[local_planner_node-1] [INFO] [1730212865.654688209] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212865.699322815] [local_planner_node]: solve use time 0.036196
+[local_planner_node-1] [INFO] [1730212865.699588993] [local_planner_node]: find feasible solution with score 0.279911
+[local_planner_node-1] [INFO] [1730212865.754673635] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212865.811535045] [local_planner_node]: solve use time 0.048145
+[local_planner_node-1] [INFO] [1730212865.811856292] [local_planner_node]: find feasible solution with score 0.274392
+[local_planner_node-1] [INFO] [1730212865.855415772] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212865.905278046] [local_planner_node]: solve use time 0.041200
+[local_planner_node-1] [INFO] [1730212865.905536206] [local_planner_node]: find feasible solution with score 0.267727
+[local_planner_node-1] [INFO] [1730212865.954681761] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212865.997500797] [local_planner_node]: solve use time 0.034346
+[local_planner_node-1] [INFO] [1730212865.997746117] [local_planner_node]: find feasible solution with score 0.258151
+[local_planner_node-1] [INFO] [1730212866.054869054] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212866.098491892] [local_planner_node]: solve use time 0.039176
+[local_planner_node-1] [INFO] [1730212866.098777949] [local_planner_node]: find feasible solution with score 0.248980
+[local_planner_node-1] [INFO] [1730212866.157751253] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212866.193635575] [local_planner_node]: solve use time 0.031093
+[local_planner_node-1] [INFO] [1730212866.193889823] [local_planner_node]: find feasible solution with score 0.240225
+[local_planner_node-1] [INFO] [1730212866.254924765] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212866.305570810] [local_planner_node]: solve use time 0.043022
+[local_planner_node-1] [INFO] [1730212866.305820862] [local_planner_node]: find feasible solution with score 0.231909
+[local_planner_node-1] [INFO] [1730212866.354689075] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212866.403636915] [local_planner_node]: solve use time 0.039449
+[local_planner_node-1] [INFO] [1730212866.403903181] [local_planner_node]: find feasible solution with score 0.223968
+[local_planner_node-1] [INFO] [1730212866.454908789] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212866.499899395] [local_planner_node]: solve use time 0.036255
+[local_planner_node-1] [INFO] [1730212866.500198725] [local_planner_node]: find feasible solution with score 0.218871
+[local_planner_node-1] [INFO] [1730212866.555058827] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212866.603397194] [local_planner_node]: solve use time 0.040169
+[local_planner_node-1] [INFO] [1730212866.603652611] [local_planner_node]: find feasible solution with score 0.211531
+[local_planner_node-1] [INFO] [1730212866.655536508] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212866.705698930] [local_planner_node]: solve use time 0.040601
+[local_planner_node-1] [INFO] [1730212866.705954290] [local_planner_node]: find feasible solution with score 0.204531
+[local_planner_node-1] [INFO] [1730212866.754561725] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212866.797179058] [local_planner_node]: solve use time 0.033883
+[local_planner_node-1] [INFO] [1730212866.797436998] [local_planner_node]: find feasible solution with score 0.197841
+[local_planner_node-1] [INFO] [1730212866.854732914] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212866.889773528] [local_planner_node]: solve use time 0.030535
+[local_planner_node-1] [INFO] [1730212866.890026120] [local_planner_node]: find feasible solution with score 0.191449
+[local_planner_node-1] [INFO] [1730212866.954910459] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212866.989865421] [local_planner_node]: solve use time 0.030839
+[local_planner_node-1] [INFO] [1730212866.990112142] [local_planner_node]: find feasible solution with score 0.187339
+[local_planner_node-1] [INFO] [1730212867.054581204] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212867.103131973] [local_planner_node]: solve use time 0.038564
+[local_planner_node-1] [INFO] [1730212867.103395034] [local_planner_node]: find feasible solution with score 0.181391
+[local_planner_node-1] [INFO] [1730212867.154633873] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212867.204402894] [local_planner_node]: solve use time 0.041615
+[local_planner_node-1] [INFO] [1730212867.204664096] [local_planner_node]: find feasible solution with score 0.175674
+[local_planner_node-1] [INFO] [1730212867.254917770] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212867.303416715] [local_planner_node]: solve use time 0.040320
+[local_planner_node-1] [INFO] [1730212867.303712430] [local_planner_node]: find feasible solution with score 0.170166
+[local_planner_node-1] [INFO] [1730212867.354661271] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212867.402022729] [local_planner_node]: solve use time 0.038476
+[local_planner_node-1] [INFO] [1730212867.402474186] [local_planner_node]: find feasible solution with score 0.164842
+[local_planner_node-1] [INFO] [1730212867.454821379] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212867.501722384] [local_planner_node]: solve use time 0.038175
+[local_planner_node-1] [INFO] [1730212867.501968335] [local_planner_node]: find feasible solution with score 0.161384
+[local_planner_node-1] [INFO] [1730212867.554526881] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212867.599127034] [local_planner_node]: solve use time 0.036437
+[local_planner_node-1] [INFO] [1730212867.599375765] [local_planner_node]: find feasible solution with score 0.156312
+[local_planner_node-1] [INFO] [1730212867.654795126] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212867.688333163] [local_planner_node]: solve use time 0.029083
+[local_planner_node-1] [INFO] [1730212867.688634820] [local_planner_node]: find feasible solution with score 0.151349
+[local_planner_node-1] [INFO] [1730212867.755223723] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212867.789483917] [local_planner_node]: solve use time 0.030154
+[local_planner_node-1] [INFO] [1730212867.789760116] [local_planner_node]: find feasible solution with score 0.146488
+[local_planner_node-1] [INFO] [1730212867.854883065] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212867.901765183] [local_planner_node]: solve use time 0.038721
+[local_planner_node-1] [INFO] [1730212867.902050252] [local_planner_node]: find feasible solution with score 0.141699
+[local_planner_node-1] [INFO] [1730212867.955042611] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212868.008917576] [local_planner_node]: solve use time 0.042626
+[local_planner_node-1] [INFO] [1730212868.009296400] [local_planner_node]: find feasible solution with score 0.138531
+[local_planner_node-1] [INFO] [1730212868.055045466] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212868.098278434] [local_planner_node]: solve use time 0.034885
+[local_planner_node-1] [INFO] [1730212868.098570613] [local_planner_node]: find feasible solution with score 0.133820
+[local_planner_node-1] [INFO] [1730212868.156308926] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212868.201342173] [local_planner_node]: solve use time 0.035214
+[local_planner_node-1] [INFO] [1730212868.201629799] [local_planner_node]: find feasible solution with score 0.129179
+[local_planner_node-1] [INFO] [1730212868.254774049] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212868.298335053] [local_planner_node]: solve use time 0.034364
+[local_planner_node-1] [INFO] [1730212868.298622714] [local_planner_node]: find feasible solution with score 0.124629
+[local_planner_node-1] [INFO] [1730212868.354665303] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212868.399270078] [local_planner_node]: solve use time 0.035644
+[local_planner_node-1] [INFO] [1730212868.399511228] [local_planner_node]: find feasible solution with score 0.120017
+[local_planner_node-1] [INFO] [1730212868.455019588] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212868.489536561] [local_planner_node]: solve use time 0.029861
+[local_planner_node-1] [INFO] [1730212868.489800092] [local_planner_node]: find feasible solution with score 0.115080
+[local_planner_node-1] [INFO] [1730212868.554964073] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212868.592150212] [local_planner_node]: solve use time 0.033126
+[local_planner_node-1] [INFO] [1730212868.592412861] [local_planner_node]: find feasible solution with score 0.111616
+[local_planner_node-1] [INFO] [1730212868.655176448] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212868.701411659] [local_planner_node]: solve use time 0.036766
+[local_planner_node-1] [INFO] [1730212868.701670614] [local_planner_node]: find feasible solution with score 0.106497
+[local_planner_node-1] [INFO] [1730212868.754677948] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212868.795737537] [local_planner_node]: solve use time 0.032392
+[local_planner_node-1] [INFO] [1730212868.796039064] [local_planner_node]: find feasible solution with score 0.101891
+[local_planner_node-1] [INFO] [1730212868.855027757] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212868.901135809] [local_planner_node]: solve use time 0.037345
+[local_planner_node-1] [INFO] [1730212868.901438845] [local_planner_node]: find feasible solution with score 0.098379
+[local_planner_node-1] [INFO] [1730212868.955154422] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212868.997861039] [local_planner_node]: solve use time 0.033539
+[local_planner_node-1] [INFO] [1730212868.998119840] [local_planner_node]: find feasible solution with score 0.095988
+[local_planner_node-1] [INFO] [1730212869.054877263] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212869.098217691] [local_planner_node]: solve use time 0.034389
+[local_planner_node-1] [INFO] [1730212869.098530444] [local_planner_node]: find feasible solution with score 0.094499
+[local_planner_node-1] [INFO] [1730212869.157188737] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212869.204174174] [local_planner_node]: solve use time 0.034919
+[local_planner_node-1] [INFO] [1730212869.204478277] [local_planner_node]: find feasible solution with score 0.093708
+[local_planner_node-1] [INFO] [1730212869.254768713] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212869.291807999] [local_planner_node]: solve use time 0.032692
+[local_planner_node-1] [INFO] [1730212869.292048086] [local_planner_node]: find feasible solution with score 0.091131
+[local_planner_node-1] [INFO] [1730212869.355536664] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212869.393555088] [local_planner_node]: solve use time 0.033562
+[local_planner_node-1] [INFO] [1730212869.393942391] [local_planner_node]: find feasible solution with score 0.089370
+[local_planner_node-1] [INFO] [1730212869.455049851] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212869.506060456] [local_planner_node]: solve use time 0.041682
+[local_planner_node-1] [INFO] [1730212869.506347126] [local_planner_node]: find feasible solution with score 0.087217
+[local_planner_node-1] [INFO] [1730212869.554688840] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212869.601961315] [local_planner_node]: solve use time 0.037006
+[local_planner_node-1] [INFO] [1730212869.602210102] [local_planner_node]: find feasible solution with score 0.085536
+[local_planner_node-1] [INFO] [1730212869.655125371] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212869.703856298] [local_planner_node]: solve use time 0.040512
+[local_planner_node-1] [INFO] [1730212869.704153791] [local_planner_node]: find feasible solution with score 0.085292
+[local_planner_node-1] [INFO] [1730212869.755009031] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212869.804105132] [local_planner_node]: solve use time 0.040557
+[local_planner_node-1] [INFO] [1730212869.804356799] [local_planner_node]: find feasible solution with score 0.086718
+[local_planner_node-1] [INFO] [1730212869.855059641] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212869.902659073] [local_planner_node]: solve use time 0.039656
+[local_planner_node-1] [INFO] [1730212869.902908649] [local_planner_node]: find feasible solution with score 0.090042
+[local_planner_node-1] [INFO] [1730212869.954543852] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212870.000951576] [local_planner_node]: solve use time 0.037867
+[local_planner_node-1] [INFO] [1730212870.001249199] [local_planner_node]: find feasible solution with score 0.111260
+[local_planner_node-1] [INFO] [1730212870.056279398] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212870.091714701] [local_planner_node]: solve use time 0.030247
+[local_planner_node-1] [INFO] [1730212870.091953531] [local_planner_node]: find feasible solution with score 0.156105
+[local_planner_node-1] [INFO] [1730212870.156325142] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212870.191286467] [local_planner_node]: solve use time 0.030006
+[local_planner_node-1] [INFO] [1730212870.191540230] [local_planner_node]: find feasible solution with score 0.189872
+[local_planner_node-1] [INFO] [1730212870.255070376] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212870.297728731] [local_planner_node]: solve use time 0.034325
+[local_planner_node-1] [INFO] [1730212870.298050839] [local_planner_node]: find feasible solution with score 0.230104
+[local_planner_node-1] [INFO] [1730212870.354499129] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212870.394673503] [local_planner_node]: solve use time 0.031609
+[local_planner_node-1] [INFO] [1730212870.395169655] [local_planner_node]: find feasible solution with score 0.247977
+[local_planner_node-1] [INFO] [1730212870.454753030] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212870.498034242] [local_planner_node]: solve use time 0.033737
+[local_planner_node-1] [INFO] [1730212870.498297504] [local_planner_node]: find feasible solution with score 0.241128
+[local_planner_node-1] [INFO] [1730212870.554939115] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212870.595718347] [local_planner_node]: solve use time 0.032024
+[local_planner_node-1] [INFO] [1730212870.596195630] [local_planner_node]: find feasible solution with score 0.227292
+[local_planner_node-1] [INFO] [1730212870.654662226] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212870.698836908] [local_planner_node]: solve use time 0.035990
+[local_planner_node-1] [INFO] [1730212870.699139394] [local_planner_node]: find feasible solution with score 0.213652
+[local_planner_node-1] [INFO] [1730212870.754535092] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212870.795653864] [local_planner_node]: solve use time 0.032296
+[local_planner_node-1] [INFO] [1730212870.795939072] [local_planner_node]: find feasible solution with score 0.204917
+[local_planner_node-1] [INFO] [1730212870.854784445] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212870.888921239] [local_planner_node]: solve use time 0.029334
+[local_planner_node-1] [INFO] [1730212870.889184769] [local_planner_node]: find feasible solution with score 0.192454
+[local_planner_node-1] [INFO] [1730212870.954780212] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212870.988381264] [local_planner_node]: solve use time 0.029560
+[local_planner_node-1] [INFO] [1730212870.988649843] [local_planner_node]: find feasible solution with score 0.180558
+[local_planner_node-1] [INFO] [1730212871.055772466] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212871.098840725] [local_planner_node]: solve use time 0.033560
+[local_planner_node-1] [INFO] [1730212871.099147739] [local_planner_node]: find feasible solution with score 0.169026
+[local_planner_node-1] [INFO] [1730212871.155195415] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212871.200742757] [local_planner_node]: solve use time 0.036135
+[local_planner_node-1] [INFO] [1730212871.201008199] [local_planner_node]: find feasible solution with score 0.157851
+[local_planner_node-1] [INFO] [1730212871.254843529] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212871.298497002] [local_planner_node]: solve use time 0.035041
+[local_planner_node-1] [INFO] [1730212871.298750321] [local_planner_node]: find feasible solution with score 0.147016
+[local_planner_node-1] [INFO] [1730212871.355548235] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212871.398215188] [local_planner_node]: solve use time 0.033837
+[local_planner_node-1] [INFO] [1730212871.398490161] [local_planner_node]: find feasible solution with score 0.140108
+[local_planner_node-1] [INFO] [1730212871.455494759] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212871.501626482] [local_planner_node]: solve use time 0.036108
+[local_planner_node-1] [INFO] [1730212871.501867334] [local_planner_node]: find feasible solution with score 0.130226
+[local_planner_node-1] [INFO] [1730212871.556051869] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212871.599707329] [local_planner_node]: solve use time 0.034665
+[local_planner_node-1] [INFO] [1730212871.599958191] [local_planner_node]: find feasible solution with score 0.120901
+[local_planner_node-1] [INFO] [1730212871.654929922] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212871.690675139] [local_planner_node]: solve use time 0.030832
+[local_planner_node-1] [INFO] [1730212871.690921860] [local_planner_node]: find feasible solution with score 0.111869
+[local_planner_node-1] [INFO] [1730212871.754863910] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212871.790197341] [local_planner_node]: solve use time 0.031205
+[local_planner_node-1] [INFO] [1730212871.790490376] [local_planner_node]: find feasible solution with score 0.103202
+[local_planner_node-1] [INFO] [1730212871.854959106] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212871.899598144] [local_planner_node]: solve use time 0.036555
+[local_planner_node-1] [INFO] [1730212871.899848659] [local_planner_node]: find feasible solution with score 0.094965
+[local_planner_node-1] [INFO] [1730212871.954358158] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212872.000198804] [local_planner_node]: solve use time 0.036734
+[local_planner_node-1] [INFO] [1730212872.000507846] [local_planner_node]: find feasible solution with score 0.089646
+[local_planner_node-1] [INFO] [1730212872.054630166] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212872.095699576] [local_planner_node]: solve use time 0.031745
+[local_planner_node-1] [INFO] [1730212872.095998431] [local_planner_node]: find feasible solution with score 0.082142
+[local_planner_node-1] [INFO] [1730212872.155755168] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212872.201590834] [local_planner_node]: solve use time 0.037416
+[local_planner_node-1] [INFO] [1730212872.201883051] [local_planner_node]: find feasible solution with score 0.075275
+[local_planner_node-1] [INFO] [1730212872.255374152] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212872.301011119] [local_planner_node]: solve use time 0.034896
+[local_planner_node-1] [INFO] [1730212872.301313552] [local_planner_node]: find feasible solution with score 0.068886
+[local_planner_node-1] [INFO] [1730212872.354996945] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212872.399348588] [local_planner_node]: solve use time 0.035707
+[local_planner_node-1] [INFO] [1730212872.399629790] [local_planner_node]: find feasible solution with score 0.062842
+[local_planner_node-1] [INFO] [1730212872.456072230] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212872.491509457] [local_planner_node]: solve use time 0.030595
+[local_planner_node-1] [INFO] [1730212872.491815166] [local_planner_node]: find feasible solution with score 0.059000
+[local_planner_node-1] [INFO] [1730212872.554727026] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212872.588748950] [local_planner_node]: solve use time 0.029832
+[local_planner_node-1] [INFO] [1730212872.588994936] [local_planner_node]: find feasible solution with score 0.053643
+[local_planner_node-1] [INFO] [1730212872.655206986] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212872.698279603] [local_planner_node]: solve use time 0.035076
+[local_planner_node-1] [INFO] [1730212872.698556978] [local_planner_node]: find feasible solution with score 0.048649
+[local_planner_node-1] [INFO] [1730212872.754708929] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212872.797565108] [local_planner_node]: solve use time 0.034319
+[local_planner_node-1] [INFO] [1730212872.797810842] [local_planner_node]: find feasible solution with score 0.044333
+[local_planner_node-1] [INFO] [1730212872.854589509] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212872.898611955] [local_planner_node]: solve use time 0.034002
+[local_planner_node-1] [INFO] [1730212872.898866275] [local_planner_node]: find feasible solution with score 0.040604
+[local_planner_node-1] [INFO] [1730212872.954829023] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212873.001614661] [local_planner_node]: solve use time 0.036768
+[local_planner_node-1] [INFO] [1730212873.001917691] [local_planner_node]: find feasible solution with score 0.038411
+[local_planner_node-1] [INFO] [1730212873.055078093] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212873.102646844] [local_planner_node]: solve use time 0.039048
+[local_planner_node-1] [INFO] [1730212873.102929577] [local_planner_node]: find feasible solution with score 0.035312
+[local_planner_node-1] [INFO] [1730212873.155241446] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212873.199104146] [local_planner_node]: solve use time 0.035620
+[local_planner_node-1] [INFO] [1730212873.199347975] [local_planner_node]: find feasible solution with score 0.032439
+[local_planner_node-1] [INFO] [1730212873.255445918] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212873.290934514] [local_planner_node]: solve use time 0.031096
+[local_planner_node-1] [INFO] [1730212873.291181731] [local_planner_node]: find feasible solution with score 0.029838
+[local_planner_node-1] [INFO] [1730212873.355098544] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212873.392383324] [local_planner_node]: solve use time 0.032799
+[local_planner_node-1] [INFO] [1730212873.392639819] [local_planner_node]: find feasible solution with score 0.027379
+[local_planner_node-1] [INFO] [1730212873.455548301] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212873.503514725] [local_planner_node]: solve use time 0.038775
+[local_planner_node-1] [INFO] [1730212873.503779311] [local_planner_node]: find feasible solution with score 0.025334
+[local_planner_node-1] [INFO] [1730212873.554996174] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212873.599821281] [local_planner_node]: solve use time 0.035393
+[local_planner_node-1] [INFO] [1730212873.600102683] [local_planner_node]: find feasible solution with score 0.024139
+[local_planner_node-1] [INFO] [1730212873.655338933] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212873.702885248] [local_planner_node]: solve use time 0.039226
+[local_planner_node-1] [INFO] [1730212873.703239535] [local_planner_node]: find feasible solution with score 0.022549
+[local_planner_node-1] [INFO] [1730212873.755321803] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212873.802082249] [local_planner_node]: solve use time 0.036934
+[local_planner_node-1] [INFO] [1730212873.802348812] [local_planner_node]: find feasible solution with score 0.021022
+[local_planner_node-1] [INFO] [1730212873.856265490] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212873.905423356] [local_planner_node]: solve use time 0.038945
+[local_planner_node-1] [INFO] [1730212873.905687272] [local_planner_node]: find feasible solution with score 0.019450
+[local_planner_node-1] [INFO] [1730212873.956152339] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212874.003234250] [local_planner_node]: solve use time 0.036982
+[local_planner_node-1] [INFO] [1730212874.003506479] [local_planner_node]: find feasible solution with score 0.018093
+[local_planner_node-1] [INFO] [1730212874.055743550] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212874.092674985] [local_planner_node]: solve use time 0.031796
+[local_planner_node-1] [INFO] [1730212874.093066668] [local_planner_node]: find feasible solution with score 0.017125
+[local_planner_node-1] [INFO] [1730212874.155371355] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212874.195880511] [local_planner_node]: solve use time 0.035492
+[local_planner_node-1] [INFO] [1730212874.196178050] [local_planner_node]: find feasible solution with score 0.015940
+[local_planner_node-1] [INFO] [1730212874.255173122] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212874.305601340] [local_planner_node]: solve use time 0.040694
+[local_planner_node-1] [INFO] [1730212874.305874725] [local_planner_node]: find feasible solution with score 0.015105
+[local_planner_node-1] [INFO] [1730212874.355189977] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212874.403574121] [local_planner_node]: solve use time 0.038817
+[local_planner_node-1] [INFO] [1730212874.403812426] [local_planner_node]: find feasible solution with score 0.014390
+[local_planner_node-1] [INFO] [1730212874.455599328] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212874.507320515] [local_planner_node]: solve use time 0.042084
+[local_planner_node-1] [INFO] [1730212874.507580997] [local_planner_node]: find feasible solution with score 0.013764
+[local_planner_node-1] [INFO] [1730212874.555924365] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212874.608524542] [local_planner_node]: solve use time 0.040103
+[local_planner_node-1] [INFO] [1730212874.608769106] [local_planner_node]: find feasible solution with score 0.013090
+[local_planner_node-1] [INFO] [1730212874.654864005] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212874.702109288] [local_planner_node]: solve use time 0.038064
+[local_planner_node-1] [INFO] [1730212874.702375463] [local_planner_node]: find feasible solution with score 0.012641
+[local_planner_node-1] [INFO] [1730212874.754506476] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212874.804214964] [local_planner_node]: solve use time 0.040100
+[local_planner_node-1] [INFO] [1730212874.804491403] [local_planner_node]: find feasible solution with score 0.012032
+[local_planner_node-1] [INFO] [1730212874.855486807] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212874.890943436] [local_planner_node]: solve use time 0.030763
+[local_planner_node-1] [INFO] [1730212874.891205529] [local_planner_node]: find feasible solution with score 0.011171
+[local_planner_node-1] [INFO] [1730212874.955606286] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212874.989929711] [local_planner_node]: solve use time 0.030221
+[local_planner_node-1] [INFO] [1730212874.990172804] [local_planner_node]: find feasible solution with score 0.010781
+[local_planner_node-1] [INFO] [1730212875.054750457] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212875.098372031] [local_planner_node]: solve use time 0.033806
+[local_planner_node-1] [INFO] [1730212875.098650482] [local_planner_node]: find feasible solution with score 0.010488
+[local_planner_node-1] [INFO] [1730212875.154941532] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212875.198815167] [local_planner_node]: solve use time 0.033908
+[local_planner_node-1] [INFO] [1730212875.199066923] [local_planner_node]: find feasible solution with score 0.010313
+[local_planner_node-1] [INFO] [1730212875.255646249] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212875.297356014] [local_planner_node]: solve use time 0.033560
+[local_planner_node-1] [INFO] [1730212875.297616022] [local_planner_node]: find feasible solution with score 0.010247
+[local_planner_node-1] [INFO] [1730212875.354707507] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212875.398595535] [local_planner_node]: solve use time 0.035183
+[local_planner_node-1] [INFO] [1730212875.398871981] [local_planner_node]: find feasible solution with score 0.010067
+[local_planner_node-1] [INFO] [1730212875.454760960] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212875.499046796] [local_planner_node]: solve use time 0.035965
+[local_planner_node-1] [INFO] [1730212875.499342222] [local_planner_node]: find feasible solution with score 0.009900
+[local_planner_node-1] [INFO] [1730212875.554855290] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212875.596919960] [local_planner_node]: solve use time 0.032744
+[local_planner_node-1] [INFO] [1730212875.597158498] [local_planner_node]: find feasible solution with score 0.009772
+[local_planner_node-1] [INFO] [1730212875.654889751] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212875.692047289] [local_planner_node]: solve use time 0.032669
+[local_planner_node-1] [INFO] [1730212875.692565060] [local_planner_node]: find feasible solution with score 0.009752
+[local_planner_node-1] [INFO] [1730212875.755177194] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212875.790733959] [local_planner_node]: solve use time 0.031245
+[local_planner_node-1] [INFO] [1730212875.790959655] [local_planner_node]: find feasible solution with score 0.009619
+[local_planner_node-1] [INFO] [1730212875.855279773] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212875.900397969] [local_planner_node]: solve use time 0.035380
+[local_planner_node-1] [INFO] [1730212875.900638033] [local_planner_node]: find feasible solution with score 0.009544
+[local_planner_node-1] [INFO] [1730212875.954683430] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212876.002407946] [local_planner_node]: solve use time 0.036776
+[local_planner_node-1] [INFO] [1730212876.002730081] [local_planner_node]: find feasible solution with score 0.009492
+[local_planner_node-1] [INFO] [1730212876.054790787] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212876.096098582] [local_planner_node]: solve use time 0.033181
+[local_planner_node-1] [INFO] [1730212876.096365946] [local_planner_node]: find feasible solution with score 0.009651
+[local_planner_node-1] [INFO] [1730212876.156020061] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212876.198373697] [local_planner_node]: solve use time 0.033666
+[local_planner_node-1] [INFO] [1730212876.198620140] [local_planner_node]: find feasible solution with score 0.010250
+[local_planner_node-1] [INFO] [1730212876.254757271] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212876.300680934] [local_planner_node]: solve use time 0.035324
+[local_planner_node-1] [INFO] [1730212876.300933927] [local_planner_node]: find feasible solution with score 0.009733
+[local_planner_node-1] [INFO] [1730212876.354510617] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212876.397308243] [local_planner_node]: solve use time 0.033391
+[local_planner_node-1] [INFO] [1730212876.397539095] [local_planner_node]: find feasible solution with score 0.008929
+[local_planner_node-1] [INFO] [1730212876.454989440] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212876.490481676] [local_planner_node]: solve use time 0.031045
+[local_planner_node-1] [INFO] [1730212876.490726904] [local_planner_node]: find feasible solution with score 0.008354
+[local_planner_node-1] [INFO] [1730212876.555516127] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212876.589716033] [local_planner_node]: solve use time 0.029981
+[local_planner_node-1] [INFO] [1730212876.589972974] [local_planner_node]: find feasible solution with score 0.007832
+[local_planner_node-1] [INFO] [1730212876.655744712] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212876.705290566] [local_planner_node]: solve use time 0.039099
+[local_planner_node-1] [INFO] [1730212876.705579464] [local_planner_node]: find feasible solution with score 0.007375
+[local_planner_node-1] [INFO] [1730212876.754736611] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212876.806990673] [local_planner_node]: solve use time 0.040528
+[local_planner_node-1] [INFO] [1730212876.807272457] [local_planner_node]: find feasible solution with score 0.006931
+[local_planner_node-1] [INFO] [1730212876.854817334] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212876.896254650] [local_planner_node]: solve use time 0.032913
+[local_planner_node-1] [INFO] [1730212876.896503584] [local_planner_node]: find feasible solution with score 0.006689
+[local_planner_node-1] [INFO] [1730212876.954991465] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212876.997819579] [local_planner_node]: solve use time 0.033559
+[local_planner_node-1] [INFO] [1730212876.998071622] [local_planner_node]: find feasible solution with score 0.006360
+[local_planner_node-1] [INFO] [1730212877.054819975] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212877.101318761] [local_planner_node]: solve use time 0.036441
+[local_planner_node-1] [INFO] [1730212877.101571401] [local_planner_node]: find feasible solution with score 0.006105
+[local_planner_node-1] [INFO] [1730212877.155066575] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212877.197345769] [local_planner_node]: solve use time 0.033656
+[local_planner_node-1] [INFO] [1730212877.197588391] [local_planner_node]: find feasible solution with score 0.006096
+[local_planner_node-1] [INFO] [1730212877.254897382] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212877.288562860] [local_planner_node]: solve use time 0.029186
+[local_planner_node-1] [INFO] [1730212877.288809845] [local_planner_node]: find feasible solution with score 0.006101
+[local_planner_node-1] [INFO] [1730212877.355165325] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212877.388434162] [local_planner_node]: solve use time 0.029133
+[local_planner_node-1] [INFO] [1730212877.388690073] [local_planner_node]: find feasible solution with score 0.006101
+[local_planner_node-1] [INFO] [1730212877.454903877] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212877.499649415] [local_planner_node]: solve use time 0.034832
+[local_planner_node-1] [INFO] [1730212877.499908012] [local_planner_node]: find feasible solution with score 0.006116
+[local_planner_node-1] [INFO] [1730212877.554389545] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212877.597562613] [local_planner_node]: solve use time 0.034832
+[local_planner_node-1] [INFO] [1730212877.597836380] [local_planner_node]: find feasible solution with score 0.006095
+[local_planner_node-1] [INFO] [1730212877.655139782] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212877.697741611] [local_planner_node]: solve use time 0.034492
+[local_planner_node-1] [INFO] [1730212877.698060237] [local_planner_node]: find feasible solution with score 0.006101
+[local_planner_node-1] [INFO] [1730212877.754735381] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212877.800528878] [local_planner_node]: solve use time 0.036527
+[local_planner_node-1] [INFO] [1730212877.800810829] [local_planner_node]: find feasible solution with score 0.006084
+[local_planner_node-1] [INFO] [1730212877.854882316] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212877.903281034] [local_planner_node]: solve use time 0.039258
+[local_planner_node-1] [INFO] [1730212877.903523466] [local_planner_node]: find feasible solution with score 0.005929
+[local_planner_node-1] [INFO] [1730212877.955195224] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212878.000203442] [local_planner_node]: solve use time 0.035814
+[local_planner_node-1] [INFO] [1730212878.000477064] [local_planner_node]: find feasible solution with score 0.005816
+[local_planner_node-1] [INFO] [1730212878.055055722] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212878.088447523] [local_planner_node]: solve use time 0.028974
+[local_planner_node-1] [INFO] [1730212878.088734521] [local_planner_node]: find feasible solution with score 0.005807
+[local_planner_node-1] [INFO] [1730212878.155311740] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212878.189343762] [local_planner_node]: solve use time 0.029680
+[local_planner_node-1] [INFO] [1730212878.189607396] [local_planner_node]: find feasible solution with score 0.005965
+[local_planner_node-1] [INFO] [1730212878.255512684] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212878.298159659] [local_planner_node]: solve use time 0.033823
+[local_planner_node-1] [INFO] [1730212878.299239974] [local_planner_node]: find feasible solution with score 0.005888
+[local_planner_node-1] [INFO] [1730212878.354646028] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212878.400902436] [local_planner_node]: solve use time 0.037072
+[local_planner_node-1] [INFO] [1730212878.401160009] [local_planner_node]: find feasible solution with score 0.005461
+[local_planner_node-1] [INFO] [1730212878.454662841] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212878.497401419] [local_planner_node]: solve use time 0.032698
+[local_planner_node-1] [INFO] [1730212878.497662948] [local_planner_node]: find feasible solution with score 0.005286
+[local_planner_node-1] [INFO] [1730212878.555124148] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212878.596835309] [local_planner_node]: solve use time 0.033431
+[local_planner_node-1] [INFO] [1730212878.597100140] [local_planner_node]: find feasible solution with score 0.004947
+[local_planner_node-1] [INFO] [1730212878.655179026] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212878.702371372] [local_planner_node]: solve use time 0.037760
+[local_planner_node-1] [INFO] [1730212878.702830350] [local_planner_node]: find feasible solution with score 0.004742
+[local_planner_node-1] [INFO] [1730212878.754733655] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212878.798475003] [local_planner_node]: solve use time 0.032964
+[local_planner_node-1] [INFO] [1730212878.798726762] [local_planner_node]: find feasible solution with score 0.004501
+[local_planner_node-1] [INFO] [1730212878.855257026] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212878.890679858] [local_planner_node]: solve use time 0.030671
+[local_planner_node-1] [INFO] [1730212878.890931280] [local_planner_node]: find feasible solution with score 0.004342
+[local_planner_node-1] [INFO] [1730212878.954753348] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212878.989370754] [local_planner_node]: solve use time 0.030463
+[local_planner_node-1] [INFO] [1730212878.989623600] [local_planner_node]: find feasible solution with score 0.004375
+[local_planner_node-1] [INFO] [1730212879.054820776] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212879.100585850] [local_planner_node]: solve use time 0.035197
+[local_planner_node-1] [INFO] [1730212879.100823358] [local_planner_node]: find feasible solution with score 0.004390
+[local_planner_node-1] [INFO] [1730212879.155116513] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212879.198872904] [local_planner_node]: solve use time 0.035343
+[local_planner_node-1] [INFO] [1730212879.199135849] [local_planner_node]: find feasible solution with score 0.004414
+[local_planner_node-1] [INFO] [1730212879.254692076] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212879.297286894] [local_planner_node]: solve use time 0.033316
+[local_planner_node-1] [INFO] [1730212879.298056327] [local_planner_node]: find feasible solution with score 0.004467
+[local_planner_node-1] [INFO] [1730212879.354775560] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212879.398303680] [local_planner_node]: solve use time 0.034544
+[local_planner_node-1] [INFO] [1730212879.398593630] [local_planner_node]: find feasible solution with score 0.004440
+[local_planner_node-1] [INFO] [1730212879.454879571] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212879.498319130] [local_planner_node]: solve use time 0.034952
+[local_planner_node-1] [INFO] [1730212879.498585129] [local_planner_node]: find feasible solution with score 0.004537
+[local_planner_node-1] [INFO] [1730212879.554584133] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212879.599471969] [local_planner_node]: solve use time 0.036322
+[local_planner_node-1] [INFO] [1730212879.599705193] [local_planner_node]: find feasible solution with score 0.004432
+[local_planner_node-1] [INFO] [1730212879.654966062] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212879.689758597] [local_planner_node]: solve use time 0.030382
+[local_planner_node-1] [INFO] [1730212879.690017602] [local_planner_node]: find feasible solution with score 0.004378
+[local_planner_node-1] [INFO] [1730212879.754682156] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212879.789145670] [local_planner_node]: solve use time 0.030361
+[local_planner_node-1] [INFO] [1730212879.789385341] [local_planner_node]: find feasible solution with score 0.004358
+[local_planner_node-1] [INFO] [1730212879.854818471] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212879.897492801] [local_planner_node]: solve use time 0.034677
+[local_planner_node-1] [INFO] [1730212879.897791829] [local_planner_node]: find feasible solution with score 0.004311
+[local_planner_node-1] [INFO] [1730212879.954557428] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212879.998954705] [local_planner_node]: solve use time 0.035765
+[local_planner_node-1] [INFO] [1730212879.999219460] [local_planner_node]: find feasible solution with score 0.004300
+[local_planner_node-1] [INFO] [1730212880.054714481] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212880.098689155] [local_planner_node]: solve use time 0.034691
+[local_planner_node-1] [INFO] [1730212880.098967200] [local_planner_node]: find feasible solution with score 0.004335
+[local_planner_node-1] [INFO] [1730212880.155836406] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212880.199430955] [local_planner_node]: solve use time 0.035109
+[local_planner_node-1] [INFO] [1730212880.199769611] [local_planner_node]: find feasible solution with score 0.004194
+[local_planner_node-1] [INFO] [1730212880.255173905] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212880.299424142] [local_planner_node]: solve use time 0.036241
+[local_planner_node-1] [INFO] [1730212880.299669103] [local_planner_node]: find feasible solution with score 0.004212
+[local_planner_node-1] [INFO] [1730212880.354557657] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212880.401176876] [local_planner_node]: solve use time 0.037948
+[local_planner_node-1] [INFO] [1730212880.401448006] [local_planner_node]: find feasible solution with score 0.004142
+[local_planner_node-1] [INFO] [1730212880.455272615] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212880.489783070] [local_planner_node]: solve use time 0.029832
+[local_planner_node-1] [INFO] [1730212880.490063377] [local_planner_node]: find feasible solution with score 0.003923
+[local_planner_node-1] [INFO] [1730212880.554702362] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212880.590171172] [local_planner_node]: solve use time 0.031374
+[local_planner_node-1] [INFO] [1730212880.590404240] [local_planner_node]: find feasible solution with score 0.003761
+[local_planner_node-1] [INFO] [1730212880.654753674] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212880.700813485] [local_planner_node]: solve use time 0.036828
+[local_planner_node-1] [INFO] [1730212880.701067185] [local_planner_node]: find feasible solution with score 0.003751
+[local_planner_node-1] [INFO] [1730212880.754564421] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212880.798638628] [local_planner_node]: solve use time 0.034410
+[local_planner_node-1] [INFO] [1730212880.799146392] [local_planner_node]: find feasible solution with score 0.003759
+[local_planner_node-1] [INFO] [1730212880.854888170] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212880.897083728] [local_planner_node]: solve use time 0.033479
+[local_planner_node-1] [INFO] [1730212880.897315976] [local_planner_node]: find feasible solution with score 0.003764
+[local_planner_node-1] [INFO] [1730212880.955377714] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212881.002863389] [local_planner_node]: solve use time 0.037878
+[local_planner_node-1] [INFO] [1730212881.003130197] [local_planner_node]: find feasible solution with score 0.003777
+[local_planner_node-1] [INFO] [1730212881.055378938] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212881.105271425] [local_planner_node]: solve use time 0.039477
+[local_planner_node-1] [INFO] [1730212881.105567631] [local_planner_node]: find feasible solution with score 0.003789
+[local_planner_node-1] [INFO] [1730212881.157401097] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212881.204850227] [local_planner_node]: solve use time 0.036221
+[local_planner_node-1] [INFO] [1730212881.205117170] [local_planner_node]: find feasible solution with score 0.003787
+[local_planner_node-1] [INFO] [1730212881.254750613] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212881.289017167] [local_planner_node]: solve use time 0.029857
+[local_planner_node-1] [INFO] [1730212881.289262859] [local_planner_node]: find feasible solution with score 0.003841
+[local_planner_node-1] [INFO] [1730212881.354930868] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212881.388557451] [local_planner_node]: solve use time 0.029472
+[local_planner_node-1] [INFO] [1730212881.388838684] [local_planner_node]: find feasible solution with score 0.003906
+[local_planner_node-1] [INFO] [1730212881.455028569] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212881.498628469] [local_planner_node]: solve use time 0.035303
+[local_planner_node-1] [INFO] [1730212881.498902699] [local_planner_node]: find feasible solution with score 0.003772
+[local_planner_node-1] [INFO] [1730212881.554504763] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212881.598737026] [local_planner_node]: solve use time 0.036160
+[local_planner_node-1] [INFO] [1730212881.598996229] [local_planner_node]: find feasible solution with score 0.003528
+[local_planner_node-1] [INFO] [1730212881.654950438] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212881.698173353] [local_planner_node]: solve use time 0.033254
+[local_planner_node-1] [INFO] [1730212881.698420032] [local_planner_node]: find feasible solution with score 0.003570
+[local_planner_node-1] [INFO] [1730212881.754719447] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212881.799861401] [local_planner_node]: solve use time 0.037022
+[local_planner_node-1] [INFO] [1730212881.800150035] [local_planner_node]: find feasible solution with score 0.003556
+[local_planner_node-1] [INFO] [1730212881.855129009] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212881.898278327] [local_planner_node]: solve use time 0.034878
+[local_planner_node-1] [INFO] [1730212881.898577741] [local_planner_node]: find feasible solution with score 0.003544
+[local_planner_node-1] [INFO] [1730212881.954720231] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212882.001282063] [local_planner_node]: solve use time 0.038112
+[local_planner_node-1] [INFO] [1730212882.001560853] [local_planner_node]: find feasible solution with score 0.003540
+[local_planner_node-1] [INFO] [1730212882.054748548] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212882.087607154] [local_planner_node]: solve use time 0.028357
+[local_planner_node-1] [INFO] [1730212882.087893729] [local_planner_node]: find feasible solution with score 0.003533
+[local_planner_node-1] [INFO] [1730212882.155632725] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212882.190804997] [local_planner_node]: solve use time 0.031060
+[local_planner_node-1] [INFO] [1730212882.191049176] [local_planner_node]: find feasible solution with score 0.003671
+[local_planner_node-1] [INFO] [1730212882.254710243] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212882.298725178] [local_planner_node]: solve use time 0.034758
+[local_planner_node-1] [INFO] [1730212882.298976383] [local_planner_node]: find feasible solution with score 0.003693
+[local_planner_node-1] [INFO] [1730212882.354719859] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212882.398747308] [local_planner_node]: solve use time 0.033694
+[local_planner_node-1] [INFO] [1730212882.399006226] [local_planner_node]: find feasible solution with score 0.003535
+[local_planner_node-1] [INFO] [1730212882.454788578] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212882.500144117] [local_planner_node]: solve use time 0.036891
+[local_planner_node-1] [INFO] [1730212882.500414599] [local_planner_node]: find feasible solution with score 0.003372
+[local_planner_node-1] [INFO] [1730212882.554834540] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212882.598053963] [local_planner_node]: solve use time 0.035245
+[local_planner_node-1] [INFO] [1730212882.598321862] [local_planner_node]: find feasible solution with score 0.003411
+[local_planner_node-1] [INFO] [1730212882.654928805] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212882.698003264] [local_planner_node]: solve use time 0.034147
+[local_planner_node-1] [INFO] [1730212882.698282301] [local_planner_node]: find feasible solution with score 0.003397
+[local_planner_node-1] [INFO] [1730212882.754545976] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212882.796561451] [local_planner_node]: solve use time 0.033705
+[local_planner_node-1] [INFO] [1730212882.796820766] [local_planner_node]: find feasible solution with score 0.003399
+[local_planner_node-1] [INFO] [1730212882.854738785] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212882.888107717] [local_planner_node]: solve use time 0.028851
+[local_planner_node-1] [INFO] [1730212882.888397571] [local_planner_node]: find feasible solution with score 0.003482
+[local_planner_node-1] [INFO] [1730212882.954695827] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212882.989239702] [local_planner_node]: solve use time 0.030482
+[local_planner_node-1] [INFO] [1730212882.989501856] [local_planner_node]: find feasible solution with score 0.003241
+[local_planner_node-1] [INFO] [1730212883.054973193] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212883.097677593] [local_planner_node]: solve use time 0.034085
+[local_planner_node-1] [INFO] [1730212883.097972647] [local_planner_node]: find feasible solution with score 0.003272
+[local_planner_node-1] [INFO] [1730212883.155455778] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212883.203170867] [local_planner_node]: solve use time 0.038894
+[local_planner_node-1] [INFO] [1730212883.203443112] [local_planner_node]: find feasible solution with score 0.003393
+[local_planner_node-1] [INFO] [1730212883.254850760] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212883.299229131] [local_planner_node]: solve use time 0.035230
+[local_planner_node-1] [INFO] [1730212883.299495209] [local_planner_node]: find feasible solution with score 0.003193
+[local_planner_node-1] [INFO] [1730212883.355055660] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212883.398102093] [local_planner_node]: solve use time 0.034848
+[local_planner_node-1] [INFO] [1730212883.398395234] [local_planner_node]: find feasible solution with score 0.003020
+[local_planner_node-1] [INFO] [1730212883.456851149] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212883.504777156] [local_planner_node]: solve use time 0.037204
+[local_planner_node-1] [INFO] [1730212883.505049656] [local_planner_node]: find feasible solution with score 0.002990
+[local_planner_node-1] [INFO] [1730212883.554557337] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212883.602355456] [local_planner_node]: solve use time 0.036955
+[local_planner_node-1] [INFO] [1730212883.602618367] [local_planner_node]: find feasible solution with score 0.003017
+[local_planner_node-1] [INFO] [1730212883.654850562] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212883.690023148] [local_planner_node]: solve use time 0.029529
+[local_planner_node-1] [INFO] [1730212883.690305895] [local_planner_node]: find feasible solution with score 0.003046
+[local_planner_node-1] [INFO] [1730212883.754867295] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212883.790770342] [local_planner_node]: solve use time 0.031797
+[local_planner_node-1] [INFO] [1730212883.791032075] [local_planner_node]: find feasible solution with score 0.003051
+[local_planner_node-1] [INFO] [1730212883.854803553] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212883.900542558] [local_planner_node]: solve use time 0.036099
+[local_planner_node-1] [INFO] [1730212883.900840648] [local_planner_node]: find feasible solution with score 0.003094
+[local_planner_node-1] [INFO] [1730212883.954674255] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212883.999484267] [local_planner_node]: solve use time 0.034555
+[local_planner_node-1] [INFO] [1730212883.999786267] [local_planner_node]: find feasible solution with score 0.003098
+[local_planner_node-1] [INFO] [1730212884.056112028] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212884.100159611] [local_planner_node]: solve use time 0.034208
+[local_planner_node-1] [INFO] [1730212884.100439580] [local_planner_node]: find feasible solution with score 0.003195
+[local_planner_node-1] [INFO] [1730212884.155322238] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212884.197154509] [local_planner_node]: solve use time 0.033208
+[local_planner_node-1] [INFO] [1730212884.197419968] [local_planner_node]: find feasible solution with score 0.003131
+[local_planner_node-1] [INFO] [1730212884.254845345] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212884.301680592] [local_planner_node]: solve use time 0.036158
+[local_planner_node-1] [INFO] [1730212884.301932479] [local_planner_node]: find feasible solution with score 0.003029
+[local_planner_node-1] [INFO] [1730212884.354566641] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212884.403900730] [local_planner_node]: solve use time 0.039673
+[local_planner_node-1] [INFO] [1730212884.404192418] [local_planner_node]: find feasible solution with score 0.003025
+[local_planner_node-1] [INFO] [1730212884.455494389] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212884.492392258] [local_planner_node]: solve use time 0.032057
+[local_planner_node-1] [INFO] [1730212884.492656157] [local_planner_node]: find feasible solution with score 0.003006
+[local_planner_node-1] [INFO] [1730212884.555347513] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212884.589524264] [local_planner_node]: solve use time 0.029668
+[local_planner_node-1] [INFO] [1730212884.589772741] [local_planner_node]: find feasible solution with score 0.003027
+[local_planner_node-1] [INFO] [1730212884.655481839] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212884.697451616] [local_planner_node]: solve use time 0.033746
+[local_planner_node-1] [INFO] [1730212884.697767548] [local_planner_node]: find feasible solution with score 0.003090
+[local_planner_node-1] [INFO] [1730212884.754752628] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212884.802127939] [local_planner_node]: solve use time 0.037620
+[local_planner_node-1] [INFO] [1730212884.802602253] [local_planner_node]: find feasible solution with score 0.002899
+[local_planner_node-1] [INFO] [1730212884.854931564] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212884.897662377] [local_planner_node]: solve use time 0.033063
+[local_planner_node-1] [INFO] [1730212884.897918703] [local_planner_node]: find feasible solution with score 0.002921
+[local_planner_node-1] [INFO] [1730212884.955003889] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212884.997091775] [local_planner_node]: solve use time 0.033809
+[local_planner_node-1] [INFO] [1730212884.997396798] [local_planner_node]: find feasible solution with score 0.003033
+[local_planner_node-1] [INFO] [1730212885.054720241] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212885.097219362] [local_planner_node]: solve use time 0.034410
+[local_planner_node-1] [INFO] [1730212885.097963861] [local_planner_node]: find feasible solution with score 0.002885
+[local_planner_node-1] [INFO] [1730212885.155016488] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212885.199419452] [local_planner_node]: solve use time 0.035018
+[local_planner_node-1] [INFO] [1730212885.199657875] [local_planner_node]: find feasible solution with score 0.002660
+[local_planner_node-1] [INFO] [1730212885.254963781] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212885.289001207] [local_planner_node]: solve use time 0.029426
+[local_planner_node-1] [INFO] [1730212885.289321444] [local_planner_node]: find feasible solution with score 0.002552
+[local_planner_node-1] [INFO] [1730212885.356213421] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212885.394802278] [local_planner_node]: solve use time 0.033044
+[local_planner_node-1] [INFO] [1730212885.395203208] [local_planner_node]: find feasible solution with score 0.002569
+[local_planner_node-1] [INFO] [1730212885.454864522] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212885.498868146] [local_planner_node]: solve use time 0.035457
+[local_planner_node-1] [INFO] [1730212885.499118490] [local_planner_node]: find feasible solution with score 0.002578
+[local_planner_node-1] [INFO] [1730212885.554607959] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212885.599355423] [local_planner_node]: solve use time 0.035682
+[local_planner_node-1] [INFO] [1730212885.599602435] [local_planner_node]: find feasible solution with score 0.002601
+[local_planner_node-1] [INFO] [1730212885.655244308] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212885.696251980] [local_planner_node]: solve use time 0.032835
+[local_planner_node-1] [INFO] [1730212885.696477466] [local_planner_node]: find feasible solution with score 0.002623
+[local_planner_node-1] [INFO] [1730212885.755143686] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212885.797131276] [local_planner_node]: solve use time 0.033904
+[local_planner_node-1] [INFO] [1730212885.797412672] [local_planner_node]: find feasible solution with score 0.002625
+[local_planner_node-1] [INFO] [1730212885.854874304] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212885.898614515] [local_planner_node]: solve use time 0.033837
+[local_planner_node-1] [INFO] [1730212885.898871043] [local_planner_node]: find feasible solution with score 0.002662
+[local_planner_node-1] [INFO] [1730212885.954557981] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212885.998265328] [local_planner_node]: solve use time 0.034923
+[local_planner_node-1] [INFO] [1730212885.998521321] [local_planner_node]: find feasible solution with score 0.002616
+[local_planner_node-1] [INFO] [1730212886.055525417] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212886.090221342] [local_planner_node]: solve use time 0.029404
+[local_planner_node-1] [INFO] [1730212886.090487381] [local_planner_node]: find feasible solution with score 0.002625
+[local_planner_node-1] [INFO] [1730212886.155670234] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212886.191672652] [local_planner_node]: solve use time 0.030365
+[local_planner_node-1] [INFO] [1730212886.192151010] [local_planner_node]: find feasible solution with score 0.002554
+[local_planner_node-1] [INFO] [1730212886.255182684] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212886.297592653] [local_planner_node]: solve use time 0.033148
+[local_planner_node-1] [INFO] [1730212886.297856635] [local_planner_node]: find feasible solution with score 0.002555
+[local_planner_node-1] [INFO] [1730212886.354793082] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212886.400163882] [local_planner_node]: solve use time 0.035226
+[local_planner_node-1] [INFO] [1730212886.400407097] [local_planner_node]: find feasible solution with score 0.002568
+[local_planner_node-1] [INFO] [1730212886.455389302] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212886.501534025] [local_planner_node]: solve use time 0.036846
+[local_planner_node-1] [INFO] [1730212886.501821877] [local_planner_node]: find feasible solution with score 0.002466
+[local_planner_node-1] [INFO] [1730212886.555080538] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212886.601696264] [local_planner_node]: solve use time 0.038136
+[local_planner_node-1] [INFO] [1730212886.602001863] [local_planner_node]: find feasible solution with score 0.002541
+[local_planner_node-1] [INFO] [1730212886.655602473] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212886.703511651] [local_planner_node]: solve use time 0.038377
+[local_planner_node-1] [INFO] [1730212886.703765359] [local_planner_node]: find feasible solution with score 0.002510
+[local_planner_node-1] [INFO] [1730212886.755239124] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212886.799439352] [local_planner_node]: solve use time 0.034585
+[local_planner_node-1] [INFO] [1730212886.799705054] [local_planner_node]: find feasible solution with score 0.002387
+[local_planner_node-1] [INFO] [1730212886.855552645] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212886.892916595] [local_planner_node]: solve use time 0.032379
+[local_planner_node-1] [INFO] [1730212886.893153489] [local_planner_node]: find feasible solution with score 0.002233
+[local_planner_node-1] [INFO] [1730212886.955706804] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212886.991373637] [local_planner_node]: solve use time 0.031098
+[local_planner_node-1] [INFO] [1730212886.991641674] [local_planner_node]: find feasible solution with score 0.002248
+[local_planner_node-1] [INFO] [1730212887.055282912] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212887.098145763] [local_planner_node]: solve use time 0.034181
+[local_planner_node-1] [INFO] [1730212887.098432620] [local_planner_node]: find feasible solution with score 0.002273
+[local_planner_node-1] [INFO] [1730212887.155012813] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212887.201303010] [local_planner_node]: solve use time 0.036871
+[local_planner_node-1] [INFO] [1730212887.201548824] [local_planner_node]: find feasible solution with score 0.002281
+[local_planner_node-1] [INFO] [1730212887.255226849] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212887.298505022] [local_planner_node]: solve use time 0.033927
+[local_planner_node-1] [INFO] [1730212887.298769379] [local_planner_node]: find feasible solution with score 0.002309
+[local_planner_node-1] [INFO] [1730212887.355142787] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212887.398262350] [local_planner_node]: solve use time 0.035078
+[local_planner_node-1] [INFO] [1730212887.398561130] [local_planner_node]: find feasible solution with score 0.002300
+[local_planner_node-1] [INFO] [1730212887.455468471] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212887.505626871] [local_planner_node]: solve use time 0.039770
+[local_planner_node-1] [INFO] [1730212887.505880974] [local_planner_node]: find feasible solution with score 0.002319
+[local_planner_node-1] [INFO] [1730212887.554650160] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212887.601282360] [local_planner_node]: solve use time 0.036563
+[local_planner_node-1] [INFO] [1730212887.601539898] [local_planner_node]: find feasible solution with score 0.002318
+[local_planner_node-1] [INFO] [1730212887.655380461] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212887.689816393] [local_planner_node]: solve use time 0.029822
+[local_planner_node-1] [INFO] [1730212887.690063502] [local_planner_node]: find feasible solution with score 0.002232
+[local_planner_node-1] [INFO] [1730212887.754609203] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212887.787697706] [local_planner_node]: solve use time 0.028955
+[local_planner_node-1] [INFO] [1730212887.787938879] [local_planner_node]: find feasible solution with score 0.002249
+[local_planner_node-1] [INFO] [1730212887.854948668] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212887.898017805] [local_planner_node]: solve use time 0.034043
+[local_planner_node-1] [INFO] [1730212887.898317953] [local_planner_node]: find feasible solution with score 0.002218
+[local_planner_node-1] [INFO] [1730212887.954558564] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212888.001702146] [local_planner_node]: solve use time 0.037084
+[local_planner_node-1] [INFO] [1730212888.001961407] [local_planner_node]: find feasible solution with score 0.002240
+[local_planner_node-1] [INFO] [1730212888.054920608] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212888.096115570] [local_planner_node]: solve use time 0.032852
+[local_planner_node-1] [INFO] [1730212888.096368006] [local_planner_node]: find feasible solution with score 0.002283
+[local_planner_node-1] [INFO] [1730212888.156194989] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212888.200327378] [local_planner_node]: solve use time 0.035742
+[local_planner_node-1] [INFO] [1730212888.200615409] [local_planner_node]: find feasible solution with score 0.002116
+[local_planner_node-1] [INFO] [1730212888.254886930] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212888.299235087] [local_planner_node]: solve use time 0.034804
+[local_planner_node-1] [INFO] [1730212888.299491957] [local_planner_node]: find feasible solution with score 0.002167
+[local_planner_node-1] [INFO] [1730212888.354559462] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212888.398280240] [local_planner_node]: solve use time 0.035079
+[local_planner_node-1] [INFO] [1730212888.398545317] [local_planner_node]: find feasible solution with score 0.002123
+[local_planner_node-1] [INFO] [1730212888.455804549] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212888.490089683] [local_planner_node]: solve use time 0.029341
+[local_planner_node-1] [INFO] [1730212888.490352077] [local_planner_node]: find feasible solution with score 0.002008
+[local_planner_node-1] [INFO] [1730212888.554819739] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212888.590942045] [local_planner_node]: solve use time 0.031810
+[local_planner_node-1] [INFO] [1730212888.591190283] [local_planner_node]: find feasible solution with score 0.001898
+[local_planner_node-1] [INFO] [1730212888.655040099] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212888.698210668] [local_planner_node]: solve use time 0.034970
+[local_planner_node-1] [INFO] [1730212888.698483932] [local_planner_node]: find feasible solution with score 0.001918
+[local_planner_node-1] [INFO] [1730212888.754650530] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212888.798090757] [local_planner_node]: solve use time 0.035047
+[local_planner_node-1] [INFO] [1730212888.798328629] [local_planner_node]: find feasible solution with score 0.001934
+[local_planner_node-1] [INFO] [1730212888.854783018] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212888.898347053] [local_planner_node]: solve use time 0.034324
+[local_planner_node-1] [INFO] [1730212888.898586083] [local_planner_node]: find feasible solution with score 0.001941
+[local_planner_node-1] [INFO] [1730212888.954978924] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212888.999960366] [local_planner_node]: solve use time 0.035190
+[local_planner_node-1] [INFO] [1730212889.000288986] [local_planner_node]: find feasible solution with score 0.001954
+[local_planner_node-1] [INFO] [1730212889.055365494] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212889.099551900] [local_planner_node]: solve use time 0.035543
+[local_planner_node-1] [INFO] [1730212889.099836045] [local_planner_node]: find feasible solution with score 0.001942
+[local_planner_node-1] [INFO] [1730212889.155400671] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212889.200598207] [local_planner_node]: solve use time 0.035067
+[local_planner_node-1] [INFO] [1730212889.200849751] [local_planner_node]: find feasible solution with score 0.001974
+[local_planner_node-1] [INFO] [1730212889.255392624] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212889.290540802] [local_planner_node]: solve use time 0.029852
+[local_planner_node-1] [INFO] [1730212889.290800083] [local_planner_node]: find feasible solution with score 0.001956
+[local_planner_node-1] [INFO] [1730212889.356090244] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212889.391403275] [local_planner_node]: solve use time 0.030586
+[local_planner_node-1] [INFO] [1730212889.391598481] [local_planner_node]: find feasible solution with score 0.001869
+[local_planner_node-1] [INFO] [1730212889.454871106] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212889.501394190] [local_planner_node]: solve use time 0.036992
+[local_planner_node-1] [INFO] [1730212889.501653590] [local_planner_node]: find feasible solution with score 0.001882
+[local_planner_node-1] [INFO] [1730212889.554505772] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212889.601767000] [local_planner_node]: solve use time 0.038311
+[local_planner_node-1] [INFO] [1730212889.602012662] [local_planner_node]: find feasible solution with score 0.001873
+[local_planner_node-1] [INFO] [1730212889.655116784] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212889.699100450] [local_planner_node]: solve use time 0.035597
+[local_planner_node-1] [INFO] [1730212889.699423314] [local_planner_node]: find feasible solution with score 0.001906
+[local_planner_node-1] [INFO] [1730212889.755494861] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212889.799691872] [local_planner_node]: solve use time 0.033861
+[local_planner_node-1] [INFO] [1730212889.800025167] [local_planner_node]: find feasible solution with score 0.001992
+[local_planner_node-1] [INFO] [1730212889.855460384] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212889.900245784] [local_planner_node]: solve use time 0.036313
+[local_planner_node-1] [INFO] [1730212889.900537478] [local_planner_node]: find feasible solution with score 0.001768
+[local_planner_node-1] [INFO] [1730212889.954535128] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212889.998915177] [local_planner_node]: solve use time 0.034581
+[local_planner_node-1] [INFO] [1730212889.999150849] [local_planner_node]: find feasible solution with score 0.001816
+[local_planner_node-1] [INFO] [1730212890.054895607] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212890.090693269] [local_planner_node]: solve use time 0.031322
+[local_planner_node-1] [INFO] [1730212890.090968919] [local_planner_node]: find feasible solution with score 0.001788
+[local_planner_node-1] [INFO] [1730212890.155373012] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212890.189143171] [local_planner_node]: solve use time 0.029625
+[local_planner_node-1] [INFO] [1730212890.189395572] [local_planner_node]: find feasible solution with score 0.001689
+[local_planner_node-1] [INFO] [1730212890.255124639] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212890.298529780] [local_planner_node]: solve use time 0.035195
+[local_planner_node-1] [INFO] [1730212890.298776501] [local_planner_node]: find feasible solution with score 0.001607
+[local_planner_node-1] [INFO] [1730212890.354555480] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212890.399398075] [local_planner_node]: solve use time 0.035751
+[local_planner_node-1] [INFO] [1730212890.399678995] [local_planner_node]: find feasible solution with score 0.001634
+[local_planner_node-1] [INFO] [1730212890.456014292] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212890.497905669] [local_planner_node]: solve use time 0.033137
+[local_planner_node-1] [INFO] [1730212890.498153960] [local_planner_node]: find feasible solution with score 0.001676
+[local_planner_node-1] [INFO] [1730212890.555238668] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212890.599358517] [local_planner_node]: solve use time 0.035514
+[local_planner_node-1] [INFO] [1730212890.599677014] [local_planner_node]: find feasible solution with score 0.001665
+[local_planner_node-1] [INFO] [1730212890.655131676] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212890.700428716] [local_planner_node]: solve use time 0.035928
+[local_planner_node-1] [INFO] [1730212890.700704674] [local_planner_node]: find feasible solution with score 0.001660
+[local_planner_node-1] [INFO] [1730212890.754726122] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212890.797536872] [local_planner_node]: solve use time 0.033909
+[local_planner_node-1] [INFO] [1730212890.797786879] [local_planner_node]: find feasible solution with score 0.001646
+[local_planner_node-1] [INFO] [1730212890.855950174] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212890.891064301] [local_planner_node]: solve use time 0.030483
+[local_planner_node-1] [INFO] [1730212890.891318668] [local_planner_node]: find feasible solution with score 0.001722
+[local_planner_node-1] [INFO] [1730212890.954756474] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212890.988041118] [local_planner_node]: solve use time 0.029251
+[local_planner_node-1] [INFO] [1730212890.988284030] [local_planner_node]: find feasible solution with score 0.001707
+[local_planner_node-1] [INFO] [1730212891.054843138] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212891.098623181] [local_planner_node]: solve use time 0.034880
+[local_planner_node-1] [INFO] [1730212891.098898268] [local_planner_node]: find feasible solution with score 0.001574
+[local_planner_node-1] [INFO] [1730212891.155485107] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212891.202073408] [local_planner_node]: solve use time 0.035608
+[local_planner_node-1] [INFO] [1730212891.202401431] [local_planner_node]: find feasible solution with score 0.001582
+[local_planner_node-1] [INFO] [1730212891.254712310] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212891.301217083] [local_planner_node]: solve use time 0.038073
+[local_planner_node-1] [INFO] [1730212891.301521749] [local_planner_node]: find feasible solution with score 0.001568
+[local_planner_node-1] [INFO] [1730212891.355316603] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212891.400161829] [local_planner_node]: solve use time 0.034563
+[local_planner_node-1] [INFO] [1730212891.400484619] [local_planner_node]: find feasible solution with score 0.001579
+[local_planner_node-1] [INFO] [1730212891.455410894] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212891.504014121] [local_planner_node]: solve use time 0.038810
+[local_planner_node-1] [INFO] [1730212891.504380562] [local_planner_node]: find feasible solution with score 0.001648
+[local_planner_node-1] [INFO] [1730212891.554754519] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212891.604618641] [local_planner_node]: solve use time 0.039877
+[local_planner_node-1] [INFO] [1730212891.604890592] [local_planner_node]: find feasible solution with score 0.001476
+[local_planner_node-1] [INFO] [1730212891.655590541] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212891.692490805] [local_planner_node]: solve use time 0.031549
+[local_planner_node-1] [INFO] [1730212891.692859807] [local_planner_node]: find feasible solution with score 0.001537
+[local_planner_node-1] [INFO] [1730212891.755521909] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212891.791039804] [local_planner_node]: solve use time 0.030412
+[local_planner_node-1] [INFO] [1730212891.791271968] [local_planner_node]: find feasible solution with score 0.001627
+[local_planner_node-1] [INFO] [1730212891.855112883] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212891.897149185] [local_planner_node]: solve use time 0.033537
+[local_planner_node-1] [INFO] [1730212891.897472237] [local_planner_node]: find feasible solution with score 0.001533
+[local_planner_node-1] [INFO] [1730212891.954370813] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212891.997531284] [local_planner_node]: solve use time 0.034990
+[local_planner_node-1] [INFO] [1730212891.997833866] [local_planner_node]: find feasible solution with score 0.001382
+[local_planner_node-1] [INFO] [1730212892.055279175] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212892.101112510] [local_planner_node]: solve use time 0.036406
+[local_planner_node-1] [INFO] [1730212892.101398324] [local_planner_node]: find feasible solution with score 0.001391
+[local_planner_node-1] [INFO] [1730212892.158509799] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212892.214836213] [local_planner_node]: solve use time 0.043793
+[local_planner_node-1] [INFO] [1730212892.215154117] [local_planner_node]: find feasible solution with score 0.001429
+[local_planner_node-1] [INFO] [1730212892.255905218] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212892.300141347] [local_planner_node]: solve use time 0.035420
+[local_planner_node-1] [INFO] [1730212892.300386225] [local_planner_node]: find feasible solution with score 0.001435
+[local_planner_node-1] [INFO] [1730212892.355225919] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212892.403476750] [local_planner_node]: solve use time 0.038142
+[local_planner_node-1] [INFO] [1730212892.403722731] [local_planner_node]: find feasible solution with score 0.001443
+[local_planner_node-1] [INFO] [1730212892.455388520] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212892.493730810] [local_planner_node]: solve use time 0.033497
+[local_planner_node-1] [INFO] [1730212892.494202568] [local_planner_node]: find feasible solution with score 0.001444
+[local_planner_node-1] [INFO] [1730212892.555740658] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212892.592784547] [local_planner_node]: solve use time 0.032083
+[local_planner_node-1] [INFO] [1730212892.593069281] [local_planner_node]: find feasible solution with score 0.001480
+[local_planner_node-1] [INFO] [1730212892.655085997] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212892.705002287] [local_planner_node]: solve use time 0.038493
+[local_planner_node-1] [INFO] [1730212892.705240759] [local_planner_node]: find feasible solution with score 0.001462
+[local_planner_node-1] [INFO] [1730212892.756610838] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212892.807140707] [local_planner_node]: solve use time 0.038695
+[local_planner_node-1] [INFO] [1730212892.807490819] [local_planner_node]: find feasible solution with score 0.001439
+[local_planner_node-1] [INFO] [1730212892.855654835] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212892.901449476] [local_planner_node]: solve use time 0.036232
+[local_planner_node-1] [INFO] [1730212892.901749579] [local_planner_node]: find feasible solution with score 0.001423
+[local_planner_node-1] [INFO] [1730212892.955691317] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212893.003078449] [local_planner_node]: solve use time 0.036774
+[local_planner_node-1] [INFO] [1730212893.003325587] [local_planner_node]: find feasible solution with score 0.001396
+[local_planner_node-1] [INFO] [1730212893.055161977] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212893.097764768] [local_planner_node]: solve use time 0.033428
+[local_planner_node-1] [INFO] [1730212893.098067809] [local_planner_node]: find feasible solution with score 0.001411
+[local_planner_node-1] [INFO] [1730212893.157164784] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212893.203195174] [local_planner_node]: solve use time 0.035932
+[local_planner_node-1] [INFO] [1730212893.203437970] [local_planner_node]: find feasible solution with score 0.001378
+[local_planner_node-1] [INFO] [1730212893.255194560] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212893.290938433] [local_planner_node]: solve use time 0.031286
+[local_planner_node-1] [INFO] [1730212893.291183251] [local_planner_node]: find feasible solution with score 0.001359
+[local_planner_node-1] [INFO] [1730212893.355551716] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212893.390543645] [local_planner_node]: solve use time 0.029658
+[local_planner_node-1] [INFO] [1730212893.390906298] [local_planner_node]: find feasible solution with score 0.001377
+[local_planner_node-1] [INFO] [1730212893.455122448] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212893.497636037] [local_planner_node]: solve use time 0.033510
+[local_planner_node-1] [INFO] [1730212893.497929098] [local_planner_node]: find feasible solution with score 0.001322
+[local_planner_node-1] [INFO] [1730212893.554999337] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212893.601777543] [local_planner_node]: solve use time 0.037216
+[local_planner_node-1] [INFO] [1730212893.602040397] [local_planner_node]: find feasible solution with score 0.001205
+[local_planner_node-1] [INFO] [1730212893.654688469] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212893.698767867] [local_planner_node]: solve use time 0.035074
+[local_planner_node-1] [INFO] [1730212893.699016859] [local_planner_node]: find feasible solution with score 0.001208
+[local_planner_node-1] [INFO] [1730212893.755928887] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212893.804097141] [local_planner_node]: solve use time 0.038675
+[local_planner_node-1] [INFO] [1730212893.804362068] [local_planner_node]: find feasible solution with score 0.001203
+[local_planner_node-1] [INFO] [1730212893.855601776] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212893.903564487] [local_planner_node]: solve use time 0.037493
+[local_planner_node-1] [INFO] [1730212893.903806831] [local_planner_node]: find feasible solution with score 0.001213
+[local_planner_node-1] [INFO] [1730212893.955256226] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212894.007242367] [local_planner_node]: solve use time 0.041048
+[local_planner_node-1] [INFO] [1730212894.007549793] [local_planner_node]: find feasible solution with score 0.001204
+[local_planner_node-1] [INFO] [1730212894.054939909] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212894.095259525] [local_planner_node]: solve use time 0.035731
+[local_planner_node-1] [INFO] [1730212894.095556540] [local_planner_node]: find feasible solution with score 0.001204
+[local_planner_node-1] [INFO] [1730212894.155981491] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212894.192880420] [local_planner_node]: solve use time 0.032453
+[local_planner_node-1] [INFO] [1730212894.193225489] [local_planner_node]: find feasible solution with score 0.001238
+[local_planner_node-1] [INFO] [1730212894.255066327] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212894.297065716] [local_planner_node]: solve use time 0.032909
+[local_planner_node-1] [INFO] [1730212894.297332782] [local_planner_node]: find feasible solution with score 0.001347
+[local_planner_node-1] [INFO] [1730212894.355039766] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212894.401116943] [local_planner_node]: solve use time 0.036280
+[local_planner_node-1] [INFO] [1730212894.401355881] [local_planner_node]: find feasible solution with score 0.001312
+[local_planner_node-1] [INFO] [1730212894.455452854] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212894.499039559] [local_planner_node]: solve use time 0.034283
+[local_planner_node-1] [INFO] [1730212894.499305635] [local_planner_node]: find feasible solution with score 0.001111
+[local_planner_node-1] [INFO] [1730212894.554986502] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212894.597770791] [local_planner_node]: solve use time 0.033770
+[local_planner_node-1] [INFO] [1730212894.598066207] [local_planner_node]: find feasible solution with score 0.001132
+[local_planner_node-1] [INFO] [1730212894.655408119] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212894.701707348] [local_planner_node]: solve use time 0.036921
+[local_planner_node-1] [INFO] [1730212894.701957377] [local_planner_node]: find feasible solution with score 0.001127
+[local_planner_node-1] [INFO] [1730212894.754773290] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212894.798901401] [local_planner_node]: solve use time 0.035452
+[local_planner_node-1] [INFO] [1730212894.799162440] [local_planner_node]: find feasible solution with score 0.001120
+[local_planner_node-1] [INFO] [1730212894.854953247] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212894.890297772] [local_planner_node]: solve use time 0.030795
+[local_planner_node-1] [INFO] [1730212894.890549967] [local_planner_node]: find feasible solution with score 0.001120
+[local_planner_node-1] [INFO] [1730212894.955248987] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212894.989434673] [local_planner_node]: solve use time 0.028890
+[local_planner_node-1] [INFO] [1730212894.989713062] [local_planner_node]: find feasible solution with score 0.001117
+[local_planner_node-1] [INFO] [1730212895.054754246] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212895.096589470] [local_planner_node]: solve use time 0.033877
+[local_planner_node-1] [INFO] [1730212895.096873441] [local_planner_node]: find feasible solution with score 0.001208
+[local_planner_node-1] [INFO] [1730212895.155632422] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212895.201303775] [local_planner_node]: solve use time 0.035610
+[local_planner_node-1] [INFO] [1730212895.201552494] [local_planner_node]: find feasible solution with score 0.001263
+[local_planner_node-1] [INFO] [1730212895.254742690] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212895.298416704] [local_planner_node]: solve use time 0.033865
+[local_planner_node-1] [INFO] [1730212895.298656911] [local_planner_node]: find feasible solution with score 0.001252
+[local_planner_node-1] [INFO] [1730212895.355208155] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212895.403114722] [local_planner_node]: solve use time 0.039457
+[local_planner_node-1] [INFO] [1730212895.403412901] [local_planner_node]: find feasible solution with score 0.001039
+[local_planner_node-1] [INFO] [1730212895.455608040] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212895.503734693] [local_planner_node]: solve use time 0.036528
+[local_planner_node-1] [INFO] [1730212895.503975054] [local_planner_node]: find feasible solution with score 0.001050
+[local_planner_node-1] [INFO] [1730212895.555334227] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212895.604535186] [local_planner_node]: solve use time 0.037661
+[local_planner_node-1] [INFO] [1730212895.604796169] [local_planner_node]: find feasible solution with score 0.001034
+[local_planner_node-1] [INFO] [1730212895.655039862] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212895.687766806] [local_planner_node]: solve use time 0.028051
+[local_planner_node-1] [INFO] [1730212895.688057662] [local_planner_node]: find feasible solution with score 0.001042
+[local_planner_node-1] [INFO] [1730212895.755046636] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212895.788512540] [local_planner_node]: solve use time 0.029253
+[local_planner_node-1] [INFO] [1730212895.788797645] [local_planner_node]: find feasible solution with score 0.001155
+[local_planner_node-1] [INFO] [1730212895.854909409] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212895.903143736] [local_planner_node]: solve use time 0.038600
+[local_planner_node-1] [INFO] [1730212895.903460062] [local_planner_node]: find feasible solution with score 0.000951
+[local_planner_node-1] [INFO] [1730212895.954452636] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212895.999349850] [local_planner_node]: solve use time 0.034988
+[local_planner_node-1] [INFO] [1730212895.999586756] [local_planner_node]: find feasible solution with score 0.000994
+[local_planner_node-1] [INFO] [1730212896.055980871] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212896.101840654] [local_planner_node]: solve use time 0.035970
+[local_planner_node-1] [INFO] [1730212896.102129626] [local_planner_node]: find feasible solution with score 0.000954
+[local_planner_node-1] [INFO] [1730212896.155778324] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212896.202476580] [local_planner_node]: solve use time 0.036751
+[local_planner_node-1] [INFO] [1730212896.202815980] [local_planner_node]: find feasible solution with score 0.000854
+[local_planner_node-1] [INFO] [1730212896.255136030] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212896.302794008] [local_planner_node]: solve use time 0.037710
+[local_planner_node-1] [INFO] [1730212896.303041701] [local_planner_node]: find feasible solution with score 0.000839
+[local_planner_node-1] [INFO] [1730212896.355108263] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212896.404191566] [local_planner_node]: solve use time 0.038704
+[local_planner_node-1] [INFO] [1730212896.404502255] [local_planner_node]: find feasible solution with score 0.000854
+[local_planner_node-1] [INFO] [1730212896.455105914] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212896.488388235] [local_planner_node]: solve use time 0.027598
+[local_planner_node-1] [INFO] [1730212896.488658328] [local_planner_node]: find feasible solution with score 0.000898
+[local_planner_node-1] [INFO] [1730212896.554879721] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212896.588089937] [local_planner_node]: solve use time 0.028996
+[local_planner_node-1] [INFO] [1730212896.588356876] [local_planner_node]: find feasible solution with score 0.000901
+[local_planner_node-1] [INFO] [1730212896.654776543] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212896.699401657] [local_planner_node]: solve use time 0.035666
+[local_planner_node-1] [INFO] [1730212896.699660860] [local_planner_node]: find feasible solution with score 0.000869
+[local_planner_node-1] [INFO] [1730212896.754454378] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212896.799421183] [local_planner_node]: solve use time 0.035092
+[local_planner_node-1] [INFO] [1730212896.799678892] [local_planner_node]: find feasible solution with score 0.000843
+[local_planner_node-1] [INFO] [1730212896.854786306] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212896.897351238] [local_planner_node]: solve use time 0.034413
+[local_planner_node-1] [INFO] [1730212896.897608989] [local_planner_node]: find feasible solution with score 0.000870
+[local_planner_node-1] [INFO] [1730212896.955110370] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212896.998488645] [local_planner_node]: solve use time 0.034039
+[local_planner_node-1] [INFO] [1730212896.998783449] [local_planner_node]: find feasible solution with score 0.000873
+[local_planner_node-1] [INFO] [1730212897.055018333] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212897.100097569] [local_planner_node]: solve use time 0.034631
+[local_planner_node-1] [INFO] [1730212897.100351212] [local_planner_node]: find feasible solution with score 0.000833
+[local_planner_node-1] [INFO] [1730212897.155238873] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212897.198464545] [local_planner_node]: solve use time 0.034496
+[local_planner_node-1] [INFO] [1730212897.198713587] [local_planner_node]: find feasible solution with score 0.000723
+[local_planner_node-1] [INFO] [1730212897.254920649] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212897.290773312] [local_planner_node]: solve use time 0.031371
+[local_planner_node-1] [INFO] [1730212897.291010185] [local_planner_node]: find feasible solution with score 0.000724
+[local_planner_node-1] [INFO] [1730212897.354892820] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212897.388905496] [local_planner_node]: solve use time 0.029894
+[local_planner_node-1] [INFO] [1730212897.389150616] [local_planner_node]: find feasible solution with score 0.000721
+[local_planner_node-1] [INFO] [1730212897.455094307] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212897.499498747] [local_planner_node]: solve use time 0.036236
+[local_planner_node-1] [INFO] [1730212897.499749391] [local_planner_node]: find feasible solution with score 0.000730
+[local_planner_node-1] [INFO] [1730212897.554467441] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212897.598164906] [local_planner_node]: solve use time 0.035627
+[local_planner_node-1] [INFO] [1730212897.598415613] [local_planner_node]: find feasible solution with score 0.000734
+[local_planner_node-1] [INFO] [1730212897.655385589] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212897.699045456] [local_planner_node]: solve use time 0.033833
+[local_planner_node-1] [INFO] [1730212897.699311434] [local_planner_node]: find feasible solution with score 0.000689
+[local_planner_node-1] [INFO] [1730212897.755025018] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212897.799756137] [local_planner_node]: solve use time 0.036634
+[local_planner_node-1] [INFO] [1730212897.800226502] [local_planner_node]: find feasible solution with score 0.000743
+[local_planner_node-1] [INFO] [1730212897.855668688] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212897.898429070] [local_planner_node]: solve use time 0.033209
+[local_planner_node-1] [INFO] [1730212897.898680366] [local_planner_node]: find feasible solution with score 0.000752
+[local_planner_node-1] [INFO] [1730212897.954542302] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212898.001253167] [local_planner_node]: solve use time 0.037993
+[local_planner_node-1] [INFO] [1730212898.001502512] [local_planner_node]: find feasible solution with score 0.000646
+[local_planner_node-1] [INFO] [1730212898.055243191] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212898.088116824] [local_planner_node]: solve use time 0.027182
+[local_planner_node-1] [INFO] [1730212898.088454344] [local_planner_node]: find feasible solution with score 0.000615
+[local_planner_node-1] [INFO] [1730212898.156374720] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212898.190122491] [local_planner_node]: solve use time 0.029280
+[local_planner_node-1] [INFO] [1730212898.190372496] [local_planner_node]: find feasible solution with score 0.000601
+[local_planner_node-1] [INFO] [1730212898.255173636] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212898.301820027] [local_planner_node]: solve use time 0.037594
+[local_planner_node-1] [INFO] [1730212898.302109785] [local_planner_node]: find feasible solution with score 0.000607
+[local_planner_node-1] [INFO] [1730212898.355058958] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212898.407566226] [local_planner_node]: solve use time 0.041505
+[local_planner_node-1] [INFO] [1730212898.407860503] [local_planner_node]: find feasible solution with score 0.000597
+[local_planner_node-1] [INFO] [1730212898.455588621] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212898.500638787] [local_planner_node]: solve use time 0.035701
+[local_planner_node-1] [INFO] [1730212898.500901654] [local_planner_node]: find feasible solution with score 0.000591
+[local_planner_node-1] [INFO] [1730212898.554735712] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212898.600949690] [local_planner_node]: solve use time 0.037560
+[local_planner_node-1] [INFO] [1730212898.601243080] [local_planner_node]: find feasible solution with score 0.000593
+[local_planner_node-1] [INFO] [1730212898.655688408] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212898.704108066] [local_planner_node]: solve use time 0.038567
+[local_planner_node-1] [INFO] [1730212898.704347837] [local_planner_node]: find feasible solution with score 0.000643
+[local_planner_node-1] [INFO] [1730212898.755185900] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212898.800769377] [local_planner_node]: solve use time 0.036058
+[local_planner_node-1] [INFO] [1730212898.801007513] [local_planner_node]: find feasible solution with score 0.000551
+[local_planner_node-1] [INFO] [1730212898.854754749] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212898.887216777] [local_planner_node]: solve use time 0.027961
+[local_planner_node-1] [INFO] [1730212898.887521376] [local_planner_node]: find feasible solution with score 0.000527
+[local_planner_node-1] [INFO] [1730212898.955666163] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212898.998307851] [local_planner_node]: solve use time 0.037406
+[local_planner_node-1] [INFO] [1730212898.998616354] [local_planner_node]: find feasible solution with score 0.000519
+[local_planner_node-1] [INFO] [1730212899.055256903] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212899.106341785] [local_planner_node]: solve use time 0.040831
+[local_planner_node-1] [INFO] [1730212899.106597409] [local_planner_node]: find feasible solution with score 0.000529
+[local_planner_node-1] [INFO] [1730212899.155587812] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212899.205956296] [local_planner_node]: solve use time 0.040288
+[local_planner_node-1] [INFO] [1730212899.206276371] [local_planner_node]: find feasible solution with score 0.000525
+[local_planner_node-1] [INFO] [1730212899.256004301] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212899.301010760] [local_planner_node]: solve use time 0.035621
+[local_planner_node-1] [INFO] [1730212899.301334031] [local_planner_node]: find feasible solution with score 0.000510
+[local_planner_node-1] [INFO] [1730212899.355114907] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212899.397680732] [local_planner_node]: solve use time 0.033373
+[local_planner_node-1] [INFO] [1730212899.397967959] [local_planner_node]: find feasible solution with score 0.000546
+[local_planner_node-1] [INFO] [1730212899.455809520] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212899.498987060] [local_planner_node]: solve use time 0.033476
+[local_planner_node-1] [INFO] [1730212899.499269197] [local_planner_node]: find feasible solution with score 0.000592
+[local_planner_node-1] [INFO] [1730212899.554618609] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212899.600747079] [local_planner_node]: solve use time 0.036623
+[local_planner_node-1] [INFO] [1730212899.601024130] [local_planner_node]: find feasible solution with score 0.000583
+[local_planner_node-1] [INFO] [1730212899.655725118] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212899.690831425] [local_planner_node]: solve use time 0.029265
+[local_planner_node-1] [INFO] [1730212899.691097449] [local_planner_node]: find feasible solution with score 0.000455
+[local_planner_node-1] [INFO] [1730212899.755707836] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212899.792147083] [local_planner_node]: solve use time 0.031613
+[local_planner_node-1] [INFO] [1730212899.792424112] [local_planner_node]: find feasible solution with score 0.000447
+[local_planner_node-1] [INFO] [1730212899.855018398] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212899.899888494] [local_planner_node]: solve use time 0.036466
+[local_planner_node-1] [INFO] [1730212899.900129224] [local_planner_node]: find feasible solution with score 0.000443
+[local_planner_node-1] [INFO] [1730212899.954426055] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212899.999789921] [local_planner_node]: solve use time 0.035077
+[local_planner_node-1] [INFO] [1730212900.000046121] [local_planner_node]: find feasible solution with score 0.000455
+[local_planner_node-1] [INFO] [1730212900.054805282] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212900.097285419] [local_planner_node]: solve use time 0.034338
+[local_planner_node-1] [INFO] [1730212900.097587322] [local_planner_node]: find feasible solution with score 0.000430
+[local_planner_node-1] [INFO] [1730212900.156287573] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212900.200751978] [local_planner_node]: solve use time 0.036462
+[local_planner_node-1] [INFO] [1730212900.201038148] [local_planner_node]: find feasible solution with score 0.000421
+[local_planner_node-1] [INFO] [1730212900.255069345] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212900.300442087] [local_planner_node]: solve use time 0.034948
+[local_planner_node-1] [INFO] [1730212900.300685177] [local_planner_node]: find feasible solution with score 0.000469
+[local_planner_node-1] [INFO] [1730212900.354692445] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212900.398721937] [local_planner_node]: solve use time 0.034814
+[local_planner_node-1] [INFO] [1730212900.398953751] [local_planner_node]: find feasible solution with score 0.000448
+[local_planner_node-1] [INFO] [1730212900.455076144] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212900.495649540] [local_planner_node]: solve use time 0.035084
+[local_planner_node-1] [INFO] [1730212900.495887274] [local_planner_node]: find feasible solution with score 0.000360
+[local_planner_node-1] [INFO] [1730212900.554972476] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212900.591114535] [local_planner_node]: solve use time 0.031965
+[local_planner_node-1] [INFO] [1730212900.591379479] [local_planner_node]: find feasible solution with score 0.000348
+[local_planner_node-1] [INFO] [1730212900.654873477] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212900.700484179] [local_planner_node]: solve use time 0.035850
+[local_planner_node-1] [INFO] [1730212900.700723320] [local_planner_node]: find feasible solution with score 0.000344
+[local_planner_node-1] [INFO] [1730212900.754365424] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212900.798270808] [local_planner_node]: solve use time 0.035669
+[local_planner_node-1] [INFO] [1730212900.798523486] [local_planner_node]: find feasible solution with score 0.000369
+[local_planner_node-1] [INFO] [1730212900.854859673] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212900.898425830] [local_planner_node]: solve use time 0.034767
+[local_planner_node-1] [INFO] [1730212900.898702648] [local_planner_node]: find feasible solution with score 0.000337
+[local_planner_node-1] [INFO] [1730212900.954871520] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212900.998604158] [local_planner_node]: solve use time 0.034873
+[local_planner_node-1] [INFO] [1730212900.998917051] [local_planner_node]: find feasible solution with score 0.000328
+[local_planner_node-1] [INFO] [1730212901.054808719] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212901.097721266] [local_planner_node]: solve use time 0.033732
+[local_planner_node-1] [INFO] [1730212901.097981944] [local_planner_node]: find feasible solution with score 0.000355
+[local_planner_node-1] [INFO] [1730212901.156459407] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212901.206814370] [local_planner_node]: solve use time 0.039909
+[local_planner_node-1] [INFO] [1730212901.207085337] [local_planner_node]: find feasible solution with score 0.000312
+[local_planner_node-1] [INFO] [1730212901.255292369] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212901.295621087] [local_planner_node]: solve use time 0.034702
+[local_planner_node-1] [INFO] [1730212901.295877382] [local_planner_node]: find feasible solution with score 0.000261
+[local_planner_node-1] [INFO] [1730212901.356100123] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212901.395583921] [local_planner_node]: solve use time 0.034417
+[local_planner_node-1] [INFO] [1730212901.395855720] [local_planner_node]: find feasible solution with score 0.000260
+[local_planner_node-1] [INFO] [1730212901.454905460] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212901.500332043] [local_planner_node]: solve use time 0.036483
+[local_planner_node-1] [INFO] [1730212901.500613759] [local_planner_node]: find feasible solution with score 0.000264
+[local_planner_node-1] [INFO] [1730212901.554499939] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212901.598316263] [local_planner_node]: solve use time 0.034064
+[local_planner_node-1] [INFO] [1730212901.598561445] [local_planner_node]: find feasible solution with score 0.000344
+[local_planner_node-1] [INFO] [1730212901.654678783] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212901.696678384] [local_planner_node]: solve use time 0.033267
+[local_planner_node-1] [INFO] [1730212901.696946246] [local_planner_node]: find feasible solution with score 0.000252
+[local_planner_node-1] [INFO] [1730212901.755254392] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212901.800529686] [local_planner_node]: solve use time 0.035844
+[local_planner_node-1] [INFO] [1730212901.800810864] [local_planner_node]: find feasible solution with score 0.000224
+[local_planner_node-1] [INFO] [1730212901.856020840] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212901.900817927] [local_planner_node]: solve use time 0.034949
+[local_planner_node-1] [INFO] [1730212901.901065651] [local_planner_node]: find feasible solution with score 0.000252
+[local_planner_node-1] [INFO] [1730212901.954668294] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212901.998938590] [local_planner_node]: solve use time 0.035714
+[local_planner_node-1] [INFO] [1730212901.999185786] [local_planner_node]: find feasible solution with score 0.000261
+[local_planner_node-1] [INFO] [1730212902.055450131] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212902.091361062] [local_planner_node]: solve use time 0.030526
+[local_planner_node-1] [INFO] [1730212902.091600921] [local_planner_node]: find feasible solution with score 0.000206
+[local_planner_node-1] [INFO] [1730212902.155422967] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212902.187939951] [local_planner_node]: solve use time 0.028095
+[local_planner_node-1] [INFO] [1730212902.188251395] [local_planner_node]: find feasible solution with score 0.000169
+[local_planner_node-1] [INFO] [1730212902.254854971] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212902.299366977] [local_planner_node]: solve use time 0.034870
+[local_planner_node-1] [INFO] [1730212902.299612775] [local_planner_node]: find feasible solution with score 0.000158
+[local_planner_node-1] [INFO] [1730212902.354355248] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212902.402654207] [local_planner_node]: solve use time 0.038180
+[local_planner_node-1] [INFO] [1730212902.402921038] [local_planner_node]: find feasible solution with score 0.000177
+[local_planner_node-1] [INFO] [1730212902.454872434] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212902.498997534] [local_planner_node]: solve use time 0.035816
+[local_planner_node-1] [INFO] [1730212902.499264883] [local_planner_node]: find feasible solution with score 0.000186
+[local_planner_node-1] [INFO] [1730212902.555567148] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212902.599563470] [local_planner_node]: solve use time 0.034242
+[local_planner_node-1] [INFO] [1730212902.599867114] [local_planner_node]: find feasible solution with score 0.000143
+[local_planner_node-1] [INFO] [1730212902.656867704] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212902.707246400] [local_planner_node]: solve use time 0.038251
+[local_planner_node-1] [INFO] [1730212902.707492360] [local_planner_node]: find feasible solution with score 0.000151
+[local_planner_node-1] [INFO] [1730212902.755296333] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212902.806665106] [local_planner_node]: solve use time 0.038804
+[local_planner_node-1] [INFO] [1730212902.806967686] [local_planner_node]: find feasible solution with score 0.000150
+[local_planner_node-1] [INFO] [1730212902.855051986] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212902.889930170] [local_planner_node]: solve use time 0.030162
+[local_planner_node-1] [INFO] [1730212902.890188343] [local_planner_node]: find feasible solution with score 0.000147
+[local_planner_node-1] [INFO] [1730212902.955380929] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212902.990310492] [local_planner_node]: solve use time 0.030158
+[local_planner_node-1] [INFO] [1730212902.990608149] [local_planner_node]: find feasible solution with score 0.000107
+[local_planner_node-1] [INFO] [1730212903.055217163] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212903.102417015] [local_planner_node]: solve use time 0.038794
+[local_planner_node-1] [INFO] [1730212903.102689705] [local_planner_node]: find feasible solution with score 0.000093
+[local_planner_node-1] [INFO] [1730212903.155147744] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212903.199994780] [local_planner_node]: solve use time 0.035629
+[local_planner_node-1] [INFO] [1730212903.200238167] [local_planner_node]: find feasible solution with score 0.000125
+[local_planner_node-1] [INFO] [1730212903.254787780] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212903.297791261] [local_planner_node]: solve use time 0.033839
+[local_planner_node-1] [INFO] [1730212903.298074975] [local_planner_node]: find feasible solution with score 0.000109
+[local_planner_node-1] [INFO] [1730212903.355644879] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212903.402096938] [local_planner_node]: solve use time 0.037002
+[local_planner_node-1] [INFO] [1730212903.402365475] [local_planner_node]: find feasible solution with score 0.000082
+[local_planner_node-1] [INFO] [1730212903.454767346] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212903.503659174] [local_planner_node]: solve use time 0.039016
+[local_planner_node-1] [INFO] [1730212903.503903852] [local_planner_node]: find feasible solution with score 0.000081
+[local_planner_node-1] [INFO] [1730212903.554660552] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212903.600456506] [local_planner_node]: solve use time 0.037131
+[local_planner_node-1] [INFO] [1730212903.600727757] [local_planner_node]: find feasible solution with score 0.000111
+[local_planner_node-1] [INFO] [1730212903.655098872] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212903.689343473] [local_planner_node]: solve use time 0.029491
+[local_planner_node-1] [INFO] [1730212903.689583512] [local_planner_node]: find feasible solution with score 0.000125
+[local_planner_node-1] [INFO] [1730212903.754780094] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212903.788020913] [local_planner_node]: solve use time 0.029127
+[local_planner_node-1] [INFO] [1730212903.788275489] [local_planner_node]: find feasible solution with score 0.000050
+[local_planner_node-1] [INFO] [1730212903.854706874] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212903.898602733] [local_planner_node]: solve use time 0.034673
+[local_planner_node-1] [INFO] [1730212903.898891700] [local_planner_node]: find feasible solution with score 0.000043
+[local_planner_node-1] [INFO] [1730212903.954436796] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212903.998348746] [local_planner_node]: solve use time 0.035767
+[local_planner_node-1] [INFO] [1730212903.998592079] [local_planner_node]: find feasible solution with score 0.000046
+[local_planner_node-1] [INFO] [1730212904.054807688] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212904.096951792] [local_planner_node]: solve use time 0.034027
+[local_planner_node-1] [INFO] [1730212904.097206119] [local_planner_node]: find feasible solution with score 0.000047
+[local_planner_node-1] [INFO] [1730212904.155989864] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212904.201445791] [local_planner_node]: solve use time 0.036275
+[local_planner_node-1] [INFO] [1730212904.201723223] [local_planner_node]: find feasible solution with score 0.000037
+[local_planner_node-1] [INFO] [1730212904.254842631] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212904.299526965] [local_planner_node]: solve use time 0.035037
+[local_planner_node-1] [INFO] [1730212904.299810442] [local_planner_node]: find feasible solution with score 0.000035
+[local_planner_node-1] [INFO] [1730212904.354554696] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212904.396548494] [local_planner_node]: solve use time 0.033558
+[local_planner_node-1] [INFO] [1730212904.396791968] [local_planner_node]: find feasible solution with score 0.000087
+[local_planner_node-1] [INFO] [1730212904.455619892] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212904.491217583] [local_planner_node]: solve use time 0.030273
+[local_planner_node-1] [INFO] [1730212904.491507246] [local_planner_node]: find feasible solution with score 0.000031
+[local_planner_node-1] [INFO] [1730212904.554959935] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212904.589375373] [local_planner_node]: solve use time 0.030255
+[local_planner_node-1] [INFO] [1730212904.589618634] [local_planner_node]: find feasible solution with score 0.000016
+[local_planner_node-1] [INFO] [1730212904.654780813] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212904.701698837] [local_planner_node]: solve use time 0.037331
+[local_planner_node-1] [INFO] [1730212904.701962915] [local_planner_node]: find feasible solution with score 0.000041
+[local_planner_node-1] [INFO] [1730212904.754487652] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212904.798650431] [local_planner_node]: solve use time 0.035414
+[local_planner_node-1] [INFO] [1730212904.798917106] [local_planner_node]: find feasible solution with score 0.000131
+[local_planner_node-1] [INFO] [1730212904.855214252] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212904.903950570] [local_planner_node]: solve use time 0.037811
+[local_planner_node-1] [INFO] [1730212904.904248192] [local_planner_node]: find feasible solution with score 0.000035
+[local_planner_node-1] [INFO] [1730212904.955354538] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212904.998900471] [local_planner_node]: solve use time 0.034991
+[local_planner_node-1] [INFO] [1730212904.999303719] [local_planner_node]: find feasible solution with score 0.000007
+[local_planner_node-1] [INFO] [1730212905.055558221] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212905.102258638] [local_planner_node]: solve use time 0.038110
+[local_planner_node-1] [INFO] [1730212905.102557694] [local_planner_node]: find feasible solution with score 0.000007
+[local_planner_node-1] [INFO] [1730212905.155068022] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212905.203472944] [local_planner_node]: solve use time 0.036531
+[local_planner_node-1] [INFO] [1730212905.203748092] [local_planner_node]: find feasible solution with score 0.000020
+[local_planner_node-1] [INFO] [1730212905.255051097] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212905.288551811] [local_planner_node]: solve use time 0.028424
+[local_planner_node-1] [INFO] [1730212905.288800885] [local_planner_node]: find feasible solution with score 0.000003
+[local_planner_node-1] [INFO] [1730212905.354691623] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212905.389435350] [local_planner_node]: solve use time 0.030590
+[local_planner_node-1] [INFO] [1730212905.389699845] [local_planner_node]: find feasible solution with score 0.000001
+[local_planner_node-1] [INFO] [1730212905.455184385] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212905.498529473] [local_planner_node]: solve use time 0.033790
+[local_planner_node-1] [INFO] [1730212905.498829559] [local_planner_node]: find feasible solution with score 0.000069
+[local_planner_node-1] [INFO] [1730212905.554427379] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212905.601788983] [local_planner_node]: solve use time 0.036106
+[local_planner_node-1] [INFO] [1730212905.602043616] [local_planner_node]: find feasible solution with score 0.000036
+[local_planner_node-1] [INFO] [1730212905.654797741] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212905.700449982] [local_planner_node]: solve use time 0.037290
+[local_planner_node-1] [INFO] [1730212905.700863510] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212905.754806955] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212905.800470629] [local_planner_node]: solve use time 0.037677
+[local_planner_node-1] [INFO] [1730212905.800807145] [local_planner_node]: find feasible solution with score 0.000017
+[local_planner_node-1] [INFO] [1730212905.855105541] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212905.899899515] [local_planner_node]: solve use time 0.035170
+[local_planner_node-1] [INFO] [1730212905.900155085] [local_planner_node]: find feasible solution with score 0.000054
+[local_planner_node-1] [INFO] [1730212905.954510666] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212906.002926089] [local_planner_node]: solve use time 0.039721
+[local_planner_node-1] [INFO] [1730212906.003173955] [local_planner_node]: find feasible solution with score 0.000001
+[local_planner_node-1] [INFO] [1730212906.055384427] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212906.088972267] [local_planner_node]: solve use time 0.028386
+[local_planner_node-1] [INFO] [1730212906.089256763] [local_planner_node]: find feasible solution with score 0.000002
+[local_planner_node-1] [INFO] [1730212906.155273003] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212906.188294791] [local_planner_node]: solve use time 0.028231
+[local_planner_node-1] [INFO] [1730212906.188541992] [local_planner_node]: find feasible solution with score 0.000018
+[local_planner_node-1] [INFO] [1730212906.255980406] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212906.298034910] [local_planner_node]: solve use time 0.033344
+[local_planner_node-1] [INFO] [1730212906.298328386] [local_planner_node]: find feasible solution with score 0.000052
+[local_planner_node-1] [INFO] [1730212906.354433206] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212906.399369116] [local_planner_node]: solve use time 0.036650
+[local_planner_node-1] [INFO] [1730212906.399629058] [local_planner_node]: find feasible solution with score 0.000004
+[local_planner_node-1] [INFO] [1730212906.454741814] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212906.501104631] [local_planner_node]: solve use time 0.036692
+[local_planner_node-1] [INFO] [1730212906.501377695] [local_planner_node]: find feasible solution with score 0.000006
+[local_planner_node-1] [INFO] [1730212906.555270567] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212906.600586795] [local_planner_node]: solve use time 0.035108
+[local_planner_node-1] [INFO] [1730212906.600878613] [local_planner_node]: find feasible solution with score 0.000028
+[local_planner_node-1] [INFO] [1730212906.655289826] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212906.701491734] [local_planner_node]: solve use time 0.035589
+[local_planner_node-1] [INFO] [1730212906.701758787] [local_planner_node]: find feasible solution with score 0.000050
+[local_planner_node-1] [INFO] [1730212906.754686063] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212906.799628883] [local_planner_node]: solve use time 0.035889
+[local_planner_node-1] [INFO] [1730212906.799873077] [local_planner_node]: find feasible solution with score 0.000010
+[local_planner_node-1] [INFO] [1730212906.854897160] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212906.889681723] [local_planner_node]: solve use time 0.029934
+[local_planner_node-1] [INFO] [1730212906.889955865] [local_planner_node]: find feasible solution with score 0.000013
+[local_planner_node-1] [INFO] [1730212906.954745434] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212906.990568171] [local_planner_node]: solve use time 0.031683
+[local_planner_node-1] [INFO] [1730212906.990812436] [local_planner_node]: find feasible solution with score 0.000039
+[local_planner_node-1] [INFO] [1730212907.055199087] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212907.106175394] [local_planner_node]: solve use time 0.040564
+[local_planner_node-1] [INFO] [1730212907.106429303] [local_planner_node]: find feasible solution with score 0.000031
+[local_planner_node-1] [INFO] [1730212907.154600675] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212907.198078891] [local_planner_node]: solve use time 0.035035
+[local_planner_node-1] [INFO] [1730212907.198337199] [local_planner_node]: find feasible solution with score 0.000016
+[local_planner_node-1] [INFO] [1730212907.254872671] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212907.300715122] [local_planner_node]: solve use time 0.037171
+[local_planner_node-1] [INFO] [1730212907.300983355] [local_planner_node]: find feasible solution with score 0.000017
+[local_planner_node-1] [INFO] [1730212907.355153516] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212907.396620172] [local_planner_node]: solve use time 0.032831
+[local_planner_node-1] [INFO] [1730212907.396888017] [local_planner_node]: find feasible solution with score 0.000045
+[local_planner_node-1] [INFO] [1730212907.454918133] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212907.499542852] [local_planner_node]: solve use time 0.035958
+[local_planner_node-1] [INFO] [1730212907.499787969] [local_planner_node]: find feasible solution with score 0.000018
+[local_planner_node-1] [INFO] [1730212907.554910327] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212907.599756811] [local_planner_node]: solve use time 0.036082
+[local_planner_node-1] [INFO] [1730212907.600017542] [local_planner_node]: find feasible solution with score 0.000022
+[local_planner_node-1] [INFO] [1730212907.654933335] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212907.689239779] [local_planner_node]: solve use time 0.029834
+[local_planner_node-1] [INFO] [1730212907.689509103] [local_planner_node]: find feasible solution with score 0.000042
+[local_planner_node-1] [INFO] [1730212907.754962355] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212907.790459261] [local_planner_node]: solve use time 0.030592
+[local_planner_node-1] [INFO] [1730212907.790704939] [local_planner_node]: find feasible solution with score 0.000082
+[local_planner_node-1] [INFO] [1730212907.854833010] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212907.901426589] [local_planner_node]: solve use time 0.037710
+[local_planner_node-1] [INFO] [1730212907.901687792] [local_planner_node]: find feasible solution with score 0.000024
+[local_planner_node-1] [INFO] [1730212907.954502120] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212907.997127025] [local_planner_node]: solve use time 0.034216
+[local_planner_node-1] [INFO] [1730212907.997374733] [local_planner_node]: find feasible solution with score 0.000024
+[local_planner_node-1] [INFO] [1730212908.054629964] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212908.097869039] [local_planner_node]: solve use time 0.033914
+[local_planner_node-1] [INFO] [1730212908.098116864] [local_planner_node]: find feasible solution with score 0.000034
+[local_planner_node-1] [INFO] [1730212908.156309965] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212908.199587564] [local_planner_node]: solve use time 0.034886
+[local_planner_node-1] [INFO] [1730212908.199844463] [local_planner_node]: find feasible solution with score 0.000091
+[local_planner_node-1] [INFO] [1730212908.255125636] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212908.298228558] [local_planner_node]: solve use time 0.034677
+[local_planner_node-1] [INFO] [1730212908.298561181] [local_planner_node]: find feasible solution with score 0.000039
+[local_planner_node-1] [INFO] [1730212908.354701690] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212908.398685882] [local_planner_node]: solve use time 0.035399
+[local_planner_node-1] [INFO] [1730212908.398931929] [local_planner_node]: find feasible solution with score 0.000018
+[local_planner_node-1] [INFO] [1730212908.454855351] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212908.489580836] [local_planner_node]: solve use time 0.028650
+[local_planner_node-1] [INFO] [1730212908.489844664] [local_planner_node]: find feasible solution with score 0.000031
+[local_planner_node-1] [INFO] [1730212908.554949275] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212908.590310430] [local_planner_node]: solve use time 0.030808
+[local_planner_node-1] [INFO] [1730212908.590540881] [local_planner_node]: find feasible solution with score 0.000063
+[local_planner_node-1] [INFO] [1730212908.655420409] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212908.701232587] [local_planner_node]: solve use time 0.037436
+[local_planner_node-1] [INFO] [1730212908.701475100] [local_planner_node]: find feasible solution with score 0.000012
+[local_planner_node-1] [INFO] [1730212908.754699364] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212908.797730763] [local_planner_node]: solve use time 0.033752
+[local_planner_node-1] [INFO] [1730212908.797965441] [local_planner_node]: find feasible solution with score 0.000010
+[local_planner_node-1] [INFO] [1730212908.855446610] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212908.896470230] [local_planner_node]: solve use time 0.032147
+[local_planner_node-1] [INFO] [1730212908.896758151] [local_planner_node]: find feasible solution with score 0.000025
+[local_planner_node-1] [INFO] [1730212908.954958833] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212908.997407286] [local_planner_node]: solve use time 0.034119
+[local_planner_node-1] [INFO] [1730212908.997683169] [local_planner_node]: find feasible solution with score 0.000061
+[local_planner_node-1] [INFO] [1730212909.054735540] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212909.098158775] [local_planner_node]: solve use time 0.035236
+[local_planner_node-1] [INFO] [1730212909.098424741] [local_planner_node]: find feasible solution with score 0.000010
+[local_planner_node-1] [INFO] [1730212909.155584358] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212909.208080643] [local_planner_node]: solve use time 0.041249
+[local_planner_node-1] [INFO] [1730212909.208438446] [local_planner_node]: find feasible solution with score 0.000004
+[local_planner_node-1] [INFO] [1730212909.256168057] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212909.301085757] [local_planner_node]: solve use time 0.038591
+[local_planner_node-1] [INFO] [1730212909.301387491] [local_planner_node]: find feasible solution with score 0.000019
+[local_planner_node-1] [INFO] [1730212909.354890778] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212909.390208161] [local_planner_node]: solve use time 0.030495
+[local_planner_node-1] [INFO] [1730212909.390451329] [local_planner_node]: find feasible solution with score 0.000067
+[local_planner_node-1] [INFO] [1730212909.455189881] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212909.500619635] [local_planner_node]: solve use time 0.035932
+[local_planner_node-1] [INFO] [1730212909.500864231] [local_planner_node]: find feasible solution with score 0.000040
+[local_planner_node-1] [INFO] [1730212909.554691492] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212909.597015833] [local_planner_node]: solve use time 0.033848
+[local_planner_node-1] [INFO] [1730212909.597252445] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212909.655080400] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212909.697544273] [local_planner_node]: solve use time 0.032892
+[local_planner_node-1] [INFO] [1730212909.697822893] [local_planner_node]: find feasible solution with score 0.000017
+[local_planner_node-1] [INFO] [1730212909.755781897] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212909.800624662] [local_planner_node]: solve use time 0.034774
+[local_planner_node-1] [INFO] [1730212909.800923783] [local_planner_node]: find feasible solution with score 0.000021
+[local_planner_node-1] [INFO] [1730212909.855275664] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212909.902144078] [local_planner_node]: solve use time 0.037878
+[local_planner_node-1] [INFO] [1730212909.902408815] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212909.954636522] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212909.998998973] [local_planner_node]: solve use time 0.035800
+[local_planner_node-1] [INFO] [1730212909.999242257] [local_planner_node]: find feasible solution with score 0.000002
+[local_planner_node-1] [INFO] [1730212910.054829383] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212910.098631942] [local_planner_node]: solve use time 0.037144
+[local_planner_node-1] [INFO] [1730212910.098875092] [local_planner_node]: find feasible solution with score 0.000044
+[local_planner_node-1] [INFO] [1730212910.155817299] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212910.189307836] [local_planner_node]: solve use time 0.028773
+[local_planner_node-1] [INFO] [1730212910.189551492] [local_planner_node]: find feasible solution with score 0.000031
+[local_planner_node-1] [INFO] [1730212910.254918770] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212910.299095351] [local_planner_node]: solve use time 0.034646
+[local_planner_node-1] [INFO] [1730212910.299375616] [local_planner_node]: find feasible solution with score 0.000003
+[local_planner_node-1] [INFO] [1730212910.354375260] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212910.399518385] [local_planner_node]: solve use time 0.036487
+[local_planner_node-1] [INFO] [1730212910.399756394] [local_planner_node]: find feasible solution with score 0.000012
+[local_planner_node-1] [INFO] [1730212910.454951608] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212910.496805912] [local_planner_node]: solve use time 0.033506
+[local_planner_node-1] [INFO] [1730212910.497076607] [local_planner_node]: find feasible solution with score 0.000028
+[local_planner_node-1] [INFO] [1730212910.555806064] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212910.600798687] [local_planner_node]: solve use time 0.036665
+[local_planner_node-1] [INFO] [1730212910.601101759] [local_planner_node]: find feasible solution with score 0.000006
+[local_planner_node-1] [INFO] [1730212910.655119307] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212910.700960583] [local_planner_node]: solve use time 0.037386
+[local_planner_node-1] [INFO] [1730212910.701216107] [local_planner_node]: find feasible solution with score 0.000009
+[local_planner_node-1] [INFO] [1730212910.754441134] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212910.803490267] [local_planner_node]: solve use time 0.037801
+[local_planner_node-1] [INFO] [1730212910.803780371] [local_planner_node]: find feasible solution with score 0.000037
+[local_planner_node-1] [INFO] [1730212910.856514784] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212910.896059485] [local_planner_node]: solve use time 0.032745
+[local_planner_node-1] [INFO] [1730212910.896596008] [local_planner_node]: find feasible solution with score 0.000090
+[local_planner_node-1] [INFO] [1730212910.955291556] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212910.991806108] [local_planner_node]: solve use time 0.031789
+[local_planner_node-1] [INFO] [1730212910.992399405] [local_planner_node]: find feasible solution with score 0.000013
+[local_planner_node-1] [INFO] [1730212911.054786261] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212911.098926753] [local_planner_node]: solve use time 0.034209
+[local_planner_node-1] [INFO] [1730212911.099178694] [local_planner_node]: find feasible solution with score 0.000016
+[local_planner_node-1] [INFO] [1730212911.155067045] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212911.201109570] [local_planner_node]: solve use time 0.037617
+[local_planner_node-1] [INFO] [1730212911.201362612] [local_planner_node]: find feasible solution with score 0.000017
+[local_planner_node-1] [INFO] [1730212911.254649453] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212911.299060139] [local_planner_node]: solve use time 0.034680
+[local_planner_node-1] [INFO] [1730212911.299324908] [local_planner_node]: find feasible solution with score 0.000039
+[local_planner_node-1] [INFO] [1730212911.356011894] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212911.411949819] [local_planner_node]: solve use time 0.044229
+[local_planner_node-1] [INFO] [1730212911.412199046] [local_planner_node]: find feasible solution with score 0.000026
+[local_planner_node-1] [INFO] [1730212911.455151392] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212911.520667220] [local_planner_node]: solve use time 0.048490
+[local_planner_node-1] [INFO] [1730212911.520995578] [local_planner_node]: find feasible solution with score 0.000020
+[local_planner_node-1] [INFO] [1730212911.554897123] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212911.600154691] [local_planner_node]: solve use time 0.036850
+[local_planner_node-1] [INFO] [1730212911.600396880] [local_planner_node]: find feasible solution with score 0.000020
+[local_planner_node-1] [INFO] [1730212911.655406878] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212911.690632571] [local_planner_node]: solve use time 0.030108
+[local_planner_node-1] [INFO] [1730212911.690931396] [local_planner_node]: find feasible solution with score 0.000063
+[local_planner_node-1] [INFO] [1730212911.755605973] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212911.789933659] [local_planner_node]: solve use time 0.029521
+[local_planner_node-1] [INFO] [1730212911.790183610] [local_planner_node]: find feasible solution with score 0.000079
+[local_planner_node-1] [INFO] [1730212911.854805824] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212911.899283877] [local_planner_node]: solve use time 0.034351
+[local_planner_node-1] [INFO] [1730212911.899593428] [local_planner_node]: find feasible solution with score 0.000017
+[local_planner_node-1] [INFO] [1730212911.954944436] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212912.005935506] [local_planner_node]: solve use time 0.040296
+[local_planner_node-1] [INFO] [1730212912.006312287] [local_planner_node]: find feasible solution with score 0.000019
+[local_planner_node-1] [INFO] [1730212912.055658102] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212912.099661990] [local_planner_node]: solve use time 0.034619
+[local_planner_node-1] [INFO] [1730212912.099918130] [local_planner_node]: find feasible solution with score 0.000065
+[local_planner_node-1] [INFO] [1730212912.169071175] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212912.224008350] [local_planner_node]: solve use time 0.041154
+[local_planner_node-1] [INFO] [1730212912.224295984] [local_planner_node]: find feasible solution with score 0.000084
+[local_planner_node-1] [INFO] [1730212912.255416172] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212912.299102415] [local_planner_node]: solve use time 0.034515
+[local_planner_node-1] [INFO] [1730212912.299357639] [local_planner_node]: find feasible solution with score 0.000015
+[local_planner_node-1] [INFO] [1730212912.354877685] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212912.397973829] [local_planner_node]: solve use time 0.034586
+[local_planner_node-1] [INFO] [1730212912.398215684] [local_planner_node]: find feasible solution with score 0.000009
+[local_planner_node-1] [INFO] [1730212912.455235634] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212912.491655467] [local_planner_node]: solve use time 0.030661
+[local_planner_node-1] [INFO] [1730212912.491906981] [local_planner_node]: find feasible solution with score 0.000016
+[local_planner_node-1] [INFO] [1730212912.555371434] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212912.590103320] [local_planner_node]: solve use time 0.029660
+[local_planner_node-1] [INFO] [1730212912.590354356] [local_planner_node]: find feasible solution with score 0.000055
+[local_planner_node-1] [INFO] [1730212912.654847445] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212912.699304971] [local_planner_node]: solve use time 0.035541
+[local_planner_node-1] [INFO] [1730212912.699812738] [local_planner_node]: find feasible solution with score 0.000016
+[local_planner_node-1] [INFO] [1730212912.754493464] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212912.801608655] [local_planner_node]: solve use time 0.037304
+[local_planner_node-1] [INFO] [1730212912.801848963] [local_planner_node]: find feasible solution with score 0.000003
+[local_planner_node-1] [INFO] [1730212912.854859213] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212912.899481845] [local_planner_node]: solve use time 0.036091
+[local_planner_node-1] [INFO] [1730212912.899727031] [local_planner_node]: find feasible solution with score 0.000039
+[local_planner_node-1] [INFO] [1730212912.955286543] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212913.000231300] [local_planner_node]: solve use time 0.035845
+[local_planner_node-1] [INFO] [1730212913.000525377] [local_planner_node]: find feasible solution with score 0.000040
+[local_planner_node-1] [INFO] [1730212913.056162441] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212913.103884773] [local_planner_node]: solve use time 0.036446
+[local_planner_node-1] [INFO] [1730212913.104127533] [local_planner_node]: find feasible solution with score 0.000001
+[local_planner_node-1] [INFO] [1730212913.158073752] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212913.206611778] [local_planner_node]: solve use time 0.038775
+[local_planner_node-1] [INFO] [1730212913.206904276] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212913.254917821] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212913.288576870] [local_planner_node]: solve use time 0.028567
+[local_planner_node-1] [INFO] [1730212913.289026200] [local_planner_node]: find feasible solution with score 0.000033
+[local_planner_node-1] [INFO] [1730212913.355117790] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212913.389896722] [local_planner_node]: solve use time 0.029606
+[local_planner_node-1] [INFO] [1730212913.390148643] [local_planner_node]: find feasible solution with score 0.000033
+[local_planner_node-1] [INFO] [1730212913.455345453] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212913.504030993] [local_planner_node]: solve use time 0.039431
+[local_planner_node-1] [INFO] [1730212913.504273831] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212913.554819639] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212913.611143417] [local_planner_node]: solve use time 0.043055
+[local_planner_node-1] [INFO] [1730212913.611434802] [local_planner_node]: find feasible solution with score 0.000001
+[local_planner_node-1] [INFO] [1730212913.654931943] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212913.698816110] [local_planner_node]: solve use time 0.034661
+[local_planner_node-1] [INFO] [1730212913.699097298] [local_planner_node]: find feasible solution with score 0.000025
+[local_planner_node-1] [INFO] [1730212913.755092682] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212913.799207818] [local_planner_node]: solve use time 0.035519
+[local_planner_node-1] [INFO] [1730212913.799537028] [local_planner_node]: find feasible solution with score 0.000019
+[local_planner_node-1] [INFO] [1730212913.855301293] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212913.899539660] [local_planner_node]: solve use time 0.034417
+[local_planner_node-1] [INFO] [1730212913.899788186] [local_planner_node]: find feasible solution with score 0.000002
+[local_planner_node-1] [INFO] [1730212913.954587978] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212913.999661905] [local_planner_node]: solve use time 0.036634
+[local_planner_node-1] [INFO] [1730212913.999903403] [local_planner_node]: find feasible solution with score 0.000007
+[local_planner_node-1] [INFO] [1730212914.055052730] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212914.089299924] [local_planner_node]: solve use time 0.029074
+[local_planner_node-1] [INFO] [1730212914.089563963] [local_planner_node]: find feasible solution with score 0.000040
+[local_planner_node-1] [INFO] [1730212914.155493249] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212914.189583408] [local_planner_node]: solve use time 0.029154
+[local_planner_node-1] [INFO] [1730212914.189826771] [local_planner_node]: find feasible solution with score 0.000006
+[local_planner_node-1] [INFO] [1730212914.255088695] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212914.298484368] [local_planner_node]: solve use time 0.034755
+[local_planner_node-1] [INFO] [1730212914.298772398] [local_planner_node]: find feasible solution with score 0.000008
+[local_planner_node-1] [INFO] [1730212914.354740759] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212914.398332574] [local_planner_node]: solve use time 0.035469
+[local_planner_node-1] [INFO] [1730212914.398575224] [local_planner_node]: find feasible solution with score 0.000021
+[local_planner_node-1] [INFO] [1730212914.455112523] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212914.500919771] [local_planner_node]: solve use time 0.035226
+[local_planner_node-1] [INFO] [1730212914.501313490] [local_planner_node]: find feasible solution with score 0.000050
+[local_planner_node-1] [INFO] [1730212914.555669984] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212914.602010530] [local_planner_node]: solve use time 0.036073
+[local_planner_node-1] [INFO] [1730212914.602265600] [local_planner_node]: find feasible solution with score 0.000012
+[local_planner_node-1] [INFO] [1730212914.655122698] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212914.700743039] [local_planner_node]: solve use time 0.036674
+[local_planner_node-1] [INFO] [1730212914.700985359] [local_planner_node]: find feasible solution with score 0.000015
+[local_planner_node-1] [INFO] [1730212914.754607103] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212914.801231310] [local_planner_node]: solve use time 0.036546
+[local_planner_node-1] [INFO] [1730212914.801471529] [local_planner_node]: find feasible solution with score 0.000025
+[local_planner_node-1] [INFO] [1730212914.854735830] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212914.894090075] [local_planner_node]: solve use time 0.034457
+[local_planner_node-1] [INFO] [1730212914.894356599] [local_planner_node]: find feasible solution with score 0.000085
+[local_planner_node-1] [INFO] [1730212914.954926309] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212914.995242703] [local_planner_node]: solve use time 0.035168
+[local_planner_node-1] [INFO] [1730212914.995512119] [local_planner_node]: find feasible solution with score 0.000037
+[local_planner_node-1] [INFO] [1730212915.054808336] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212915.097891605] [local_planner_node]: solve use time 0.034181
+[local_planner_node-1] [INFO] [1730212915.098190142] [local_planner_node]: find feasible solution with score 0.000016
+[local_planner_node-1] [INFO] [1730212915.154980005] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212915.205449482] [local_planner_node]: solve use time 0.040476
+[local_planner_node-1] [INFO] [1730212915.205784731] [local_planner_node]: find feasible solution with score 0.000015
+[local_planner_node-1] [INFO] [1730212915.254841225] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212915.300112162] [local_planner_node]: solve use time 0.035209
+[local_planner_node-1] [INFO] [1730212915.300368831] [local_planner_node]: find feasible solution with score 0.000041
+[local_planner_node-1] [INFO] [1730212915.354641127] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212915.401270132] [local_planner_node]: solve use time 0.037157
+[local_planner_node-1] [INFO] [1730212915.401581509] [local_planner_node]: find feasible solution with score 0.000024
+[local_planner_node-1] [INFO] [1730212915.454906801] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212915.500593129] [local_planner_node]: solve use time 0.036492
+[local_planner_node-1] [INFO] [1730212915.500851256] [local_planner_node]: find feasible solution with score 0.000014
+[local_planner_node-1] [INFO] [1730212915.554599378] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212915.599662856] [local_planner_node]: solve use time 0.036842
+[local_planner_node-1] [INFO] [1730212915.599911838] [local_planner_node]: find feasible solution with score 0.000012
+[local_planner_node-1] [INFO] [1730212915.655061664] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212915.690297109] [local_planner_node]: solve use time 0.030406
+[local_planner_node-1] [INFO] [1730212915.690607660] [local_planner_node]: find feasible solution with score 0.000064
+[local_planner_node-1] [INFO] [1730212915.755226595] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212915.791126438] [local_planner_node]: solve use time 0.028857
+[local_planner_node-1] [INFO] [1730212915.791410741] [local_planner_node]: find feasible solution with score 0.000080
+[local_planner_node-1] [INFO] [1730212915.855234746] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212915.897012762] [local_planner_node]: solve use time 0.033321
+[local_planner_node-1] [INFO] [1730212915.897299459] [local_planner_node]: find feasible solution with score 0.000007
+[local_planner_node-1] [INFO] [1730212915.954476787] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212915.998784954] [local_planner_node]: solve use time 0.035619
+[local_planner_node-1] [INFO] [1730212915.999022192] [local_planner_node]: find feasible solution with score 0.000006
+[local_planner_node-1] [INFO] [1730212916.055394116] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212916.102530898] [local_planner_node]: solve use time 0.037435
+[local_planner_node-1] [INFO] [1730212916.102839412] [local_planner_node]: find feasible solution with score 0.000009
+[local_planner_node-1] [INFO] [1730212916.155344332] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212916.199379199] [local_planner_node]: solve use time 0.034672
+[local_planner_node-1] [INFO] [1730212916.199658802] [local_planner_node]: find feasible solution with score 0.000009
+[local_planner_node-1] [INFO] [1730212916.254945299] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212916.297686571] [local_planner_node]: solve use time 0.034099
+[local_planner_node-1] [INFO] [1730212916.297973022] [local_planner_node]: find feasible solution with score 0.000004
+[local_planner_node-1] [INFO] [1730212916.354560066] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212916.401297584] [local_planner_node]: solve use time 0.037108
+[local_planner_node-1] [INFO] [1730212916.401558463] [local_planner_node]: find feasible solution with score 0.000011
+[local_planner_node-1] [INFO] [1730212916.455223602] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212916.489694862] [local_planner_node]: solve use time 0.029582
+[local_planner_node-1] [INFO] [1730212916.490075392] [local_planner_node]: find feasible solution with score 0.000096
+[local_planner_node-1] [INFO] [1730212916.555507246] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212916.589689191] [local_planner_node]: solve use time 0.029371
+[local_planner_node-1] [INFO] [1730212916.589924233] [local_planner_node]: find feasible solution with score 0.000038
+[local_planner_node-1] [INFO] [1730212916.655014467] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212916.695827756] [local_planner_node]: solve use time 0.032190
+[local_planner_node-1] [INFO] [1730212916.696125989] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212916.754725652] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212916.797294406] [local_planner_node]: solve use time 0.034507
+[local_planner_node-1] [INFO] [1730212916.797545753] [local_planner_node]: find feasible solution with score 0.000016
+[local_planner_node-1] [INFO] [1730212916.855911054] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212916.901124794] [local_planner_node]: solve use time 0.033807
+[local_planner_node-1] [INFO] [1730212916.901391588] [local_planner_node]: find feasible solution with score 0.000025
+[local_planner_node-1] [INFO] [1730212916.954952270] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212917.000641062] [local_planner_node]: solve use time 0.036593
+[local_planner_node-1] [INFO] [1730212917.000962873] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212917.055226511] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212917.102087741] [local_planner_node]: solve use time 0.035371
+[local_planner_node-1] [INFO] [1730212917.102349933] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212917.155213536] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212917.200292897] [local_planner_node]: solve use time 0.034672
+[local_planner_node-1] [INFO] [1730212917.200524012] [local_planner_node]: find feasible solution with score 0.000038
+[local_planner_node-1] [INFO] [1730212917.255017868] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212917.287956280] [local_planner_node]: solve use time 0.027922
+[local_planner_node-1] [INFO] [1730212917.288274068] [local_planner_node]: find feasible solution with score 0.000021
+[local_planner_node-1] [INFO] [1730212917.355590132] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212917.388814313] [local_planner_node]: solve use time 0.027869
+[local_planner_node-1] [INFO] [1730212917.389050522] [local_planner_node]: find feasible solution with score 0.000002
+[local_planner_node-1] [INFO] [1730212917.454792104] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212917.496596324] [local_planner_node]: solve use time 0.033262
+[local_planner_node-1] [INFO] [1730212917.496869809] [local_planner_node]: find feasible solution with score 0.000017
+[local_planner_node-1] [INFO] [1730212917.554649529] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212917.607074292] [local_planner_node]: solve use time 0.041713
+[local_planner_node-1] [INFO] [1730212917.607375473] [local_planner_node]: find feasible solution with score 0.000040
+[local_planner_node-1] [INFO] [1730212917.655490515] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212917.703001038] [local_planner_node]: solve use time 0.037941
+[local_planner_node-1] [INFO] [1730212917.703335905] [local_planner_node]: find feasible solution with score 0.000003
+[local_planner_node-1] [INFO] [1730212917.755077926] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212917.803422703] [local_planner_node]: solve use time 0.038675
+[local_planner_node-1] [INFO] [1730212917.803681508] [local_planner_node]: find feasible solution with score 0.000005
+[local_planner_node-1] [INFO] [1730212917.854853194] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212917.904541038] [local_planner_node]: solve use time 0.039039
+[local_planner_node-1] [INFO] [1730212917.904789635] [local_planner_node]: find feasible solution with score 0.000031
+[local_planner_node-1] [INFO] [1730212917.954513592] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212918.004852992] [local_planner_node]: solve use time 0.039076
+[local_planner_node-1] [INFO] [1730212918.005113221] [local_planner_node]: find feasible solution with score 0.000031
+[local_planner_node-1] [INFO] [1730212918.054701447] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212918.087044957] [local_planner_node]: solve use time 0.027371
+[local_planner_node-1] [INFO] [1730212918.087346740] [local_planner_node]: find feasible solution with score 0.000008
+[local_planner_node-1] [INFO] [1730212918.156170019] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212918.191670477] [local_planner_node]: solve use time 0.030119
+[local_planner_node-1] [INFO] [1730212918.192122738] [local_planner_node]: find feasible solution with score 0.000010
+[local_planner_node-1] [INFO] [1730212918.255138713] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212918.298193604] [local_planner_node]: solve use time 0.033897
+[local_planner_node-1] [INFO] [1730212918.298488224] [local_planner_node]: find feasible solution with score 0.000026
+[local_planner_node-1] [INFO] [1730212918.354327286] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212918.398974656] [local_planner_node]: solve use time 0.036402
+[local_planner_node-1] [INFO] [1730212918.399269863] [local_planner_node]: find feasible solution with score 0.000011
+[local_planner_node-1] [INFO] [1730212918.455302783] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212918.498966603] [local_planner_node]: solve use time 0.034511
+[local_planner_node-1] [INFO] [1730212918.499245014] [local_planner_node]: find feasible solution with score 0.000013
+[local_planner_node-1] [INFO] [1730212918.555156380] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212918.601947662] [local_planner_node]: solve use time 0.036119
+[local_planner_node-1] [INFO] [1730212918.602224662] [local_planner_node]: find feasible solution with score 0.000038
+[local_planner_node-1] [INFO] [1730212918.655092321] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212918.700043812] [local_planner_node]: solve use time 0.036003
+[local_planner_node-1] [INFO] [1730212918.700374181] [local_planner_node]: find feasible solution with score 0.000059
+[local_planner_node-1] [INFO] [1730212918.754525159] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212918.799975944] [local_planner_node]: solve use time 0.035683
+[local_planner_node-1] [INFO] [1730212918.800208429] [local_planner_node]: find feasible solution with score 0.000015
+[local_planner_node-1] [INFO] [1730212918.854774020] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212918.892930631] [local_planner_node]: solve use time 0.031086
+[local_planner_node-1] [INFO] [1730212918.893420778] [local_planner_node]: find feasible solution with score 0.000017
+[local_planner_node-1] [INFO] [1730212918.955243605] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212918.988972201] [local_planner_node]: solve use time 0.029204
+[local_planner_node-1] [INFO] [1730212918.989211177] [local_planner_node]: find feasible solution with score 0.000046
+[local_planner_node-1] [INFO] [1730212919.055012579] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212919.100212510] [local_planner_node]: solve use time 0.036258
+[local_planner_node-1] [INFO] [1730212919.100445969] [local_planner_node]: find feasible solution with score 0.000033
+[local_planner_node-1] [INFO] [1730212919.155394299] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212919.201980890] [local_planner_node]: solve use time 0.036096
+[local_planner_node-1] [INFO] [1730212919.202231986] [local_planner_node]: find feasible solution with score 0.000018
+[local_planner_node-1] [INFO] [1730212919.255290284] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212919.301652345] [local_planner_node]: solve use time 0.037759
+[local_planner_node-1] [INFO] [1730212919.301936578] [local_planner_node]: find feasible solution with score 0.000017
+[local_planner_node-1] [INFO] [1730212919.355203795] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212919.401011350] [local_planner_node]: solve use time 0.035380
+[local_planner_node-1] [INFO] [1730212919.401331113] [local_planner_node]: find feasible solution with score 0.000051
+[local_planner_node-1] [INFO] [1730212919.455455182] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212919.500952524] [local_planner_node]: solve use time 0.035508
+[local_planner_node-1] [INFO] [1730212919.501211254] [local_planner_node]: find feasible solution with score 0.000018
+[local_planner_node-1] [INFO] [1730212919.554604344] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212919.598563097] [local_planner_node]: solve use time 0.033813
+[local_planner_node-1] [INFO] [1730212919.598820455] [local_planner_node]: find feasible solution with score 0.000017
+[local_planner_node-1] [INFO] [1730212919.655350670] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212919.691485130] [local_planner_node]: solve use time 0.030799
+[local_planner_node-1] [INFO] [1730212919.693286687] [local_planner_node]: find feasible solution with score 0.000042
+[local_planner_node-1] [INFO] [1730212919.754793942] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212919.789391459] [local_planner_node]: solve use time 0.029949
+[local_planner_node-1] [INFO] [1730212919.789630899] [local_planner_node]: find feasible solution with score 0.000089
+[local_planner_node-1] [INFO] [1730212919.855641022] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212919.898443608] [local_planner_node]: solve use time 0.034214
+[local_planner_node-1] [INFO] [1730212919.898733640] [local_planner_node]: find feasible solution with score 0.000031
+[local_planner_node-1] [INFO] [1730212919.954537266] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212920.001894873] [local_planner_node]: solve use time 0.038742
+[local_planner_node-1] [INFO] [1730212920.002327251] [local_planner_node]: find feasible solution with score 0.000011
+[local_planner_node-1] [INFO] [1730212920.059895687] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212920.107657666] [local_planner_node]: solve use time 0.037500
+[local_planner_node-1] [INFO] [1730212920.107937708] [local_planner_node]: find feasible solution with score 0.000015
+[local_planner_node-1] [INFO] [1730212920.155865819] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212920.201528310] [local_planner_node]: solve use time 0.036908
+[local_planner_node-1] [INFO] [1730212920.201978766] [local_planner_node]: find feasible solution with score 0.000048
+[local_planner_node-1] [INFO] [1730212920.255079622] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212920.299800394] [local_planner_node]: solve use time 0.035563
+[local_planner_node-1] [INFO] [1730212920.300042964] [local_planner_node]: find feasible solution with score 0.000027
+[local_planner_node-1] [INFO] [1730212920.354532623] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212920.401290412] [local_planner_node]: solve use time 0.038646
+[local_planner_node-1] [INFO] [1730212920.401533242] [local_planner_node]: find feasible solution with score 0.000005
+[local_planner_node-1] [INFO] [1730212920.455458327] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212920.489776453] [local_planner_node]: solve use time 0.029208
+[local_planner_node-1] [INFO] [1730212920.490030614] [local_planner_node]: find feasible solution with score 0.000023
+[local_planner_node-1] [INFO] [1730212920.554919667] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212920.588762644] [local_planner_node]: solve use time 0.028797
+[local_planner_node-1] [INFO] [1730212920.589002101] [local_planner_node]: find feasible solution with score 0.000076
+[local_planner_node-1] [INFO] [1730212920.654590339] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212920.700909690] [local_planner_node]: solve use time 0.036177
+[local_planner_node-1] [INFO] [1730212920.701160258] [local_planner_node]: find feasible solution with score 0.000001
+[local_planner_node-1] [INFO] [1730212920.754577705] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212920.800611842] [local_planner_node]: solve use time 0.036345
+[local_planner_node-1] [INFO] [1730212920.800961667] [local_planner_node]: find feasible solution with score 0.000001
+[local_planner_node-1] [INFO] [1730212920.854550205] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212920.900304815] [local_planner_node]: solve use time 0.037077
+[local_planner_node-1] [INFO] [1730212920.900554296] [local_planner_node]: find feasible solution with score 0.000006
+[local_planner_node-1] [INFO] [1730212920.954750207] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212921.000427574] [local_planner_node]: solve use time 0.036887
+[local_planner_node-1] [INFO] [1730212921.000711678] [local_planner_node]: find feasible solution with score 0.000032
+[local_planner_node-1] [INFO] [1730212921.054849897] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212921.098915912] [local_planner_node]: solve use time 0.035046
+[local_planner_node-1] [INFO] [1730212921.099188954] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212921.155171060] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212921.204734684] [local_planner_node]: solve use time 0.038300
+[local_planner_node-1] [INFO] [1730212921.205020461] [local_planner_node]: find feasible solution with score 0.000000
+[local_planner_node-1] [INFO] [1730212921.254736205] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212921.292138665] [local_planner_node]: solve use time 0.032046
+[local_planner_node-1] [INFO] [1730212921.292700372] [local_planner_node]: find feasible solution with score 0.000032
+[local_planner_node-1] [INFO] [1730212921.355013782] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212921.389668943] [local_planner_node]: solve use time 0.030095
+[local_planner_node-1] [INFO] [1730212921.389949238] [local_planner_node]: find feasible solution with score 0.000082
+[local_planner_node-1] [INFO] [1730212921.455455034] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212921.496005108] [local_planner_node]: solve use time 0.031908
+[local_planner_node-1] [INFO] [1730212921.496281123] [local_planner_node]: find feasible solution with score 0.000019
+[local_planner_node-1] [INFO] [1730212921.554556399] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212921.600136730] [local_planner_node]: solve use time 0.037007
+[local_planner_node-1] [INFO] [1730212921.600423666] [local_planner_node]: find feasible solution with score 0.000003
+[local_planner_node-1] [INFO] [1730212921.654618717] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212921.700867757] [local_planner_node]: solve use time 0.036696
+[local_planner_node-1] [INFO] [1730212921.701175556] [local_planner_node]: find feasible solution with score 0.000012
+[local_planner_node-1] [INFO] [1730212921.754821894] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212921.799584253] [local_planner_node]: solve use time 0.036328
+[local_planner_node-1] [INFO] [1730212921.799843619] [local_planner_node]: find feasible solution with score 0.000027
+[local_planner_node-1] [INFO] [1730212921.856788518] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212921.904541300] [local_planner_node]: solve use time 0.037682
+[local_planner_node-1] [INFO] [1730212921.904776368] [local_planner_node]: find feasible solution with score 0.000004
+[local_planner_node-1] [INFO] [1730212921.954652065] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212921.999110377] [local_planner_node]: solve use time 0.035155
+[local_planner_node-1] [INFO] [1730212921.999345190] [local_planner_node]: find feasible solution with score 0.000005
+[local_planner_node-1] [INFO] [1730212922.055311292] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212922.097961160] [local_planner_node]: solve use time 0.035965
+[local_planner_node-1] [INFO] [1730212922.098210641] [local_planner_node]: find feasible solution with score 0.000026
+[local_planner_node-1] [INFO] [1730212922.155883639] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212922.197198301] [local_planner_node]: solve use time 0.036261
+[local_planner_node-1] [INFO] [1730212922.197481330] [local_planner_node]: find feasible solution with score 0.000082
+[local_planner_node-1] [INFO] [1730212922.255289857] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212922.304320434] [local_planner_node]: solve use time 0.037828
+[local_planner_node-1] [INFO] [1730212922.304580444] [local_planner_node]: find feasible solution with score 0.000005
+[local_planner_node-1] [INFO] [1730212922.355292734] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212922.403420504] [local_planner_node]: solve use time 0.039309
+[local_planner_node-1] [INFO] [1730212922.403721823] [local_planner_node]: find feasible solution with score 0.000004
+[local_planner_node-1] [INFO] [1730212922.454715457] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212922.500904110] [local_planner_node]: solve use time 0.037903
+[local_planner_node-1] [INFO] [1730212922.501222025] [local_planner_node]: find feasible solution with score 0.000015
+[local_planner_node-1] [INFO] [1730212922.554990013] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212922.600278295] [local_planner_node]: solve use time 0.037239
+[local_planner_node-1] [INFO] [1730212922.600665840] [local_planner_node]: find feasible solution with score 0.000076
+[local_planner_node-1] [INFO] [1730212922.654798989] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212922.698645362] [local_planner_node]: solve use time 0.035661
+[local_planner_node-1] [INFO] [1730212922.698923584] [local_planner_node]: find feasible solution with score 0.000015
+[local_planner_node-1] [INFO] [1730212922.754540385] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212922.797527760] [local_planner_node]: solve use time 0.033135
+[local_planner_node-1] [INFO] [1730212922.797784892] [local_planner_node]: find feasible solution with score 0.000001
+[local_planner_node-1] [INFO] [1730212922.854706675] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212922.893366931] [local_planner_node]: solve use time 0.033506
+[local_planner_node-1] [INFO] [1730212922.893624047] [local_planner_node]: find feasible solution with score 0.000006
+[local_planner_node-1] [INFO] [1730212922.954914475] [local_planner_node]: obs num 0
+[local_planner_node-1] [INFO] [1730212922.990071762] [local_planner_node]: solve use time 0.030835
+[local_planner_node-1] [INFO] [1730212922.990331790] [local_planner_node]: find feasible solution with score 0.000036
+[local_planner_node-1] [INFO] [1730212923.054450244] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212923.098977872] [local_planner_node]: solve use time 0.036513
+[local_planner_node-1] [INFO] [1730212923.099235429] [local_planner_node]: find feasible solution with score 0.000001
+[local_planner_node-1] [INFO] [1730212923.154951832] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212923.205363238] [local_planner_node]: solve use time 0.042031
+[local_planner_node-1] [INFO] [1730212923.205661819] [local_planner_node]: find feasible solution with score 0.000001
+[local_planner_node-1] [INFO] [1730212923.255112492] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212923.302173969] [local_planner_node]: solve use time 0.036658
+[local_planner_node-1] [INFO] [1730212923.302637004] [local_planner_node]: find feasible solution with score 0.000046
+[local_planner_node-1] [INFO] [1730212923.354830396] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212923.397673030] [local_planner_node]: solve use time 0.034469
+[local_planner_node-1] [INFO] [1730212923.398085552] [local_planner_node]: find feasible solution with score 0.000130
+[local_planner_node-1] [INFO] [1730212923.454671688] [local_planner_node]: obs num 1
+[local_planner_node-1] [INFO] [1730212923.497673181] [local_planner_node]: solve use time 0.033973
+[local_planner_node-1] [INFO] [1730212923.497941991] [local_planner_node]: find feasible solution with score 0.000051
