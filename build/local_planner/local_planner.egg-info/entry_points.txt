@@ -1,4 +1,0 @@
-[console_scripts]
-controller_node = local_planner.controller:main
-local_planner_node = local_planner.local_planner:main
-

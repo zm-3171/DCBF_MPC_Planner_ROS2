@@ -1,6 +1,0 @@
-source;share/samplelaunch/hook/pythonpath.ps1
-source;share/samplelaunch/hook/pythonpath.dsv
-source;share/samplelaunch/hook/pythonpath.sh
-source;share/samplelaunch/hook/ament_prefix_path.ps1
-source;share/samplelaunch/hook/ament_prefix_path.dsv
-source;share/samplelaunch/hook/ament_prefix_path.sh

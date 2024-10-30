@@ -1,8 +1,0 @@
-source;share/scene/hook/cmake_prefix_path.ps1
-source;share/scene/hook/cmake_prefix_path.dsv
-source;share/scene/hook/cmake_prefix_path.sh
-source;share/scene/local_setup.bash
-source;share/scene/local_setup.dsv
-source;share/scene/local_setup.ps1
-source;share/scene/local_setup.sh
-source;share/scene/local_setup.zsh

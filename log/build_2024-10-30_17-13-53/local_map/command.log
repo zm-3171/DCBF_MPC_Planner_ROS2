@@ -1,2 +1,0 @@
-Invoking command in '/home/c/weston_ws/MPC_planner/build/local_map': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/local_map -- -j12 -l12
-Invoked command in '/home/c/weston_ws/MPC_planner/build/local_map' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/local_map -- -j12 -l12

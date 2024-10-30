@@ -1,7 +1,0 @@
-In file included from [01m[K/home/c/weston_ws/MPC_planner/src/local_map/src/local_map.cpp:33[m[K:
-[01m[K/home/c/weston_ws/MPC_planner/src/local_map/include/KM.hpp:24:7:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KKMAlgorithm::[m[K’ on member ‘[01m[Kupdate_his_list[m[K’ [[01;31m[K-fpermissive[m[K]
-   24 |  void [01;31m[KKMAlgorithm[m[K::update_his_list(std::unordered_map<int, Ellipse>& used_label);
-      |       [01;31m[K^~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/local_map.dir/build.make:76: CMakeFiles/local_map.dir/src/local_map.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/local_map.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

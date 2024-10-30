@@ -1,4 +1,0 @@
-source;share/velodyne_simulator/local_setup.bash
-source;share/velodyne_simulator/local_setup.dsv
-source;share/velodyne_simulator/local_setup.sh
-source;share/velodyne_simulator/local_setup.zsh
