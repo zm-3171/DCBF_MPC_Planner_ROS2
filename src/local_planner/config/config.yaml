@@ -13,13 +13,13 @@
 
     MPC_constraint: "Euclidean"  #    None
 
-    init_N: 0
+    init_N: 3
 
-    # init_v_0: 0.0
-    # init_omega_0: 0.0
+    init_v_0: 0.0
+    init_omega_0: 0.0
     
     init_v_0: 0.1
     init_omega_0: 0.3
 
-    # init_v_1: 0.1
-    # init_omega_1: -0.3
+    init_v_1: 0.1
+    init_omega_1: -0.3
