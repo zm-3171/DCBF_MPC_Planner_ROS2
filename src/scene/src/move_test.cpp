@@ -21,7 +21,8 @@ public:
         sub_ = this->create_subscription<std_msgs::msg::Bool>(
             "cmd_move", 10, std::bind(&MovingCylinderNode::cmdCallback, this, std::placeholders::_1));
         client_ = this->create_client<gazebo_msgs::srv::SetEntityState>("/gazebo/set_entity_state");
-        timer_ = this->create_wall_timer(10s, std::bind(&MovingCylinderNode::updateCylinders, this));
+        auto duration = std::chrono::seconds(interval);
+        timer_ = this->create_wall_timer(duration, std::bind(&MovingCylinderNode::updateCylinders, this));
 
         RCLCPP_INFO(this->get_logger(), "Moving test init successfully");
     }
@@ -68,68 +69,20 @@ private:
         RCLCPP_INFO(this->get_logger(), "total cylinder num = %d", int(cylinders_.size()));
     }
 
-    // void updateCylinders()
-    // {
-    //     if (is_move_)
-    //     {
-    //         for (auto &cylinder : cylinders_)
-    //             cylinder->updateState();
-    //     }
-
-    //     for (auto &cylinder : cylinders_)
-    //     {
-    //         auto request = std::make_shared<gazebo_msgs::srv::SetEntityState::Request>();
-    //         request->state.name = cylinder->model_name;
-    //         request->state.pose.position.x = cylinder->position_x;
-    //         request->state.pose.position.y = cylinder->position_y;
-    //         request->state.pose.position.z = cylinder->position_z;
-    //         request->state.twist.linear.x = cylinder->vel_x;   // 线速度
-    //         request->state.twist.linear.y = cylinder->vel_y;   // 线速度
-
-    //         // 设置姿态（orientation），这里假设圆柱体没有旋转，所以使用单位四元数
-    //         request->state.pose.orientation.x = 0.0;
-    //         request->state.pose.orientation.y = 0.0;
-    //         request->state.pose.orientation.z = 0.0;
-    //         request->state.pose.orientation.w = 1.0;
-
-    //         RCLCPP_INFO(this->get_logger(), "send update request for %s", request->state.name.c_str());
-
-    //         // 发送服务请求
-    //         if (client_->service_is_ready())
-    //         {
-    //             auto future_result = client_->async_send_request(request);
-    //             // 等待服务响应
-    //             if (future_result.wait_for(std::chrono::seconds(1)) == std::future_status::ready)
-    //             {
-    //                 auto result = future_result.get();
-    //                 if (result->success)
-    //                 {
-    //                     RCLCPP_INFO(this->get_logger(), "Update successful for %s", request->state.name.c_str());
-    //                 }
-    //                 else
-    //                 {
-    //                     RCLCPP_ERROR(this->get_logger(), "Update failed for %s", request->state.name.c_str());
-    //                 }
-    //             }
-    //             else
-    //             {
-    //                 RCLCPP_ERROR(this->get_logger(), "Service call timed out for %s", request->state.name.c_str());
-    //             }
-    //         }
-    //         else
-    //         {
-    //             RCLCPP_ERROR(this->get_logger(), "Service not available for %s", request->state.name.c_str());
-    //         }
-    //     }
-    // }
-
     void updateCylinders()
     {
-        // if (is_move_)
-        // {
-        //     for (auto &cylinder : cylinders_)
-        //         cylinder->updateState();
-        // }
+        static int cnt = 0;
+        for(auto &cylinder: cylinders_)
+        {
+            for(int i = 0; i < interval; ++i)
+                cylinder->updateState();
+        }
+        if(cnt == change_interval)
+        {
+            cnt = 0;
+            for(auto &cylinder: cylinders_)
+                cylinder->reverseVel();
+        }
 
         std::vector<std::shared_future<std::shared_ptr<gazebo_msgs::srv::SetEntityState::Response>>> futures;
 
@@ -149,17 +102,11 @@ private:
             request->state.pose.orientation.z = 0.0;
             request->state.pose.orientation.w = 1.0;
 
-            // RCLCPP_INFO(this->get_logger(), "send update request for %s", request->state.name.c_str());
-
             // 异步发送服务请求，并将 future 存储到 futures 向量中
             if (client_->service_is_ready())
             {
                 auto future_result = client_->async_send_request(request);
                 futures.push_back(future_result); // 保存 future 对象
-            }
-            else
-            {
-                // RCLCPP_ERROR(this->get_logger(), "Service not available for %s", request->state.name.c_str());
             }
         }
 
@@ -169,26 +116,18 @@ private:
             if (future.wait_for(std::chrono::seconds(1)) == std::future_status::ready)
             {
                 auto result = future.get();
-                if (result->success)
-                {
-                    // RCLCPP_INFO(this->get_logger(), "Update successful");
-                }
-                else
-                {
-                    // RCLCPP_ERROR(this->get_logger(), "Update failed");
-                }
-            }
-            else
-            {
-                // RCLCPP_ERROR(this->get_logger(), "Service call timed out");
             }
         }
+
+        cnt ++;
     }
 
     std::vector<std::shared_ptr<MovingCylinder>> cylinders_;
     rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr sub_;
     rclcpp::Client<gazebo_msgs::srv::SetEntityState>::SharedPtr client_;
     rclcpp::TimerBase::SharedPtr timer_;
+    int interval = 1;
+    int change_interval = 30;
     bool is_move_ = true;
 };
 

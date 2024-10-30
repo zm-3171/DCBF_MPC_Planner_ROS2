@@ -29,6 +29,12 @@ public:
         vel_y = vy;
     }
 
+    void reverseVel()
+    {
+        vel_x = -vel_x;
+        vel_y = -vel_y;
+    }
+
     void updateState()
     {
         position_x += vel_x;

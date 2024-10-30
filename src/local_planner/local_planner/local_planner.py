@@ -86,8 +86,6 @@ class LocalPlanner(Node):
         self.ob = []
         size = int(len(data.data) / 5)
         for i in range(size):
-            # self.ob.append(np.array([2.0, 2.0, 0.5, 0.5, 0.0]))    # test for static obstacles
-            # self.ob.append(np.array(data.data[0:5]))    # test for static obstacles
             self.ob.append(np.array(data.data[5*i:5*i+5]))
         self.obstacle_lock.release()
 
@@ -327,8 +325,6 @@ class LocalPlanner(Node):
             center_vec = curpos_[:2] - ob_vec.T
             dist = ca.sqrt(center_vec[0] ** 2 + center_vec[1] ** 2)
             return dist - self.safe_dist
-            
-            return dist
 
         def o(curpos_, ob_):
             ob_vec = ca.MX([ob_[0], ob_[1]])

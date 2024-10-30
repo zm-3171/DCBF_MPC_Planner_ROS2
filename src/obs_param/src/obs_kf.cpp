@@ -67,7 +67,7 @@ obs_kf::obs_kf() : N(25)
 
     lastTimeUsed = 0;
 
-    T = 0.1;
+    T = 0.25;
 
     x.resize(9);
     x.setZero();

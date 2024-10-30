@@ -2,3 +2,7 @@ build/**
 log/**
 install/**
 .vscode/**
+.gitignore
+
+src/local_planner/acados.py
+src/local_planner/debug**.py
