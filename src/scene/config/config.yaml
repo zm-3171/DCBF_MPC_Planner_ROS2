@@ -1,6 +1,6 @@
 /**:
   ros__parameters:
-    cylinder_num: 1
+    cylinder_num: 5
 
     x_0: 2.0
     y_0: 2.0

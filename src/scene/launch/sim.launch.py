@@ -11,7 +11,7 @@ def generate_launch_description():
     declare_world_arg = DeclareLaunchArgument(
         name='world',
         default_value=[PathJoinSubstitution(
-            [get_package_share_directory('scene'), 'worlds', 'world0.world'])],
+            [get_package_share_directory('scene'), 'worlds', 'world1.world'])],
         description='World file to load'
     )
     

@@ -7,6 +7,7 @@ Panels:
         - /Global Options1
         - /Status1
         - /ellipse1/Topic1
+        - /local path1
       Splitter Ratio: 0.5
     Tree Height: 619
   - Class: rviz_common/Selection
@@ -117,17 +118,17 @@ Visualization Manager:
       Use rainbow: true
       Value: false
     - Class: rviz_default_plugins/MarkerArray
-      Enabled: true
+      Enabled: false
       Name: obs_predict
       Namespaces:
-        ellipse: true
+        {}
       Topic:
         Depth: 5
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /obs_predict_vis_pub
-      Value: true
+      Value: false
     - Class: rviz_default_plugins/MarkerArray
       Enabled: true
       Name: ellipse
@@ -186,7 +187,7 @@ Visualization Manager:
     - Alpha: 1
       Buffer Length: 1
       Class: rviz_default_plugins/Path
-      Color: 25; 255; 0
+      Color: 255; 0; 0
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
@@ -212,10 +213,10 @@ Visualization Manager:
         Value: /local_path
       Value: true
     - Class: rviz_default_plugins/Marker
-      Enabled: true
+      Enabled: false
       Name: local_path_viz
       Namespaces:
-        "": true
+        {}
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -223,7 +224,7 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /pub_path_vis
-      Value: true
+      Value: false
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Class: grid_map_rviz_plugin/GridMap
@@ -332,5 +333,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1319
-  X: 146
-  Y: 124
+  X: 107
+  Y: 19

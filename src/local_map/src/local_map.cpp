@@ -44,8 +44,7 @@ public:
         InitParameters();
         InitializeTFListener();
         InitializeSubPub();
-
-        // 创建一个定时器回调函数处理原ros1框架中 while循环部分代码
+        
         auto period_ms = std::chrono::milliseconds(static_cast<int64_t>(1000.0 / 5));
         timer_ = rclcpp::create_timer(this, this->get_clock(), period_ms, std::bind(&LocalMapPubNode::timer_callback, this));
     }

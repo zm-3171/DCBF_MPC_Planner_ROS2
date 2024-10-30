@@ -21,7 +21,7 @@ class LocalPlanner(Node):
         self.curr_state = None
         self.global_path = None
 
-        self.init_N = 0             
+        self.init_N = 0             # 提供casadi求解器初值组数
         self.init_control = None
 
         self.__load_parameter()
@@ -86,6 +86,8 @@ class LocalPlanner(Node):
         self.ob = []
         size = int(len(data.data) / 5)
         for i in range(size):
+            # self.ob.append(np.array([2.0, 2.0, 0.5, 0.5, 0.0]))    # test for static obstacles
+            # self.ob.append(np.array(data.data[0:5]))    # test for static obstacles
             self.ob.append(np.array(data.data[5*i:5*i+5]))
         self.obstacle_lock.release()
 
@@ -225,6 +227,9 @@ class LocalPlanner(Node):
         self.init_N = self.get_parameter('init_N').value
         self.get_logger().info("load init_N with value %d " % self.init_N)
 
+        self.declare_parameter('MPC_step_size', 0.2)
+        self.MPC_step_size = self.get_parameter('MPC_step_size').value
+
         self.init_control = np.zeros([self.init_N,2])
 
         for i in range(self.init_N):
@@ -264,7 +269,7 @@ class LocalPlanner(Node):
 
         opti = ca.Opti()
         # parameters for optimization
-        T = 0.1
+        T = self.MPC_step_size
         gamma_k = self.gamma_k
         # gamma_k = 0.3
 
@@ -308,16 +313,20 @@ class LocalPlanner(Node):
             return theta > 0
         
         def h(curpos_, ob_):
-            c = ca.cos(ob_[4])
-            s = ca.sin(ob_[4])
-            a = ca.MX([ob_[2]])
-            b = ca.MX([ob_[3]])
+            # c = ca.cos(ob_[4])
+            # s = ca.sin(ob_[4])
+            # a = ca.MX([ob_[2]])
+            # b = ca.MX([ob_[3]])
 
+            # ob_vec = ca.MX([ob_[0], ob_[1]])
+            # center_vec = curpos_[:2] - ob_vec.T
+
+            # dist = b * (ca.sqrt((c ** 2 / a ** 2 + s ** 2 / b ** 2) * center_vec[0] ** 2 + (s ** 2 / a ** 2 + c ** 2 / b ** 2) *
+            #                     center_vec[1] ** 2 + 2 * c * s * (1 / a ** 2 - 1 / b ** 2) * center_vec[0] * center_vec[1]) - 1) - self.safe_dist
             ob_vec = ca.MX([ob_[0], ob_[1]])
             center_vec = curpos_[:2] - ob_vec.T
-
-            dist = b * (ca.sqrt((c ** 2 / a ** 2 + s ** 2 / b ** 2) * center_vec[0] ** 2 + (s ** 2 / a ** 2 + c ** 2 / b ** 2) *
-                                center_vec[1] ** 2 + 2 * c * s * (1 / a ** 2 - 1 / b ** 2) * center_vec[0] * center_vec[1]) - 1) - self.safe_dist
+            dist = ca.sqrt(center_vec[0] ** 2 + center_vec[1] ** 2)
+            return dist - self.safe_dist
             
             return dist
 
@@ -352,7 +361,7 @@ class LocalPlanner(Node):
         if self.MPC_constraint == "CBF": 
             for j in range(num_obs):
                 if not exceed_ob(self.ob[self.kalman_N*j]):  
-                    for i in range(self.kalman_N - 1):
+                    for i in range(1, self.kalman_N - 1):
                         opti.subject_to(h(opt_states[i + 1, :], self.ob[j * self.kalman_N + i + 1]) >=
                                         (1 - gamma_k) * h(opt_states[i, :], self.ob[j * self.kalman_N + i]))
         # Euclidean distance constraint   
@@ -366,7 +375,8 @@ class LocalPlanner(Node):
         R = np.diag([0.1, 0.02])
         A = np.diag([0.1, 0.02])
         for i in range(1,self.N):
-            Q = np.diag([1.0+0.05*i,1.0+0.05*i, 0.02+0.005*i])
+            # Q = np.diag([1.0+0.05*i,1.0+0.05*i, 0.02+0.005*i])
+            Q = np.diag([1.0+0.05*i,1.0+0.05*i, 0.0])
             if i < self.N-1:
                 obj += 0.1 * quadratic(opt_states[i, :] - self.goal_state[[i]], Q) + quadratic(opt_controls[i, :], R)
             else:
@@ -376,7 +386,7 @@ class LocalPlanner(Node):
 
         opti.minimize(obj)
         opts_setting = {'ipopt.max_iter': 2000, 'ipopt.print_level': 0, 'print_time': 0, 'ipopt.acceptable_tol': 1e-3,
-                        'ipopt.acceptable_obj_change_tol': 1e-1}
+                        'ipopt.acceptable_obj_change_tol': 1e-3}
         opti.solver('ipopt', opts_setting)
         opti.set_value(opt_x0, self.curr_state)
 
