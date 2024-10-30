@@ -1,0 +1,26 @@
+[0.098s] Invoking command in '/home/c/weston_ws/MPC_planner/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_planner -- -j12 -l12
+[0.557s] [100%] Built target global_path_publisher
+[0.562s] Invoked command in '/home/c/weston_ws/MPC_planner/build/global_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_planner -- -j12 -l12
+[0.622s] Invoking command in '/home/c/weston_ws/MPC_planner/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_planner
+[0.648s] -- Install configuration: ""
+[0.649s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/lib/global_planner/global_path_publisher
+[0.650s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner//launch
+[0.652s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner//launch/global_path_publisher.launch.py
+[0.652s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner//config
+[0.652s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner//config/config.yaml
+[0.653s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/ament_index/resource_index/package_run_dependencies/global_planner
+[0.653s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/ament_index/resource_index/parent_prefix_path/global_planner
+[0.653s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/environment/ament_prefix_path.sh
+[0.653s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/environment/ament_prefix_path.dsv
+[0.654s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/environment/path.sh
+[0.654s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/environment/path.dsv
+[0.654s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/local_setup.bash
+[0.654s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/local_setup.sh
+[0.654s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/local_setup.zsh
+[0.655s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/local_setup.dsv
+[0.655s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.dsv
+[0.655s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/ament_index/resource_index/packages/global_planner
+[0.655s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/cmake/global_plannerConfig.cmake
+[0.656s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/cmake/global_plannerConfig-version.cmake
+[0.656s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.xml
+[0.725s] Invoked command in '/home/c/weston_ws/MPC_planner/build/global_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_planner

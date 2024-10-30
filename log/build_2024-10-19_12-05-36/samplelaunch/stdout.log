@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/samplelaunch/samplelaunch.egg-info
+writing ../../build/samplelaunch/samplelaunch.egg-info/PKG-INFO
+writing dependency_links to ../../build/samplelaunch/samplelaunch.egg-info/dependency_links.txt
+writing entry points to ../../build/samplelaunch/samplelaunch.egg-info/entry_points.txt
+writing requirements to ../../build/samplelaunch/samplelaunch.egg-info/requires.txt
+writing top-level names to ../../build/samplelaunch/samplelaunch.egg-info/top_level.txt
+writing manifest file '../../build/samplelaunch/samplelaunch.egg-info/SOURCES.txt'
+reading manifest file '../../build/samplelaunch/samplelaunch.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/samplelaunch/samplelaunch.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/c/weston_ws/MPC_planner/build/samplelaunch/build
+creating /home/c/weston_ws/MPC_planner/build/samplelaunch/build/lib
+creating /home/c/weston_ws/MPC_planner/build/samplelaunch/build/lib/samplelaunch
+copying samplelaunch/__init__.py -> /home/c/weston_ws/MPC_planner/build/samplelaunch/build/lib/samplelaunch
+running install
+running install_lib
+creating /home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages/samplelaunch
+copying /home/c/weston_ws/MPC_planner/build/samplelaunch/build/lib/samplelaunch/__init__.py -> /home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages/samplelaunch
+byte-compiling /home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages/samplelaunch/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/c/weston_ws/MPC_planner/install/samplelaunch/share/ament_index
+creating /home/c/weston_ws/MPC_planner/install/samplelaunch/share/ament_index/resource_index
+creating /home/c/weston_ws/MPC_planner/install/samplelaunch/share/ament_index/resource_index/packages
+copying resource/samplelaunch -> /home/c/weston_ws/MPC_planner/install/samplelaunch/share/ament_index/resource_index/packages
+copying package.xml -> /home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch
+copying launch/local_map.launch.py -> /home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch
+running install_egg_info
+Copying ../../build/samplelaunch/samplelaunch.egg-info to /home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages/samplelaunch-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/c/weston_ws/MPC_planner/build/samplelaunch/install.log'

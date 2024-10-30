@@ -1,0 +1,26 @@
+[0.070s] Invoking command in '/home/c/weston_ws/MPC_planner/build/local_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/local_map -- -j12 -l12
+[0.491s] [100%] Built target local_map
+[0.515s] Invoked command in '/home/c/weston_ws/MPC_planner/build/local_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/local_map -- -j12 -l12
+[0.601s] Invoking command in '/home/c/weston_ws/MPC_planner/build/local_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/local_map
+[0.609s] -- Install configuration: "Release"
+[0.609s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/lib/local_map/local_map
+[0.609s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map//config
+[0.609s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map//config/config.yaml
+[0.609s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map//rviz
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map//rviz/rviz_config.rviz
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/ament_index/resource_index/package_run_dependencies/local_map
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/ament_index/resource_index/parent_prefix_path/local_map
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/environment/ament_prefix_path.sh
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/environment/ament_prefix_path.dsv
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/environment/path.sh
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/environment/path.dsv
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/local_setup.bash
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/local_setup.sh
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/local_setup.zsh
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/local_setup.dsv
+[0.610s] -- Installing: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.dsv
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/ament_index/resource_index/packages/local_map
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/cmake/local_mapConfig.cmake
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/cmake/local_mapConfig-version.cmake
+[0.610s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.xml
+[0.666s] Invoked command in '/home/c/weston_ws/MPC_planner/build/local_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/local_map

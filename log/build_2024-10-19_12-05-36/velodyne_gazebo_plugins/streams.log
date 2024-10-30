@@ -1,0 +1,136 @@
+[0.039s] Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake /home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins
+[0.396s] -- The C compiler identification is GNU 9.5.0
+[0.830s] -- The CXX compiler identification is GNU 9.5.0
+[1.303s] -- Detecting C compiler ABI info
+[1.486s] -- Detecting C compiler ABI info - done
+[1.495s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.495s] -- Detecting C compile features
+[1.495s] -- Detecting C compile features - done
+[1.497s] -- Detecting CXX compiler ABI info
+[1.672s] -- Detecting CXX compiler ABI info - done
+[1.677s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.677s] -- Detecting CXX compile features
+[1.678s] -- Detecting CXX compile features - done
+[1.680s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.832s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.922s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.939s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.945s] -- Checking for module 'bullet>=2.82'
+[1.953s] --   Found bullet, version 3.05
+[2.091s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.131s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.158s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.599s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.388s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.393s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.403s] -- Searching for dependencies of ignition-math6
+[3.405s] -- Looking for OGRE...
+[3.406s] -- OGRE_PREFIX_WATCH changed.
+[3.410s] -- Checking for module 'OGRE'
+[3.417s] --   Found OGRE, version 1.9.0
+[3.436s] -- Found Ogre Ghadamon (1.9.0)
+[4.035s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.042s] -- Looking for OGRE_Paging...
+[4.588s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.588s] -- Looking for OGRE_Terrain...
+[5.108s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.108s] -- Looking for OGRE_Property...
+[5.656s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.657s] -- Looking for OGRE_RTShaderSystem...
+[6.220s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.220s] -- Looking for OGRE_Volume...
+[6.554s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.554s] -- Looking for OGRE_Overlay...
+[6.936s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[26.657s] -- Looking for ignition-math6 -- found version 6.15.1
+[26.658s] -- Looking for ignition-transport8 -- found version 8.2.1
+[26.658s] -- Searching for dependencies of ignition-transport8
+[27.398s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[27.883s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[27.886s] -- Checking for module 'libzmq >= 4'
+[27.895s] --   Found libzmq , version 4.3.4
+[27.915s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[27.945s] -- Checking for module 'uuid'
+[27.953s] --   Found uuid, version 2.37.2
+[27.970s] -- Found UUID: TRUE  
+[27.972s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[27.972s] -- Searching for dependencies of ignition-msgs5
+[28.366s] -- Looking for ignition-math6 -- found version 6.15.1
+[28.373s] -- Checking for module 'tinyxml2'
+[28.381s] --   Found tinyxml2, version 9.0.0
+[28.400s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[28.402s] -- Looking for ignition-common3 -- found version 3.14.0
+[28.402s] -- Searching for dependencies of ignition-common3
+[28.425s] -- Looking for dlfcn.h - found
+[28.445s] -- Looking for libdl - found
+[28.446s] -- Found DL: TRUE  
+[28.496s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[28.496s] -- Searching for <ignition-common3> component [graphics]
+[28.498s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[28.498s] -- Searching for dependencies of ignition-common3-graphics
+[28.499s] -- Looking for ignition-math6 -- found version 6.15.1
+[28.502s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[28.502s] -- Searching for dependencies of ignition-fuel_tools4
+[28.991s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[28.998s] -- Checking for module 'jsoncpp'
+[29.005s] --   Found jsoncpp, version 1.9.5
+[29.022s] -- Found JSONCPP: TRUE  
+[29.027s] -- Checking for module 'libzip'
+[29.033s] --   Found libzip, version 1.7.3
+[29.050s] -- Found ZIP: TRUE  
+[29.050s] -- Looking for ignition-common3 -- found version 3.14.0
+[29.051s] -- Looking for ignition-math6 -- found version 6.15.1
+[29.051s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[29.054s] -- Gazebo version: 11.10
+[29.054s] -- Checking for module 'tbb'
+[29.061s] --   Found tbb, version 2021.5.0
+[29.079s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[29.139s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[29.142s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[29.148s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[29.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[29.169s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[29.213s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[29.215s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[30.310s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[31.493s] -- Found FastRTPS: /opt/ros/humble/include  
+[33.698s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[33.705s] -- Found Threads: TRUE  
+[33.814s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[33.976s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[34.094s] -- Configuring done
+[34.116s] -- Generating done
+[34.117s] -- Build files have been written to: /home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins
+[34.129s] Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake /home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins
+[34.132s] Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins -- -j12 -l12
+[34.169s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o[0m
+[48.393s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so[0m
+[48.890s] [100%] Built target gazebo_ros_velodyne_laser
+[48.897s] Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins -- -j12 -l12
+[48.917s] Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins
+[48.921s] -- Install configuration: ""
+[48.921s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so
+[48.924s] -- Set runtime path of "/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so" to ""
+[48.924s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins
+[48.924s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.hpp
+[48.924s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh
+[48.924s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv
+[48.925s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins
+[48.925s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins
+[48.925s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh
+[48.925s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv
+[48.925s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh
+[48.925s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv
+[48.925s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash
+[48.925s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+[48.926s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml
+[48.928s] Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins

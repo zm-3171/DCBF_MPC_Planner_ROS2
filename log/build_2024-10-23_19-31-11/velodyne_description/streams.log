@@ -1,0 +1,42 @@
+[0.059s] Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_description -- -j12 -l12
+[0.524s] Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_description -- -j12 -l12
+[0.584s] Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_description
+[0.594s] -- Install configuration: ""
+[0.597s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/launch
+[0.599s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/launch/example.launch.py
+[0.599s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes
+[0.599s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.dae
+[0.599s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.dae
+[0.599s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.dae
+[0.599s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.dae
+[0.600s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.dae
+[0.600s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.stl
+[0.600s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.stl
+[0.601s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.stl
+[0.601s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.stl
+[0.601s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.stl
+[0.602s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/rviz
+[0.602s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/rviz/example.rviz
+[0.602s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/urdf
+[0.602s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/urdf/example.urdf.xacro
+[0.602s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/urdf/VLP-16.urdf.xacro
+[0.604s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/urdf/HDL-32E.urdf.xacro
+[0.605s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/world
+[0.605s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/world/example.world
+[0.605s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/environment/velodyne_description.dsv
+[0.605s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/ament_index/resource_index/package_run_dependencies/velodyne_description
+[0.607s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/ament_index/resource_index/parent_prefix_path/velodyne_description
+[0.609s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.sh
+[0.617s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.dsv
+[0.617s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/environment/path.sh
+[0.618s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/environment/path.dsv
+[0.618s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/local_setup.bash
+[0.618s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/local_setup.sh
+[0.623s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/local_setup.zsh
+[0.623s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/local_setup.dsv
+[0.624s] -- Installing: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.dsv
+[0.624s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/ament_index/resource_index/packages/velodyne_description
+[0.625s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig.cmake
+[0.625s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig-version.cmake
+[0.625s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.xml
+[0.666s] Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_description

@@ -1,0 +1,4 @@
+source;share/scene/local_setup.bash
+source;share/scene/local_setup.dsv
+source;share/scene/local_setup.sh
+source;share/scene/local_setup.zsh

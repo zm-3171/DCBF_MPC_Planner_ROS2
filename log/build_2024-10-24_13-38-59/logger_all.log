@@ -1,0 +1,939 @@
+[0.410s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.410s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f3d2d7eebf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3d2d7ee1d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3d2d7ee1d0>>, mixin_verb=('build',))
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.595s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/c/weston_ws/MPC_planner'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path_publisher) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path_publisher) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path_publisher) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path_publisher) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path_publisher) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path_publisher) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path_publisher) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path_publisher) by extension 'ros'
+[0.615s] DEBUG:colcon.colcon_core.package_identification:Package 'src/global_path_publisher' with type 'ros.ament_cmake' and name 'global_path_publisher'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'ros'
+[0.617s] DEBUG:colcon.colcon_core.package_identification:Package 'src/global_planner' with type 'ros.ament_cmake' and name 'global_planner'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_path_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_path_publisher) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_path_publisher) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_path_publisher) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_path_publisher) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_path_publisher) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_path_publisher) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_path_publisher) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_path_publisher) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linear_path_publisher' with type 'ros.ament_cmake' and name 'linear_path_publisher'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_map) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_map) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_map) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_map) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_map) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_map) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_map) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_map) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_map) by extension 'ros'
+[0.619s] DEBUG:colcon.colcon_core.package_identification:Package 'src/local_map' with type 'ros.ament_cmake' and name 'local_map'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'ros'
+[0.620s] DEBUG:colcon.colcon_core.package_identification:Package 'src/local_planner' with type 'ros.ament_python' and name 'local_planner'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_param) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_param) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_param) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_param) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_param) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_param) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_param) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_param) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_param) by extension 'ros'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obs_param' with type 'ros.ament_cmake' and name 'obs_param'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/samplelaunch) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/samplelaunch) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/samplelaunch) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/samplelaunch) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/samplelaunch) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/samplelaunch) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/samplelaunch) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/samplelaunch) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/samplelaunch) by extension 'ros'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Package 'src/samplelaunch' with type 'ros.ament_python' and name 'samplelaunch'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/scene) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/scene) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/scene) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/scene) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/scene) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/scene) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/scene) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/scene) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/scene) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scene' with type 'ros.ament_cmake' and name 'scene'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extension 'ros'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extension 'cmake'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extension 'python'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.630s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extension 'ros'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extensions ['cmake', 'python']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extension 'cmake'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extension 'python'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extensions ['python_setup_py']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/img) by extension 'python_setup_py'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description' with type 'ros.ament_cmake' and name 'velodyne_description'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ros'
+[0.637s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins' with type 'ros.ament_cmake' and name 'velodyne_gazebo_plugins'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator) by extension 'colcon_pkg'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator) by extensions ['ros']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator) by extension 'ros'
+[0.638s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator' with type 'ros.ament_cmake' and name 'velodyne_simulator'
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.684s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/c/weston_ws/MPC_planner/install
+[0.685s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 435 installed packages in /opt/ros/humble
+[0.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'global_path_publisher' build argument 'cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'global_path_publisher' build argument 'cmake_target' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'global_path_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'global_path_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'global_path_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'global_path_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'global_path_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'global_path_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'global_path_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.734s] DEBUG:colcon.colcon_core.verb:Building package 'global_path_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/global_path_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/global_path_publisher', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/global_path_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_target' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.735s] DEBUG:colcon.colcon_core.verb:Building package 'global_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/global_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/global_planner', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/global_planner', 'symlink_install': False, 'test_result_base': None}
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'linear_path_publisher' build argument 'cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'linear_path_publisher' build argument 'cmake_target' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'linear_path_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'linear_path_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'linear_path_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'linear_path_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'linear_path_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'linear_path_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'linear_path_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.735s] DEBUG:colcon.colcon_core.verb:Building package 'linear_path_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/linear_path_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/linear_path_publisher', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/linear_path_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'local_map' build argument 'cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'local_map' build argument 'cmake_target' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'local_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'local_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.736s] DEBUG:colcon.colcon_core.verb:Building package 'local_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/local_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/local_map', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/local_map', 'symlink_install': False, 'test_result_base': None}
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.736s] DEBUG:colcon.colcon_core.verb:Building package 'local_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/local_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/local_planner', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/local_planner', 'symlink_install': False, 'test_result_base': None}
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'obs_param' build argument 'cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'obs_param' build argument 'cmake_target' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'obs_param' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'obs_param' build argument 'cmake_clean_cache' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'obs_param' build argument 'cmake_clean_first' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'obs_param' build argument 'cmake_force_configure' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'obs_param' build argument 'ament_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'obs_param' build argument 'catkin_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'obs_param' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.736s] DEBUG:colcon.colcon_core.verb:Building package 'obs_param' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/obs_param', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/obs_param', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/obs_param', 'symlink_install': False, 'test_result_base': None}
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'samplelaunch' build argument 'cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'samplelaunch' build argument 'cmake_target' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'samplelaunch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'samplelaunch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'samplelaunch' build argument 'cmake_clean_first' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'samplelaunch' build argument 'cmake_force_configure' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'samplelaunch' build argument 'ament_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'samplelaunch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'samplelaunch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.737s] DEBUG:colcon.colcon_core.verb:Building package 'samplelaunch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/samplelaunch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/samplelaunch', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/samplelaunch', 'symlink_install': False, 'test_result_base': None}
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'scene' build argument 'cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'scene' build argument 'cmake_target' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'scene' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'scene' build argument 'cmake_clean_cache' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'scene' build argument 'cmake_clean_first' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'scene' build argument 'cmake_force_configure' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'scene' build argument 'ament_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'scene' build argument 'catkin_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'scene' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.737s] DEBUG:colcon.colcon_core.verb:Building package 'scene' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/scene', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/scene', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/scene', 'symlink_install': False, 'test_result_base': None}
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.737s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.738s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/velodyne_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/velodyne_description', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description', 'symlink_install': False, 'test_result_base': None}
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.738s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.739s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.739s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/c/weston_ws/MPC_planner/build/velodyne_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/c/weston_ws/MPC_planner/install/velodyne_simulator', 'merge_install': False, 'path': '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.739s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.740s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_gazebo'
+[0.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.749s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.756s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description' with build type 'ament_cmake'
+[0.756s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_description'
+[0.757s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.757s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.767s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins' with build type 'ament_cmake'
+[0.767s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_gazebo_plugins'
+[0.768s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.768s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.778s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/global_path_publisher' with build type 'ament_cmake'
+[0.778s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/global_path_publisher'
+[0.779s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.779s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.788s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/global_planner' with build type 'ament_cmake'
+[0.789s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/global_planner'
+[0.789s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.800s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/linear_path_publisher' with build type 'ament_cmake'
+[0.801s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/linear_path_publisher'
+[0.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.811s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/local_map' with build type 'ament_cmake'
+[0.814s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/local_map'
+[0.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.820s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/local_planner' with build type 'ament_python'
+[0.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_planner', 'ament_prefix_path')
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/hook/ament_prefix_path.ps1'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/hook/ament_prefix_path.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/hook/ament_prefix_path.sh'
+[0.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.839s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/obs_param' with build type 'ament_cmake'
+[0.840s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/obs_param'
+[0.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.855s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/samplelaunch' with build type 'ament_python'
+[0.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('samplelaunch', 'ament_prefix_path')
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/hook/ament_prefix_path.ps1'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/hook/ament_prefix_path.dsv'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/hook/ament_prefix_path.sh'
+[0.858s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.865s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/scene' with build type 'ament_cmake'
+[0.865s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/scene'
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/turtlebot3_gazebo -- -j12 -l12
+[0.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_description -- -j12 -l12
+[0.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins -- -j12 -l12
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/global_path_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_path_publisher -- -j12 -l12
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_planner -- -j12 -l12
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/linear_path_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/linear_path_publisher -- -j12 -l12
+[0.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/local_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/local_map -- -j12 -l12
+[1.359s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/c/weston_ws/MPC_planner/src/local_planner'
+[1.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/obs_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/obs_param -- -j12 -l12
+[1.739s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/c/weston_ws/MPC_planner/src/samplelaunch'
+[1.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/scene': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/scene -- -j12 -l12
+[1.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_description -- -j12 -l12
+[1.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/turtlebot3_gazebo -- -j12 -l12
+[1.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/global_path_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_path_publisher -- -j12 -l12
+[1.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins -- -j12 -l12
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/global_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_planner -- -j12 -l12
+[1.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/linear_path_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/linear_path_publisher -- -j12 -l12
+[1.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/local_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/local_map -- -j12 -l12
+[1.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/obs_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/obs_param -- -j12 -l12
+[1.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_description
+[1.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/global_path_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_path_publisher
+[1.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins
+[1.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/scene' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/scene -- -j12 -l12
+[1.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/turtlebot3_gazebo
+[1.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/linear_path_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/linear_path_publisher
+[1.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_planner
+[1.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/obs_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/obs_param
+[1.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/local_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/local_map
+[1.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_description
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description' for CMake module files
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description' for CMake config files
+[2.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[2.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description/bin'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description/lib/python3.10/site-packages'
+[2.041s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description/bin'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.ps1'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.dsv'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.sh'
+[2.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.bash'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.zsh'
+[2.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[2.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_path_publisher)
+[2.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/global_path_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_path_publisher
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher' for CMake module files
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher' for CMake config files
+[2.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_path_publisher', 'cmake_prefix_path')
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/hook/cmake_prefix_path.ps1'
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/hook/cmake_prefix_path.dsv'
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/hook/cmake_prefix_path.sh'
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/lib'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/bin'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/lib/pkgconfig/global_path_publisher.pc'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/lib/python3.10/site-packages'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/bin'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.ps1'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.dsv'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.sh'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.bash'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.zsh'
+[2.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/colcon-core/packages/global_path_publisher)
+[2.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins' for CMake module files
+[2.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_gazebo_plugins
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins' for CMake config files
+[2.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[2.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib'
+[2.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[2.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/bin'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib/python3.10/site-packages'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/bin'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[2.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[2.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[2.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[2.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[2.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo' for CMake module files
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo' for CMake config files
+[2.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/turtlebot3_gazebo
+[2.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/lib'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/bin'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/bin'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[2.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[2.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[2.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linear_path_publisher)
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher' for CMake module files
+[2.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/linear_path_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/linear_path_publisher
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher' for CMake config files
+[2.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('linear_path_publisher', 'cmake_prefix_path')
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/hook/cmake_prefix_path.ps1'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/hook/cmake_prefix_path.dsv'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/hook/cmake_prefix_path.sh'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/lib'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/bin'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/lib/pkgconfig/linear_path_publisher.pc'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/lib/python3.10/site-packages'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/bin'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.ps1'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.dsv'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.sh'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.bash'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.zsh'
+[2.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/colcon-core/packages/linear_path_publisher)
+[2.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_planner)
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner' for CMake module files
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner' for CMake config files
+[2.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_planner', 'cmake_prefix_path')
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/hook/cmake_prefix_path.ps1'
+[2.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/global_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_planner
+[2.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/hook/cmake_prefix_path.dsv'
+[2.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/hook/cmake_prefix_path.sh'
+[2.159s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/lib'
+[2.159s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/bin'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/lib/pkgconfig/global_planner.pc'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/lib/python3.10/site-packages'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/bin'
+[2.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.ps1'
+[2.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.dsv'
+[2.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.sh'
+[2.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.bash'
+[2.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.zsh'
+[2.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/global_planner/share/colcon-core/packages/global_planner)
+[2.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obs_param)
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param' for CMake module files
+[2.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/obs_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/obs_param
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param' for CMake config files
+[2.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('obs_param', 'cmake_prefix_path')
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/hook/cmake_prefix_path.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/hook/cmake_prefix_path.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/hook/cmake_prefix_path.sh'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/lib'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/bin'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/lib/pkgconfig/obs_param.pc'
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/lib/python3.10/site-packages'
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/bin'
+[2.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.ps1'
+[2.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.dsv'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.sh'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.bash'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.zsh'
+[2.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/obs_param/share/colcon-core/packages/obs_param)
+[2.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(local_map)
+[2.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/local_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/local_map
+[2.194s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map' for CMake module files
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map' for CMake config files
+[2.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_map', 'cmake_prefix_path')
+[2.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/hook/cmake_prefix_path.ps1'
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/hook/cmake_prefix_path.dsv'
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/hook/cmake_prefix_path.sh'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/lib'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/bin'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/lib/pkgconfig/local_map.pc'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/lib/python3.10/site-packages'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/bin'
+[2.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.ps1'
+[2.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.dsv'
+[2.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.sh'
+[2.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.bash'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.zsh'
+[2.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/local_map/share/colcon-core/packages/local_map)
+[2.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/scene': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/scene
+[2.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description' for CMake module files
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description' for CMake config files
+[2.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[2.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[2.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[2.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[2.235s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description/bin'
+[2.235s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description/lib/python3.10/site-packages'
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_description/bin'
+[2.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.ps1'
+[2.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.dsv'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.sh'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.bash'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_description/share/velodyne_description/package.zsh'
+[2.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[2.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_path_publisher)
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher' for CMake module files
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher' for CMake config files
+[2.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_path_publisher', 'cmake_prefix_path')
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/hook/cmake_prefix_path.ps1'
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/hook/cmake_prefix_path.dsv'
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/hook/cmake_prefix_path.sh'
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/lib'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/bin'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/lib/pkgconfig/global_path_publisher.pc'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/lib/python3.10/site-packages'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_path_publisher/bin'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.ps1'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.dsv'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.sh'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.bash'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.zsh'
+[2.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/global_path_publisher/share/colcon-core/packages/global_path_publisher)
+[2.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins' for CMake module files
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins' for CMake config files
+[2.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[2.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[2.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib'
+[2.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[2.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[2.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[2.277s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/bin'
+[2.277s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib/python3.10/site-packages'
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/bin'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[2.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[2.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[2.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[2.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[2.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo' for CMake module files
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo' for CMake config files
+[2.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[2.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[2.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[2.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/lib'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/bin'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/bin'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[2.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[2.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[2.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linear_path_publisher)
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher' for CMake module files
+[2.315s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher' for CMake config files
+[2.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('linear_path_publisher', 'cmake_prefix_path')
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/hook/cmake_prefix_path.ps1'
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/hook/cmake_prefix_path.dsv'
+[2.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/hook/cmake_prefix_path.sh'
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/lib'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/bin'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/lib/pkgconfig/linear_path_publisher.pc'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/lib/python3.10/site-packages'
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/bin'
+[2.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.ps1'
+[2.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.dsv'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.sh'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.bash'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.zsh'
+[2.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/colcon-core/packages/linear_path_publisher)
+[2.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[2.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/turtlebot3_simulations/turtlebot3_simulations'
+[2.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.350s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator' with build type 'ament_cmake'
+[2.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/c/weston_ws/MPC_planner/src/turtlebot3_velodyne_Gazebo/velodyne_simulator/velodyne_simulator'
+[2.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scene)
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene' for CMake module files
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene' for CMake config files
+[2.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/scene' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/scene
+[2.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('scene', 'cmake_prefix_path')
+[2.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/scene/share/scene/hook/cmake_prefix_path.ps1'
+[2.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/scene/share/scene/hook/cmake_prefix_path.dsv'
+[2.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/scene/share/scene/hook/cmake_prefix_path.sh'
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/lib'
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/bin'
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/lib/pkgconfig/scene.pc'
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/lib/python3.10/site-packages'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/bin'
+[2.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.ps1'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.dsv'
+[2.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.sh'
+[2.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.bash'
+[2.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.zsh'
+[2.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/scene/share/colcon-core/packages/scene)
+[2.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_planner)
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner' for CMake module files
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner' for CMake config files
+[2.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_planner', 'cmake_prefix_path')
+[2.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/hook/cmake_prefix_path.ps1'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/hook/cmake_prefix_path.dsv'
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/hook/cmake_prefix_path.sh'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/lib'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/bin'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/lib/pkgconfig/global_planner.pc'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/lib/python3.10/site-packages'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/global_planner/bin'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.ps1'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.dsv'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.sh'
+[2.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.bash'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.zsh'
+[2.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/global_planner/share/colcon-core/packages/global_planner)
+[2.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(local_map)
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map' for CMake module files
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map' for CMake config files
+[2.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_map', 'cmake_prefix_path')
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/hook/cmake_prefix_path.ps1'
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/hook/cmake_prefix_path.dsv'
+[2.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/hook/cmake_prefix_path.sh'
+[2.415s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/lib'
+[2.415s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/bin'
+[2.415s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/lib/pkgconfig/local_map.pc'
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/lib/python3.10/site-packages'
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_map/bin'
+[2.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.ps1'
+[2.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.dsv'
+[2.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.sh'
+[2.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.bash'
+[2.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_map/share/local_map/package.zsh'
+[2.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/local_map/share/colcon-core/packages/local_map)
+[2.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obs_param)
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param' for CMake module files
+[2.423s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param' for CMake config files
+[2.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('obs_param', 'cmake_prefix_path')
+[2.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/hook/cmake_prefix_path.ps1'
+[2.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/hook/cmake_prefix_path.dsv'
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/hook/cmake_prefix_path.sh'
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/lib'
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/bin'
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/lib/pkgconfig/obs_param.pc'
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/lib/python3.10/site-packages'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/obs_param/bin'
+[2.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.ps1'
+[2.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.dsv'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.sh'
+[2.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.bash'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.zsh'
+[2.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/obs_param/share/colcon-core/packages/obs_param)
+[2.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scene)
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene' for CMake module files
+[2.509s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene' for CMake config files
+[2.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('scene', 'cmake_prefix_path')
+[2.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/scene/share/scene/hook/cmake_prefix_path.ps1'
+[2.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/scene/share/scene/hook/cmake_prefix_path.dsv'
+[2.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/scene/share/scene/hook/cmake_prefix_path.sh'
+[2.519s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/lib'
+[2.519s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/bin'
+[2.519s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/lib/pkgconfig/scene.pc'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/lib/python3.10/site-packages'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/scene/bin'
+[2.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.ps1'
+[2.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.dsv'
+[2.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.sh'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.bash'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/scene/share/scene/package.zsh'
+[2.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/scene/share/colcon-core/packages/scene)
+[2.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/home/c/weston_ws/MPC_planner/install/velodyne_simulator:/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins:/home/c/weston_ws/MPC_planner/install/velodyne_description:/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations:/home/c/weston_ws/MPC_planner/install/scene:/home/c/weston_ws/MPC_planner/install/obs_param:/home/c/weston_ws/MPC_planner/install/local_map:/home/c/weston_ws/MPC_planner/install/linear_path_publisher:/home/c/weston_ws/MPC_planner/install/global_planner:/home/c/weston_ws/MPC_planner/install/global_path_publisher:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/turtlebot3_simulations -- -j12 -l12
+[2.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/src/samplelaunch': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/samplelaunch/prefix_override:/home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/samplelaunch build --build-base /home/c/weston_ws/MPC_planner/build/samplelaunch/build install --record /home/c/weston_ws/MPC_planner/build/samplelaunch/install.log --single-version-externally-managed install_data
+[2.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/src/local_planner': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/local_planner/prefix_override:/home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/c/weston_ws/MPC_planner/build/local_planner/build install --record /home/c/weston_ws/MPC_planner/build/local_planner/install.log --single-version-externally-managed install_data
+[2.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/home/c/weston_ws/MPC_planner/install/velodyne_simulator:/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins:/home/c/weston_ws/MPC_planner/install/velodyne_description:/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations:/home/c/weston_ws/MPC_planner/install/scene:/home/c/weston_ws/MPC_planner/install/obs_param:/home/c/weston_ws/MPC_planner/install/local_map:/home/c/weston_ws/MPC_planner/install/linear_path_publisher:/home/c/weston_ws/MPC_planner/install/global_planner:/home/c/weston_ws/MPC_planner/install/global_path_publisher:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/turtlebot3_simulations -- -j12 -l12
+[2.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/home/c/weston_ws/MPC_planner/install/velodyne_simulator:/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins:/home/c/weston_ws/MPC_planner/install/velodyne_description:/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations:/home/c/weston_ws/MPC_planner/install/scene:/home/c/weston_ws/MPC_planner/install/obs_param:/home/c/weston_ws/MPC_planner/install/local_map:/home/c/weston_ws/MPC_planner/install/linear_path_publisher:/home/c/weston_ws/MPC_planner/install/global_planner:/home/c/weston_ws/MPC_planner/install/global_path_publisher:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/turtlebot3_simulations
+[2.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[2.710s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations' for CMake module files
+[2.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/home/c/weston_ws/MPC_planner/install/velodyne_simulator:/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins:/home/c/weston_ws/MPC_planner/install/velodyne_description:/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations:/home/c/weston_ws/MPC_planner/install/scene:/home/c/weston_ws/MPC_planner/install/obs_param:/home/c/weston_ws/MPC_planner/install/local_map:/home/c/weston_ws/MPC_planner/install/linear_path_publisher:/home/c/weston_ws/MPC_planner/install/global_planner:/home/c/weston_ws/MPC_planner/install/global_path_publisher:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/turtlebot3_simulations
+[2.714s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations' for CMake config files
+[2.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[2.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[2.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[2.716s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/bin'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/bin'
+[2.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[2.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[2.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[2.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations' for CMake module files
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations' for CMake config files
+[2.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/bin'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/bin'
+[2.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[2.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[2.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[2.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[2.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[2.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[3.065s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/samplelaunch' for CMake module files
+[3.068s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/samplelaunch' for CMake config files
+[3.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_simulator': CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins:/home/c/weston_ws/MPC_planner/install/velodyne_description:/home/c/weston_ws/MPC_planner/install/velodyne_simulator:/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations:/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/home/c/weston_ws/MPC_planner/install/scene:/home/c/weston_ws/MPC_planner/install/obs_param:/home/c/weston_ws/MPC_planner/install/local_map:/home/c/weston_ws/MPC_planner/install/linear_path_publisher:/home/c/weston_ws/MPC_planner/install/global_planner:/home/c/weston_ws/MPC_planner/install/global_path_publisher:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib:/usr/lib/wsl/lib:/usr/lib/:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_simulator -- -j12 -l12
+[3.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/src/samplelaunch' returned '0': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/samplelaunch/prefix_override:/home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/samplelaunch build --build-base /home/c/weston_ws/MPC_planner/build/samplelaunch/build install --record /home/c/weston_ws/MPC_planner/build/samplelaunch/install.log --single-version-externally-managed install_data
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/samplelaunch/lib'
+[3.071s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/samplelaunch/bin'
+[3.071s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/samplelaunch/lib/pkgconfig/samplelaunch.pc'
+[3.071s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages'
+[3.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('samplelaunch', 'pythonpath')
+[3.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/hook/pythonpath.ps1'
+[3.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/hook/pythonpath.dsv'
+[3.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/hook/pythonpath.sh'
+[3.075s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/samplelaunch/bin'
+[3.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(samplelaunch)
+[3.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/package.ps1'
+[3.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/package.dsv'
+[3.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/package.sh'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/package.bash'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch/package.zsh'
+[3.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/samplelaunch/share/colcon-core/packages/samplelaunch)
+[3.120s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_planner' for CMake module files
+[3.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/src/local_planner' returned '0': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/local_planner/prefix_override:/home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/c/weston_ws/MPC_planner/build/local_planner/build install --record /home/c/weston_ws/MPC_planner/build/local_planner/install.log --single-version-externally-managed install_data
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_planner' for CMake config files
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_planner/lib'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_planner/bin'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_planner/lib/pkgconfig/local_planner.pc'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages'
+[3.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_planner', 'pythonpath')
+[3.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/hook/pythonpath.ps1'
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/hook/pythonpath.dsv'
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/hook/pythonpath.sh'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/local_planner/bin'
+[3.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(local_planner)
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/package.ps1'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/package.dsv'
+[3.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/package.sh'
+[3.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/package.bash'
+[3.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner/package.zsh'
+[3.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/local_planner/share/colcon-core/packages/local_planner)
+[3.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_simulator' returned '0': CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins:/home/c/weston_ws/MPC_planner/install/velodyne_description:/home/c/weston_ws/MPC_planner/install/velodyne_simulator:/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations:/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/home/c/weston_ws/MPC_planner/install/scene:/home/c/weston_ws/MPC_planner/install/obs_param:/home/c/weston_ws/MPC_planner/install/local_map:/home/c/weston_ws/MPC_planner/install/linear_path_publisher:/home/c/weston_ws/MPC_planner/install/global_planner:/home/c/weston_ws/MPC_planner/install/global_path_publisher:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib:/usr/lib/wsl/lib:/usr/lib/:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/velodyne_simulator -- -j12 -l12
+[3.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/c/weston_ws/MPC_planner/build/velodyne_simulator': CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins:/home/c/weston_ws/MPC_planner/install/velodyne_description:/home/c/weston_ws/MPC_planner/install/velodyne_simulator:/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations:/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/home/c/weston_ws/MPC_planner/install/scene:/home/c/weston_ws/MPC_planner/install/obs_param:/home/c/weston_ws/MPC_planner/install/local_map:/home/c/weston_ws/MPC_planner/install/linear_path_publisher:/home/c/weston_ws/MPC_planner/install/global_planner:/home/c/weston_ws/MPC_planner/install/global_path_publisher:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib:/usr/lib/wsl/lib:/usr/lib/:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_simulator
+[3.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[3.185s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator' for CMake module files
+[3.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/c/weston_ws/MPC_planner/build/velodyne_simulator' returned '0': CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins:/home/c/weston_ws/MPC_planner/install/velodyne_description:/home/c/weston_ws/MPC_planner/install/velodyne_simulator:/home/c/weston_ws/MPC_planner/install/turtlebot3_simulations:/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/home/c/weston_ws/MPC_planner/install/scene:/home/c/weston_ws/MPC_planner/install/obs_param:/home/c/weston_ws/MPC_planner/install/local_map:/home/c/weston_ws/MPC_planner/install/linear_path_publisher:/home/c/weston_ws/MPC_planner/install/global_planner:/home/c/weston_ws/MPC_planner/install/global_path_publisher:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/c/weston_ws/MPC_planner/install/velodyne_gazebo_plugins/lib:/usr/lib/wsl/lib:/usr/lib/:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/velodyne_simulator
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator' for CMake config files
+[3.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[3.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[3.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[3.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/bin'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/lib/python3.10/site-packages'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/bin'
+[3.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[3.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[3.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[3.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[3.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[3.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[3.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[3.247s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator' for CMake module files
+[3.247s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator' for CMake config files
+[3.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[3.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[3.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[3.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[3.249s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/bin'
+[3.249s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[3.249s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/lib/python3.10/site-packages'
+[3.249s] Level 1:colcon.colcon_core.environment:checking '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/bin'
+[3.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[3.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[3.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[3.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[3.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[3.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/c/weston_ws/MPC_planner/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[3.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.255s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.267s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.275s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/c/weston_ws/MPC_planner/install/local_setup.ps1'
+[3.280s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/c/weston_ws/MPC_planner/install/_local_setup_util_ps1.py'
+[3.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/c/weston_ws/MPC_planner/install/setup.ps1'
+[3.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/c/weston_ws/MPC_planner/install/local_setup.sh'
+[3.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/c/weston_ws/MPC_planner/install/_local_setup_util_sh.py'
+[3.286s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/c/weston_ws/MPC_planner/install/setup.sh'
+[3.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/c/weston_ws/MPC_planner/install/local_setup.bash'
+[3.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/c/weston_ws/MPC_planner/install/setup.bash'
+[3.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/c/weston_ws/MPC_planner/install/local_setup.zsh'
+[3.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/c/weston_ws/MPC_planner/install/setup.zsh'

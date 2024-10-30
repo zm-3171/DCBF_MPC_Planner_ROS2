@@ -1,0 +1,65 @@
+[0.045s] Invoking command in '/home/c/weston_ws/MPC_planner/build/global_planner': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake /home/c/weston_ws/MPC_planner/src/global_planner -DCMAKE_INSTALL_PREFIX=/home/c/weston_ws/MPC_planner/install/global_planner
+[0.393s] -- The C compiler identification is GNU 9.5.0
+[0.745s] -- The CXX compiler identification is GNU 9.5.0
+[1.168s] -- Detecting C compiler ABI info
+[1.356s] -- Detecting C compiler ABI info - done
+[1.361s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.361s] -- Detecting C compile features
+[1.361s] -- Detecting C compile features - done
+[1.363s] -- Detecting CXX compiler ABI info
+[1.519s] -- Detecting CXX compiler ABI info - done
+[1.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.525s] -- Detecting CXX compile features
+[1.526s] -- Detecting CXX compile features - done
+[1.529s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.635s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.722s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.010s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.013s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.019s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.029s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.098s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.100s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.127s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.990s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.752s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.759s] -- Looking for pthread.h
+[5.895s] -- Looking for pthread.h - found
+[5.896s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.044s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.044s] -- Found Threads: TRUE  
+[6.159s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.309s] -- Configuring done
+[6.334s] -- Generating done
+[6.335s] -- Build files have been written to: /home/c/weston_ws/MPC_planner/build/global_planner
+[6.348s] Invoked command in '/home/c/weston_ws/MPC_planner/build/global_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake /home/c/weston_ws/MPC_planner/src/global_planner -DCMAKE_INSTALL_PREFIX=/home/c/weston_ws/MPC_planner/install/global_planner
+[6.377s] Invoking command in '/home/c/weston_ws/MPC_planner/build/global_planner': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_planner -- -j12 -l12
+[6.400s] [ 50%] [32mBuilding CXX object CMakeFiles/global_path_publisher.dir/src/global_path_publisher.cpp.o[0m
+[12.309s] [100%] [32m[1mLinking CXX executable global_path_publisher[0m
+[12.987s] [100%] Built target global_path_publisher
+[13.001s] Invoked command in '/home/c/weston_ws/MPC_planner/build/global_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_planner -- -j12 -l12
+[13.036s] Invoking command in '/home/c/weston_ws/MPC_planner/build/global_planner': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_planner
+[13.043s] -- Install configuration: ""
+[13.050s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/lib/global_planner/global_path_publisher
+[13.051s] -- Set runtime path of "/home/c/weston_ws/MPC_planner/install/global_planner/lib/global_planner/global_path_publisher" to ""
+[13.051s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner//launch
+[13.052s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner//launch/global_path_publisher.launch.py
+[13.052s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner//config
+[13.053s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner//config/config.yaml
+[13.054s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/ament_index/resource_index/package_run_dependencies/global_planner
+[13.056s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/ament_index/resource_index/parent_prefix_path/global_planner
+[13.056s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/environment/ament_prefix_path.sh
+[13.057s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/environment/ament_prefix_path.dsv
+[13.057s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/environment/path.sh
+[13.057s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/environment/path.dsv
+[13.057s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/local_setup.bash
+[13.057s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/local_setup.sh
+[13.057s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/local_setup.zsh
+[13.057s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/local_setup.dsv
+[13.057s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.dsv
+[13.058s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/ament_index/resource_index/packages/global_planner
+[13.058s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/cmake/global_plannerConfig.cmake
+[13.058s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/cmake/global_plannerConfig-version.cmake
+[13.058s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_planner/share/global_planner/package.xml
+[13.061s] Invoked command in '/home/c/weston_ws/MPC_planner/build/global_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_planner

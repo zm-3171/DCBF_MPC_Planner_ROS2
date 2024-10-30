@@ -1,0 +1,26 @@
+[0.271s] Invoking command in '/home/c/weston_ws/MPC_planner/build/global_path_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_path_publisher -- -j12 -l12
+[1.640s] [100%] Built target global_path_publisher
+[1.894s] Invoked command in '/home/c/weston_ws/MPC_planner/build/global_path_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/global_path_publisher -- -j12 -l12
+[2.414s] Invoking command in '/home/c/weston_ws/MPC_planner/build/global_path_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_path_publisher
+[2.490s] -- Install configuration: ""
+[2.490s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/lib/global_path_publisher/global_path_publisher
+[2.490s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher//launch
+[2.490s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher//launch/global_path_publisher.launch.py
+[2.490s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher//config
+[2.491s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher//config/config.yaml
+[2.491s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/ament_index/resource_index/package_run_dependencies/global_path_publisher
+[2.491s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/ament_index/resource_index/parent_prefix_path/global_path_publisher
+[2.491s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/environment/ament_prefix_path.sh
+[2.491s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/environment/ament_prefix_path.dsv
+[2.491s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/environment/path.sh
+[2.491s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/environment/path.dsv
+[2.492s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/local_setup.bash
+[2.492s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/local_setup.sh
+[2.492s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/local_setup.zsh
+[2.492s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/local_setup.dsv
+[2.492s] -- Installing: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.dsv
+[2.492s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/ament_index/resource_index/packages/global_path_publisher
+[2.492s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/cmake/global_path_publisherConfig.cmake
+[2.492s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/cmake/global_path_publisherConfig-version.cmake
+[2.492s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/global_path_publisher/share/global_path_publisher/package.xml
+[2.700s] Invoked command in '/home/c/weston_ws/MPC_planner/build/global_path_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/global_path_publisher

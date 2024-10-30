@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/local_planner/local_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/local_planner/local_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/local_planner/local_planner.egg-info/entry_points.txt
+writing requirements to ../../build/local_planner/local_planner.egg-info/requires.txt
+writing top-level names to ../../build/local_planner/local_planner.egg-info/top_level.txt
+reading manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+copying local_planner/debug.py -> /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner
+running install
+running install_lib
+copying /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner/debug.py -> /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner
+byte-compiling /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner/debug.py to debug.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/local_planner/local_planner.egg-info to /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller_node script to /home/c/weston_ws/MPC_planner/install/local_planner/lib/local_planner
+Installing local_planner_node script to /home/c/weston_ws/MPC_planner/install/local_planner/lib/local_planner
+writing list of installed files to '/home/c/weston_ws/MPC_planner/build/local_planner/install.log'

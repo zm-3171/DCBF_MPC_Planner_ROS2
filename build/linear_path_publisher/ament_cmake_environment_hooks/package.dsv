@@ -1,0 +1,4 @@
+source;share/linear_path_publisher/local_setup.bash
+source;share/linear_path_publisher/local_setup.dsv
+source;share/linear_path_publisher/local_setup.sh
+source;share/linear_path_publisher/local_setup.zsh

@@ -1,0 +1,35 @@
+[0.685s] Invoking command in '/home/c/weston_ws/MPC_planner/src/samplelaunch': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/samplelaunch/prefix_override:/home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/samplelaunch build --build-base /home/c/weston_ws/MPC_planner/build/samplelaunch/build install --record /home/c/weston_ws/MPC_planner/build/samplelaunch/install.log --single-version-externally-managed install_data
+[6.342s] running egg_info
+[6.342s] creating ../../build/samplelaunch/samplelaunch.egg-info
+[6.342s] writing ../../build/samplelaunch/samplelaunch.egg-info/PKG-INFO
+[6.342s] writing dependency_links to ../../build/samplelaunch/samplelaunch.egg-info/dependency_links.txt
+[6.342s] writing entry points to ../../build/samplelaunch/samplelaunch.egg-info/entry_points.txt
+[6.342s] writing requirements to ../../build/samplelaunch/samplelaunch.egg-info/requires.txt
+[6.342s] writing top-level names to ../../build/samplelaunch/samplelaunch.egg-info/top_level.txt
+[6.342s] writing manifest file '../../build/samplelaunch/samplelaunch.egg-info/SOURCES.txt'
+[6.343s] reading manifest file '../../build/samplelaunch/samplelaunch.egg-info/SOURCES.txt'
+[6.343s] adding license file 'LICENSE'
+[6.343s] writing manifest file '../../build/samplelaunch/samplelaunch.egg-info/SOURCES.txt'
+[6.343s] running build
+[6.343s] running build_py
+[6.344s] creating /home/c/weston_ws/MPC_planner/build/samplelaunch/build
+[6.344s] creating /home/c/weston_ws/MPC_planner/build/samplelaunch/build/lib
+[6.344s] creating /home/c/weston_ws/MPC_planner/build/samplelaunch/build/lib/samplelaunch
+[6.344s] copying samplelaunch/__init__.py -> /home/c/weston_ws/MPC_planner/build/samplelaunch/build/lib/samplelaunch
+[6.345s] running install
+[6.345s] running install_lib
+[6.345s] creating /home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages/samplelaunch
+[6.345s] copying /home/c/weston_ws/MPC_planner/build/samplelaunch/build/lib/samplelaunch/__init__.py -> /home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages/samplelaunch
+[6.346s] byte-compiling /home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages/samplelaunch/__init__.py to __init__.cpython-310.pyc
+[6.346s] running install_data
+[6.346s] creating /home/c/weston_ws/MPC_planner/install/samplelaunch/share/ament_index
+[6.346s] creating /home/c/weston_ws/MPC_planner/install/samplelaunch/share/ament_index/resource_index
+[6.347s] creating /home/c/weston_ws/MPC_planner/install/samplelaunch/share/ament_index/resource_index/packages
+[6.347s] copying resource/samplelaunch -> /home/c/weston_ws/MPC_planner/install/samplelaunch/share/ament_index/resource_index/packages
+[6.347s] copying package.xml -> /home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch
+[6.347s] copying launch/local_map.launch.py -> /home/c/weston_ws/MPC_planner/install/samplelaunch/share/samplelaunch
+[6.348s] running install_egg_info
+[6.358s] Copying ../../build/samplelaunch/samplelaunch.egg-info to /home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages/samplelaunch-0.0.0-py3.10.egg-info
+[6.359s] running install_scripts
+[6.359s] writing list of installed files to '/home/c/weston_ws/MPC_planner/build/samplelaunch/install.log'
+[6.361s] Invoked command in '/home/c/weston_ws/MPC_planner/src/samplelaunch' returned '0': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/samplelaunch/prefix_override:/home/c/weston_ws/MPC_planner/install/samplelaunch/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/samplelaunch build --build-base /home/c/weston_ws/MPC_planner/build/samplelaunch/build install --record /home/c/weston_ws/MPC_planner/build/samplelaunch/install.log --single-version-externally-managed install_data

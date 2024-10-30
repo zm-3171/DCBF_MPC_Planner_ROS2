@@ -1,0 +1,24 @@
+[0.055s] Invoking command in '/home/c/weston_ws/MPC_planner/build/linear_path_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/linear_path_publisher -- -j12 -l12
+[0.379s] [100%] Built target linear_path_publisher
+[0.391s] Invoked command in '/home/c/weston_ws/MPC_planner/build/linear_path_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/linear_path_publisher -- -j12 -l12
+[0.459s] Invoking command in '/home/c/weston_ws/MPC_planner/build/linear_path_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/linear_path_publisher
+[0.472s] -- Install configuration: ""
+[0.474s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/lib/linear_path_publisher/linear_path_publisher
+[0.474s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher//launch
+[0.474s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher//launch/linear_path_publisher.launch.py
+[0.474s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/ament_index/resource_index/package_run_dependencies/linear_path_publisher
+[0.474s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/ament_index/resource_index/parent_prefix_path/linear_path_publisher
+[0.474s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/environment/ament_prefix_path.sh
+[0.474s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/environment/ament_prefix_path.dsv
+[0.474s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/environment/path.sh
+[0.475s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/environment/path.dsv
+[0.475s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/local_setup.bash
+[0.475s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/local_setup.sh
+[0.475s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/local_setup.zsh
+[0.475s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/local_setup.dsv
+[0.475s] -- Installing: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.dsv
+[0.475s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/ament_index/resource_index/packages/linear_path_publisher
+[0.476s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/cmake/linear_path_publisherConfig.cmake
+[0.476s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/cmake/linear_path_publisherConfig-version.cmake
+[0.476s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/linear_path_publisher/share/linear_path_publisher/package.xml
+[0.524s] Invoked command in '/home/c/weston_ws/MPC_planner/build/linear_path_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c/weston_ws/MPC_planner/install/samplelaunch:/home/c/weston_ws/MPC_planner/install/local_planner:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/linear_path_publisher

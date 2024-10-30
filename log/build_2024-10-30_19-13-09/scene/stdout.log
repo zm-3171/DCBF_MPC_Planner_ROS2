@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target move_test[0m
+[ 33%] Built target odom_tf
+[ 50%] [32mBuilding CXX object CMakeFiles/move_test.dir/src/move_test.cpp.o[0m
+[ 83%] Built target pseudo_odom

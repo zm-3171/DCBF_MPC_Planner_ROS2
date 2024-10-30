@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 9.5.0
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/c/weston_ws/MPC_planner/build/scene
+[ 16%] [32mBuilding CXX object CMakeFiles/pseudo_odom.dir/src/pseudo_odom.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/odom_tf.dir/src/odom_tf.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_test.dir/src/move_test.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable odom_tf[0m
+[ 66%] Built target odom_tf
+[ 83%] [32m[1mLinking CXX executable move_test[0m
+[100%] [32m[1mLinking CXX executable pseudo_odom[0m
+[100%] Built target move_test
+[100%] Built target pseudo_odom
+-- Install configuration: "Debug"
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/lib/scene/pseudo_odom
+-- Set runtime path of "/home/c/weston_ws/MPC_planner/install/scene/lib/scene/pseudo_odom" to ""
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/lib/scene/odom_tf
+-- Set runtime path of "/home/c/weston_ws/MPC_planner/install/scene/lib/scene/odom_tf" to ""
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/lib/scene/move_test
+-- Set runtime path of "/home/c/weston_ws/MPC_planner/install/scene/lib/scene/move_test" to ""
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/start_backup.launch.py
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/move_test.launch.py
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/sim.launch.py
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/start.launch.py
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//config
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//config/config.yaml
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds/world.world
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds/world0.world
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/ament_index/resource_index/package_run_dependencies/scene
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/ament_index/resource_index/parent_prefix_path/scene
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/ament_prefix_path.sh
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/ament_prefix_path.dsv
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/path.sh
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/path.dsv
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.bash
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.sh
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.zsh
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.dsv
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/package.dsv
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/ament_index/resource_index/packages/scene
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/cmake/sceneConfig.cmake
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/cmake/sceneConfig-version.cmake
+-- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/package.xml

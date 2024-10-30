@@ -1,0 +1,43 @@
+[0.689s] Invoking command in '/home/c/weston_ws/MPC_planner/src/local_planner': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/local_planner/prefix_override:/home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/c/weston_ws/MPC_planner/build/local_planner/build install --record /home/c/weston_ws/MPC_planner/build/local_planner/install.log --single-version-externally-managed install_data
+[6.340s] running egg_info
+[6.340s] creating ../../build/local_planner/local_planner.egg-info
+[6.340s] writing ../../build/local_planner/local_planner.egg-info/PKG-INFO
+[6.341s] writing dependency_links to ../../build/local_planner/local_planner.egg-info/dependency_links.txt
+[6.341s] writing entry points to ../../build/local_planner/local_planner.egg-info/entry_points.txt
+[6.342s] writing requirements to ../../build/local_planner/local_planner.egg-info/requires.txt
+[6.343s] writing top-level names to ../../build/local_planner/local_planner.egg-info/top_level.txt
+[6.343s] writing manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+[6.343s] reading manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+[6.344s] writing manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+[6.344s] running build
+[6.344s] running build_py
+[6.346s] creating /home/c/weston_ws/MPC_planner/build/local_planner/build
+[6.348s] creating /home/c/weston_ws/MPC_planner/build/local_planner/build/lib
+[6.348s] creating /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner
+[6.349s] copying local_planner/__init__.py -> /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner
+[6.349s] copying local_planner/controller.py -> /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner
+[6.349s] copying local_planner/local_planner.py -> /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner
+[6.349s] running install
+[6.349s] running install_lib
+[6.349s] creating /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner
+[6.350s] copying /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner/__init__.py -> /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner
+[6.350s] copying /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner/controller.py -> /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner
+[6.350s] copying /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner/local_planner.py -> /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner
+[6.350s] byte-compiling /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner/__init__.py to __init__.cpython-310.pyc
+[6.350s] byte-compiling /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner/controller.py to controller.cpython-310.pyc
+[6.350s] byte-compiling /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner/local_planner.py to local_planner.cpython-310.pyc
+[6.350s] running install_data
+[6.350s] creating /home/c/weston_ws/MPC_planner/install/local_planner/share/ament_index
+[6.350s] creating /home/c/weston_ws/MPC_planner/install/local_planner/share/ament_index/resource_index
+[6.350s] creating /home/c/weston_ws/MPC_planner/install/local_planner/share/ament_index/resource_index/packages
+[6.350s] copying resource/local_planner -> /home/c/weston_ws/MPC_planner/install/local_planner/share/ament_index/resource_index/packages
+[6.350s] copying package.xml -> /home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner
+[6.350s] copying launch/local_planner_launch.py -> /home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner
+[6.350s] copying config/config.yaml -> /home/c/weston_ws/MPC_planner/install/local_planner/share/local_planner
+[6.350s] running install_egg_info
+[6.350s] Copying ../../build/local_planner/local_planner.egg-info to /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner-0.0.0-py3.10.egg-info
+[6.350s] running install_scripts
+[6.350s] Installing controller_node script to /home/c/weston_ws/MPC_planner/install/local_planner/lib/local_planner
+[6.350s] Installing local_planner_node script to /home/c/weston_ws/MPC_planner/install/local_planner/lib/local_planner
+[6.350s] writing list of installed files to '/home/c/weston_ws/MPC_planner/build/local_planner/install.log'
+[6.369s] Invoked command in '/home/c/weston_ws/MPC_planner/src/local_planner' returned '0': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/local_planner/prefix_override:/home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/c/weston_ws/MPC_planner/build/local_planner/build install --record /home/c/weston_ws/MPC_planner/build/local_planner/install.log --single-version-externally-managed install_data

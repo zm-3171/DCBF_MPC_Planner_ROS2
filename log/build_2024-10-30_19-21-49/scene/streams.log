@@ -1,0 +1,57 @@
+[0.385s] Invoking command in '/home/c/weston_ws/MPC_planner/build/scene': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/scene -- -j12 -l12
+[0.434s] [ 33%] Built target pseudo_odom
+[0.437s] [ 66%] Built target odom_tf
+[0.437s] [ 83%] [32mBuilding CXX object CMakeFiles/move_test.dir/src/move_test.cpp.o[0m
+[2.631s] [01m[K/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:[m[K In member function ‘[01m[Kvoid MovingCylinderNode::updateCylinders()[m[K’:
+[2.631s] [01m[K/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:103:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = gazebo_msgs::srv::SetEntityState; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<gazebo_msgs::srv::SetEntityState_Response_<std::allocator<void> > > >; typename ServiceT::Response::SharedPtr = std::shared_ptr<gazebo_msgs::srv::SetEntityState_Response_<std::allocator<void> > >][m[K’ is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.632s]   103 |                 futures.push_back(future_result[01;35m[K)[m[K; // 保存 future 对象
+[2.632s]       |                                                [01;35m[K^[m[K
+[2.632s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.632s]                  from [01m[K/home/c/weston_ws/MPC_planner/src/scene/src/move_test.cpp:2[m[K:
+[2.633s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.633s]   415 |     [01;36m[Koperator[m[K SharedFuture() {return this->future.share();}
+[2.633s]       |     [01;36m[K^~~~~~~~[m[K
+[11.750s] [100%] [32m[1mLinking CXX executable move_test[0m
+[12.108s] [100%] Built target move_test
+[12.115s] Invoked command in '/home/c/weston_ws/MPC_planner/build/scene' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/scene -- -j12 -l12
+[12.136s] Invoking command in '/home/c/weston_ws/MPC_planner/build/scene': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/scene
+[12.140s] -- Install configuration: "Debug"
+[12.140s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/lib/scene/pseudo_odom
+[12.140s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/lib/scene/odom_tf
+[12.140s] -- Installing: /home/c/weston_ws/MPC_planner/install/scene/lib/scene/move_test
+[12.153s] -- Set runtime path of "/home/c/weston_ws/MPC_planner/install/scene/lib/scene/move_test" to ""
+[12.153s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch
+[12.153s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/start_backup.launch.py
+[12.153s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/move_test.launch.py
+[12.153s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/sim.launch.py
+[12.153s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/start.launch.py
+[12.153s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//config
+[12.153s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//config/config.yaml
+[12.153s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds
+[12.154s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds/world1.world
+[12.154s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds/world.world
+[12.154s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds/world0.world
+[12.154s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/ament_index/resource_index/package_run_dependencies/scene
+[12.154s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/ament_index/resource_index/parent_prefix_path/scene
+[12.154s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/ament_prefix_path.sh
+[12.154s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/ament_prefix_path.dsv
+[12.155s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/path.sh
+[12.155s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/path.dsv
+[12.155s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.bash
+[12.155s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.sh
+[12.155s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.zsh
+[12.155s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.dsv
+[12.155s] -- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/package.dsv
+[12.156s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/ament_index/resource_index/packages/scene
+[12.156s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/cmake/sceneConfig.cmake
+[12.156s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/cmake/sceneConfig-version.cmake
+[12.156s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/package.xml
+[12.156s] Invoked command in '/home/c/weston_ws/MPC_planner/build/scene' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/scene

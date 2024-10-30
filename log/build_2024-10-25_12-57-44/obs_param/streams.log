@@ -1,0 +1,22 @@
+[0.282s] Invoking command in '/home/c/weston_ws/MPC_planner/build/obs_param': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/obs_param -- -j12 -l12
+[0.486s] [100%] Built target obs_kf
+[0.529s] Invoked command in '/home/c/weston_ws/MPC_planner/build/obs_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/obs_param -- -j12 -l12
+[0.688s] Invoking command in '/home/c/weston_ws/MPC_planner/build/obs_param': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/obs_param
+[0.713s] -- Install configuration: ""
+[0.713s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/lib/obs_param/obs_kf
+[0.714s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/ament_index/resource_index/package_run_dependencies/obs_param
+[0.714s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/ament_index/resource_index/parent_prefix_path/obs_param
+[0.714s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/environment/ament_prefix_path.sh
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/environment/ament_prefix_path.dsv
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/environment/path.sh
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/environment/path.dsv
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/local_setup.bash
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/local_setup.sh
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/local_setup.zsh
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/local_setup.dsv
+[0.715s] -- Installing: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.dsv
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/ament_index/resource_index/packages/obs_param
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/cmake/obs_paramConfig.cmake
+[0.715s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/cmake/obs_paramConfig-version.cmake
+[0.716s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/obs_param/share/obs_param/package.xml
+[0.764s] Invoked command in '/home/c/weston_ws/MPC_planner/build/obs_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/obs_param

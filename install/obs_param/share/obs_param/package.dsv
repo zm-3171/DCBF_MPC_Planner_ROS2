@@ -1,0 +1,8 @@
+source;share/obs_param/hook/cmake_prefix_path.ps1
+source;share/obs_param/hook/cmake_prefix_path.dsv
+source;share/obs_param/hook/cmake_prefix_path.sh
+source;share/obs_param/local_setup.bash
+source;share/obs_param/local_setup.dsv
+source;share/obs_param/local_setup.ps1
+source;share/obs_param/local_setup.sh
+source;share/obs_param/local_setup.zsh

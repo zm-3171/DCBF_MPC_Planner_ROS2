@@ -1,0 +1,28 @@
+[3.244s] Invoking command in '/home/c/weston_ws/MPC_planner/src/local_planner': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/local_planner/prefix_override:/home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/c/weston_ws/MPC_planner/build/local_planner/build install --record /home/c/weston_ws/MPC_planner/build/local_planner/install.log --single-version-externally-managed install_data
+[3.884s] running egg_info
+[3.890s] writing ../../build/local_planner/local_planner.egg-info/PKG-INFO
+[3.892s] writing dependency_links to ../../build/local_planner/local_planner.egg-info/dependency_links.txt
+[3.892s] writing entry points to ../../build/local_planner/local_planner.egg-info/entry_points.txt
+[3.893s] writing requirements to ../../build/local_planner/local_planner.egg-info/requires.txt
+[3.893s] writing top-level names to ../../build/local_planner/local_planner.egg-info/top_level.txt
+[3.894s] reading manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+[3.900s] writing manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+[3.923s] running build
+[3.923s] running build_py
+[3.923s] copying local_planner/debug.py -> /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner
+[3.923s] copying local_planner/local_planner.py -> /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner
+[3.923s] running install
+[3.923s] running install_lib
+[3.923s] copying /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner/debug.py -> /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner
+[3.923s] copying /home/c/weston_ws/MPC_planner/build/local_planner/build/lib/local_planner/local_planner.py -> /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner
+[3.924s] byte-compiling /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner/debug.py to debug.cpython-310.pyc
+[3.924s] byte-compiling /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner/local_planner.py to local_planner.cpython-310.pyc
+[3.970s] running install_data
+[3.971s] running install_egg_info
+[3.972s] removing '/home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner-0.0.0-py3.10.egg-info' (and everything under it)
+[3.972s] Copying ../../build/local_planner/local_planner.egg-info to /home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages/local_planner-0.0.0-py3.10.egg-info
+[3.972s] running install_scripts
+[4.041s] Installing controller_node script to /home/c/weston_ws/MPC_planner/install/local_planner/lib/local_planner
+[4.041s] Installing local_planner_node script to /home/c/weston_ws/MPC_planner/install/local_planner/lib/local_planner
+[4.041s] writing list of installed files to '/home/c/weston_ws/MPC_planner/build/local_planner/install.log'
+[4.150s] Invoked command in '/home/c/weston_ws/MPC_planner/src/local_planner' returned '0': PYTHONPATH=/home/c/weston_ws/MPC_planner/build/local_planner/prefix_override:/home/c/weston_ws/MPC_planner/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/c/weston_ws/MPC_planner/build/local_planner/build install --record /home/c/weston_ws/MPC_planner/build/local_planner/install.log --single-version-externally-managed install_data

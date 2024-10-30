@@ -1,0 +1,20 @@
+[0.106s] Invoking command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/turtlebot3_simulations -- -j12 -l12
+[0.144s] Invoked command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/turtlebot3_simulations -- -j12 -l12
+[0.168s] Invoking command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/turtlebot3_simulations
+[0.175s] -- Install configuration: ""
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[0.176s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[0.177s] -- Installing: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[0.177s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[0.177s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[0.177s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[0.177s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[0.179s] Invoked command in '/home/c/weston_ws/MPC_planner/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c/weston_ws/MPC_planner/install/turtlebot3_gazebo:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/turtlebot3_simulations

@@ -1,0 +1,4 @@
+source;share/global_path_publisher/local_setup.bash
+source;share/global_path_publisher/local_setup.dsv
+source;share/global_path_publisher/local_setup.sh
+source;share/global_path_publisher/local_setup.zsh

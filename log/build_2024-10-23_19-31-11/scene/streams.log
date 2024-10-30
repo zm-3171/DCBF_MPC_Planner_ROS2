@@ -1,0 +1,36 @@
+[0.473s] Invoking command in '/home/c/weston_ws/MPC_planner/build/scene': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/scene -- -j12 -l12
+[0.537s] [ 33%] Built target move_test
+[0.544s] [ 66%] Built target odom_tf
+[0.544s] [100%] Built target pseudo_odom
+[0.622s] Invoked command in '/home/c/weston_ws/MPC_planner/build/scene' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --build /home/c/weston_ws/MPC_planner/build/scene -- -j12 -l12
+[0.772s] Invoking command in '/home/c/weston_ws/MPC_planner/build/scene': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/scene
+[0.781s] -- Install configuration: "Debug"
+[0.786s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/lib/scene/pseudo_odom
+[0.787s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/lib/scene/odom_tf
+[0.788s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/lib/scene/move_test
+[0.788s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch
+[0.789s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/start_backup.launch.py
+[0.789s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/move_test.launch.py
+[0.789s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/sim.launch.py
+[0.789s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//launch/start.launch.py
+[0.789s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//config
+[0.789s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//config/config.yaml
+[0.790s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds
+[0.790s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds/world.world
+[0.790s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene//worlds/world0.world
+[0.791s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/ament_index/resource_index/package_run_dependencies/scene
+[0.791s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/ament_index/resource_index/parent_prefix_path/scene
+[0.792s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/ament_prefix_path.sh
+[0.792s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/ament_prefix_path.dsv
+[0.792s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/path.sh
+[0.793s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/environment/path.dsv
+[0.793s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.bash
+[0.793s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.sh
+[0.793s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.zsh
+[0.794s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/local_setup.dsv
+[0.794s] -- Installing: /home/c/weston_ws/MPC_planner/install/scene/share/scene/package.dsv
+[0.794s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/ament_index/resource_index/packages/scene
+[0.794s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/cmake/sceneConfig.cmake
+[0.794s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/cmake/sceneConfig-version.cmake
+[0.794s] -- Up-to-date: /home/c/weston_ws/MPC_planner/install/scene/share/scene/package.xml
+[0.908s] Invoked command in '/home/c/weston_ws/MPC_planner/build/scene' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:BASH_ENV/u /usr/bin/cmake --install /home/c/weston_ws/MPC_planner/build/scene
