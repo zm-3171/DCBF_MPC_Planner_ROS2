@@ -125,8 +125,6 @@ void obs_kf::reset()
     param_list.clear();
     pred_list.clear();
 
-    T = 0.1;
-
     x.resize(9);
     x.setZero();
 

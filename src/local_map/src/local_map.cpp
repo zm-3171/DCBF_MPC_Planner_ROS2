@@ -13,9 +13,12 @@
 #include <tf2/transform_datatypes.h>
 #include <tf2/LinearMath/Transform.h>
 #include <tf2_eigen/tf2_eigen.hpp>
+#include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 #include <eigen3/Eigen/Core>
 
-// #include <geometry_msgs/TransformStamped.h>
+#include <message_filters/subscriber.h>
+#include <message_filters/synchronizer.h>
+#include <message_filters/sync_policies/approximate_time.h>
 
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <nav_msgs/msg/odometry.hpp>
@@ -42,7 +45,7 @@ public:
     LocalMapPubNode() : Node("local_map_pub")
     {
         InitParameters();
-        InitializeTFListener();
+        // InitializeTFListener();
         InitializeSubPub();
         
         auto period_ms = std::chrono::milliseconds(static_cast<int64_t>(1000.0 / 5));
@@ -119,10 +122,17 @@ private:
     // 初始化subscribe和publish
     void InitializeSubPub()
     {
-        velodyne_sub = this->create_subscription<sensor_msgs::msg::PointCloud2>(
-            lidar_topic, 1, std::bind(&LocalMapPubNode::PointCloudCallback, this, std::placeholders::_1));
-
+        // velodyne_sub = this->create_subscription<sensor_msgs::msg::PointCloud2>(
+        //     lidar_topic, 1, std::bind(&LocalMapPubNode::PointCloudCallback, this, std::placeholders::_1));
         // obs_pc_pub = this->create_publisher<sensor_msgs::msg::PointCloud2>("obs_pc", 1);
+
+        rclcpp::QoS qos = rclcpp::QoS(10);
+        cloud_sub.subscribe(this, lidar_topic, qos.get_rmw_qos_profile());
+        odom_sub.subscribe(this, odom_topic, qos.get_rmw_qos_profile());
+        
+        sync = std::make_shared<message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::PointCloud2, nav_msgs::msg::Odometry>>>(message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::PointCloud2, nav_msgs::msg::Odometry>(10), cloud_sub, odom_sub);
+        sync->setAgePenalty(0.1);
+        sync->registerCallback(std::bind(&LocalMapPubNode::syncCB, this, std::placeholders::_1, std::placeholders::_2));
 
         gridmap_pub = this->create_publisher<grid_map_msgs::msg::GridMap>("gridmap", 1);
         local_pcd_pub = this->create_publisher<sensor_msgs::msg::PointCloud2>("local_pcd", 1);
@@ -131,37 +141,62 @@ private:
         RCLCPP_INFO(this->get_logger(), "init subscribe/publish complete");
     }
 
-    // 初始化tf获取
-    void InitializeTFListener()
-    {
-        tf_buffer = std::make_shared<tf2_ros::Buffer>(this->get_clock());
-        transform_listener = std::make_shared<tf2_ros::TransformListener>(*tf_buffer);
-        RCLCPP_INFO(this->get_logger(), "init tf complete");
-    }
-
-    void updateTF()
-    {
-        try
-        {
-            geometry_msgs::msg::TransformStamped base_link_transformStamped = tf_buffer->lookupTransform("world", base_link, rclcpp::Time(0));
-            base_link_transform = base_link_transformStamped;
-
-            geometry_msgs::msg::TransformStamped lidar_link_transformStamped = tf_buffer->lookupTransform("world", base_scan, rclcpp::Time(0));
-            lidar_link_transform = lidar_link_transformStamped;
-        }
-        catch (tf2::TransformException &ex)
-        {
-            RCLCPP_ERROR(this->get_logger(), "%s", ex.what());
-        }
-    }
-
-    void PointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr msg)
+    void syncCB(const sensor_msgs::msg::PointCloud2::ConstSharedPtr &cloud_msg, const nav_msgs::msg::Odometry::ConstSharedPtr &odom_msg)
     {
         std::lock_guard<std::mutex> lock(point_cloud_mutex);
-        pcl::fromROSMsg(*msg, velodyne_cloud);
-        updateTF();
+        pcl::fromROSMsg(*cloud_msg, velodyne_cloud);
+        
+        geometry_msgs::msg::TransformStamped base_transformStamped;
+        
+        base_transformStamped.header = odom_msg->header;
+        base_transformStamped.child_frame_id = odom_msg->child_frame_id;
+        base_transformStamped.transform.translation.x = odom_msg->pose.pose.position.x;
+        base_transformStamped.transform.translation.y = odom_msg->pose.pose.position.y;
+        base_transformStamped.transform.translation.z = odom_msg->pose.pose.position.z;
+        base_transformStamped.transform.rotation.w = odom_msg->pose.pose.orientation.w;
+        base_transformStamped.transform.rotation.x = odom_msg->pose.pose.orientation.x;
+        base_transformStamped.transform.rotation.y = odom_msg->pose.pose.orientation.y;
+        base_transformStamped.transform.rotation.z = odom_msg->pose.pose.orientation.z;
+
+        // tf2::fromMsg(odom_msg->pose.pose, base_transformStamped.transform);
+
+        base_link_transform = base_transformStamped;
+        lidar_link_transform = base_transformStamped;
+
         received_lidar_data = true;
     }
+
+    // 初始化tf获取
+    // void InitializeTFListener()
+    // {
+    //     tf_buffer = std::make_shared<tf2_ros::Buffer>(this->get_clock());
+    //     transform_listener = std::make_shared<tf2_ros::TransformListener>(*tf_buffer);
+    //     RCLCPP_INFO(this->get_logger(), "init tf complete");
+    // }
+
+    // void updateTF()
+    // {
+    //     try
+    //     {
+    //         geometry_msgs::msg::TransformStamped base_link_transformStamped = tf_buffer->lookupTransform("world", base_link, rclcpp::Time(0));
+    //         base_link_transform = base_link_transformStamped;
+
+    //         geometry_msgs::msg::TransformStamped lidar_link_transformStamped = tf_buffer->lookupTransform("world", base_scan, rclcpp::Time(0));
+    //         lidar_link_transform = lidar_link_transformStamped;
+    //     }
+    //     catch (tf2::TransformException &ex)
+    //     {
+    //         RCLCPP_ERROR(this->get_logger(), "%s", ex.what());
+    //     }
+    // }
+
+    // void PointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr msg)
+    // {
+    //     std::lock_guard<std::mutex> lock(point_cloud_mutex);
+    //     pcl::fromROSMsg(*msg, velodyne_cloud);
+    //     updateTF();
+    //     received_lidar_data = true;
+    // }
 
     void timer_callback()
     {
@@ -527,6 +562,10 @@ private:
 
     rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr velodyne_sub;
 
+    message_filters::Subscriber<sensor_msgs::msg::PointCloud2> cloud_sub;
+    message_filters::Subscriber<nav_msgs::msg::Odometry> odom_sub;
+    std::shared_ptr<message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::PointCloud2, nav_msgs::msg::Odometry>>> sync;
+
     rclcpp::Publisher<grid_map_msgs::msg::GridMap>::SharedPtr gridmap_pub;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr local_pcd_pub;
     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr ellipse_vis_pub;
@@ -541,6 +580,8 @@ private:
     bool received_lidar_data;
 
     std::string lidar_topic;
+    std::string odom_topic;
+
     std::string base_link;
     std::string base_scan;
 
