@@ -1,7 +1,7 @@
 /**:
   ros__parameters:
     replan_period: 0.1
-    v_max: 1.0
+    v_max: 0.5
     v_min: 0.05
     omega_max: 0.3
 

@@ -10,6 +10,9 @@ def generate_launch_description():
     local_map_config_file_path = PathJoinSubstitution(
         [get_package_share_directory('local_map'), 'config', 'config.yaml']
     )
+    obs_kf_config_file_path = PathJoinSubstitution(
+        [get_package_share_directory('obs_param'), 'config', 'config.yaml']
+    )
     local_map_params_declare = DeclareLaunchArgument(
         'params_file',
         default_value=local_map_config_file_path,
@@ -46,7 +49,8 @@ def generate_launch_description():
             package='obs_param',
             executable='obs_kf',
             name='obs_kf',
-            output='screen'
+            output='screen',
+            parameters=[obs_kf_config_file_path]
         ),
 
         # Launch linear path publisher node

@@ -1,0 +1,5 @@
+/**:
+  ros__parameters:
+    MPC_N: 25
+    MPC_step_size: 0.25
+

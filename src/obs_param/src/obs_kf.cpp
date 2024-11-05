@@ -33,7 +33,6 @@ struct obs_param
     float mea_cov;
 };
 
-// 增加一个未使用次数计数，长时间不使用则重置
 class obs_kf
 {
 public:
@@ -57,17 +56,19 @@ public:
     void obs_predict();
     obs_kf();
     void reset();
-} _obs_kf[obs_kf_buffer_size];
+};
 
-obs_kf::obs_kf() : N(25)
+// obs_kf::obs_kf() : N(25)
+obs_kf::obs_kf()
 {
+    N = 25;
+    T = 0.25;
+
     ka.m_StateSize = 9;
     ka.m_MeaSize = 5;
     ka.m_USize = 9;
 
     lastTimeUsed = 0;
-
-    T = 0.25;
 
     x.resize(9);
     x.setZero();
@@ -236,7 +237,8 @@ class ObsKfNode : public rclcpp::Node
 public:
     ObsKfNode() : Node("obs_param_node")
     {
-        unused_clear_time = 3;
+        init_kf();
+
         obs_sub_ = this->create_subscription<std_msgs::msg::Float32MultiArray>(
             "/for_obs_track", 1, std::bind(&ObsKfNode::obscb, this, std::placeholders::_1));
         obs_pub_ = this->create_publisher<std_msgs::msg::Float32MultiArray>("/obs_predict_pub", 1);
@@ -244,6 +246,25 @@ public:
     }
 
 private:
+    void init_kf()
+    {
+        unused_clear_time = 3;
+        int horizon = 25;
+        float time_step = 0.25;
+
+        this->declare_parameter<int>("MPC_N", 25);
+        this->declare_parameter<float>("MPC_step_size", 0.25);
+
+        this->get_parameter<int>("MPC_N", horizon);
+        this->get_parameter<float>("MPC_step_size", time_step);
+
+        for(int i = 0; i < obs_kf_buffer_size; ++i)
+        {
+            _obs_kf[i].N = horizon;
+            _obs_kf[i].T = time_step;
+        }
+    }
+
     void obscb(const std_msgs::msg::Float32MultiArray::SharedPtr msg)
     {
         RCLCPP_INFO(this->get_logger(), "[node] receive the obs track");
@@ -355,6 +376,8 @@ private:
     rclcpp::Subscription<std_msgs::msg::Float32MultiArray>::SharedPtr obs_sub_;
     rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr obs_pub_;
     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr obs_vis_pub_;
+
+    obs_kf _obs_kf[obs_kf_buffer_size];
     int unused_clear_time;
 };
 
