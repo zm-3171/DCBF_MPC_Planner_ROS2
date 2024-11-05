@@ -267,6 +267,9 @@ private:
 
     void obscb(const std_msgs::msg::Float32MultiArray::SharedPtr msg)
     {
+        for(int i = 0; i < obs_kf_buffer_size; ++i)
+        {_obs_kf[i].lastTimeUsed ++;}
+
         RCLCPP_INFO(this->get_logger(), "[node] receive the obs track");
         if (msg->data.empty())
             return;
@@ -278,9 +281,6 @@ private:
 
         // visualization_msgs::msg::MarkerArray ellipses_array;
         vector<Ellipse> ellipses_array;
-
-        for(int i = 0; i < obs_kf_buffer_size; ++i)
-        {_obs_kf[i].lastTimeUsed ++;}
 
         for (int i = 0; i < num; i++)
         {
