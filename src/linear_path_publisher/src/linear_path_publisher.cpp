@@ -16,7 +16,8 @@ public:
     {
         destination_set = false;
 
-        base_link = "base_link";
+        // base_link = "base_link";
+	base_link = "base_scan";
 
         step_ = 0.1;
 

@@ -1,19 +1,19 @@
 /**:
   ros__parameters:
     replan_period: 0.1
-    v_max: 0.5
+    v_max: 1.0
     v_min: 0.05
     omega_max: 0.3
 
     MPC_N: 25
     MPC_step_size: 0.25
 
-    safe_dist: 1.8
+    safe_dist: 1.5
     gamma_k: 0.3
 
     kalman_N: 25
 
-    MPC_constraint: "CBF"  #    None Euclidean CBF
+    MPC_constraint: "Euclidean"  #    None Euclidean CBF
 
     init_N: 1
 

@@ -36,7 +36,7 @@ class Controller(Node):
     
     def get_current_state(self):
         try:
-            transform = self.tf_buffer.lookup_transform('world', 'base_link',
+            transform = self.tf_buffer.lookup_transform('world', 'base_scan',
                                                         rclpy.time.Time())
             _,_,yaw = self.quart_to_rpy(transform.transform.rotation.x,
                                         transform.transform.rotation.y,

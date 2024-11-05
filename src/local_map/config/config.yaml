@@ -1,7 +1,7 @@
 /**:
   ros__parameters:
-    # lidar_topic: "/livox/lidar"
-    lidar_topic: "velodyne_points"
+    lidar_topic: "/livox/lidar"
+    # lidar_topic: "velodyne_points"
 
     base_link: "base_scan"
     base_scan: "base_scan"

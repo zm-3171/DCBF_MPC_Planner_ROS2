@@ -49,6 +49,14 @@ def generate_launch_description():
             output='screen'
         ),
 
+        # Launch linear path publisher node
+        Node(
+            package='linear_path_publisher',
+            executable='linear_path_publisher',
+            name='linear_path_publisher',
+            output='screen'
+        ),
+
         # Launch RViz with the provided config file
         Node(
             package='rviz2',
