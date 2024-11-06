@@ -69,6 +69,7 @@ private:
         this->declare_parameter<int>("block_num", 5);
 
         this->declare_parameter<std::string>("lidar_topic", "/livox/lidar");
+        this->declare_parameter<std::string>("odom_topic", "/livox/lidar");
         this->declare_parameter<std::string>("base_link", "base_link");
         this->declare_parameter<std::string>("base_scan", "base_scan");
 
@@ -88,6 +89,7 @@ private:
         this->get_parameter<int>("block_num", block_num);
         
         this->get_parameter<std::string>("lidar_topic", lidar_topic);
+        this->get_parameter<std::string>("odom_topic", odom_topic);
         this->get_parameter<std::string>("base_link", base_link);
         this->get_parameter<std::string>("base_scan", base_scan);
 
