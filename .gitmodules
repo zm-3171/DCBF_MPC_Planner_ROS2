@@ -1,0 +1,3 @@
+[submodule "src/turtlebot3_velodyne_Gazebo"]
+	path = src/turtlebot3_velodyne_Gazebo
+	url = https://github.com/eeoon/turtlebot3_velodyne_Gazebo.git
