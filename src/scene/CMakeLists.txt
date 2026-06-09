@@ -3,8 +3,11 @@ project(scene)
 
 SET(CMAKE_BUILD_TYPE "Debug")
 
-ADD_COMPILE_OPTIONS(-std=c++14)
-set(CMAKE_CXX_FLAGS "-std=c++14 -O3")
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+add_compile_definitions(_GLIBCXX_USE_CXX11_ABI=1)
 
 # Find dependencies
 find_package(ament_cmake REQUIRED)
